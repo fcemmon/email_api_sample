@@ -1,0 +1,632 @@
+[14-May-2016 03:41:09 UTC] initiating card parser
+[14-May-2016 03:41:09 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:41:09 UTC] making an api call
+[14-May-2016 03:41:09 UTC] method : GET
+[14-May-2016 03:41:09 UTC] url : https://my.trellocrm.com/api/instances/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:41:09 UTC] 1
+[14-May-2016 03:41:09 UTC] decoding results
+[14-May-2016 03:41:09 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:41:09 UTC] making an api call
+[14-May-2016 03:41:09 UTC] method : GET
+[14-May-2016 03:41:09 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:41:09 UTC] 1
+[14-May-2016 03:41:09 UTC] decoding results
+[14-May-2016 03:41:09 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:41:09 UTC] getting data for card 57369c786c16dda8e34b67c0
+[14-May-2016 03:41:09 UTC] making an api call
+[14-May-2016 03:41:09 UTC] method : GET
+[14-May-2016 03:41:09 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?actions=commentCard,updateCard:idList&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:41:09 UTC] 1
+[14-May-2016 03:41:10 UTC] decoding results
+[14-May-2016 03:41:10 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 1
+            [attachments] => 0
+            [description] => 
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:41:08.763Z
+    [desc] => 
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 2
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+        )
+
+    [name] => scuzzell
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/t3ab9cwG
+    [url] => https://trello.com/c/t3ab9cwG/2-scuzzell
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369c83788b47e8c3e71fea
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => t3ab9cwG
+                                    [idShort] => 2
+                                    [name] => scuzzell
+                                    [id] => 57369c786c16dda8e34b67c0
+                                )
+
+                            [text] => Started tracking contact history with scuzzell@hotmail.com
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:33:23.985Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:41:10 UTC] nothing to do
+[14-May-2016 03:48:08 UTC] initiating card parser
+[14-May-2016 03:48:08 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:48:08 UTC] making an api call
+[14-May-2016 03:48:08 UTC] method : GET
+[14-May-2016 03:48:08 UTC] url : https://my.trellocrm.com/api/instances/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:48:08 UTC] 1
+[14-May-2016 03:48:08 UTC] decoding results
+[14-May-2016 03:48:08 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:48:08 UTC] making an api call
+[14-May-2016 03:48:08 UTC] method : GET
+[14-May-2016 03:48:08 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:48:08 UTC] 1
+[14-May-2016 03:48:08 UTC] decoding results
+[14-May-2016 03:48:08 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:48:08 UTC] getting data for card 57369c786c16dda8e34b67c0
+[14-May-2016 03:48:08 UTC] making an api call
+[14-May-2016 03:48:08 UTC] method : GET
+[14-May-2016 03:48:08 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?actions=commentCard,updateCard:idList&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:48:08 UTC] 1
+[14-May-2016 03:48:09 UTC] decoding results
+[14-May-2016 03:48:09 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 1
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:48:07.063Z
+    [desc] => scuzzell@hotmail.com
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 2
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+        )
+
+    [name] => scuzzell
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/t3ab9cwG
+    [url] => https://trello.com/c/t3ab9cwG/2-scuzzell
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369c83788b47e8c3e71fea
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => t3ab9cwG
+                                    [idShort] => 2
+                                    [name] => scuzzell
+                                    [id] => 57369c786c16dda8e34b67c0
+                                )
+
+                            [text] => Started tracking contact history with scuzzell@hotmail.com
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:33:23.985Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:48:09 UTC] formatted data was not found, looking for email addresses
+[14-May-2016 03:48:09 UTC] found an email address
+[14-May-2016 03:48:09 UTC] checking for existing person record
+[14-May-2016 03:48:09 UTC] person record exists
+[14-May-2016 03:48:09 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:48:09 UTC] email address on card matches address on record
+[14-May-2016 03:48:09 UTC] card passed validation
+[14-May-2016 03:48:09 UTC] updating card description
+[14-May-2016 03:48:09 UTC] making an api call
+[14-May-2016 03:48:09 UTC] method : PUT
+[14-May-2016 03:48:09 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0/desc?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&value=%23%23TCRM%23%23%0Aemail%3A+scuzzell%40hotmail.com%0Ahistory%3A+%5Bshow%5D%28https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%23search%2Ffrom%3Ascuzzell%2540hotmail.com%29%0A%23%23----%23%23
+[14-May-2016 03:48:09 UTC] 1
+[14-May-2016 03:48:09 UTC] result : {"id":"57369c786c16dda8e34b67c0","badges":{"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":1,"attachments":0,"description":true,"due":null},"checkItemStates":[],"closed":false,"dateLastActivity":"2016-05-14T03:48:09.826Z","desc":"##TCRM##\nemail: scuzzell@hotmail.com\nhistory: [show](https://mail.google.com/mail/u/0/#search/from:scuzzell%40hotmail.com)\n##----##","descData":{"emoji":{}},"due":null,"email":null,"idBoard":"573648c4e9b43d87eee3d60c","idChecklists":[],"idLabels":[],"idList":"573653ed3519822b09d9fb76","idMembers":[],"idShort":2,"idAttachmentCover":null,"manualCoverAttachment":false,"labels":[],"name":"scuzzell","pos":65535,"shortUrl":"https://trello.com/c/t3ab9cwG","url":"https://trello.com/c/t3ab9cwG/2-scuzzell"}
+[14-May-2016 03:48:09 UTC] description updated
+[14-May-2016 03:48:10 UTC] initiating card parser
+[14-May-2016 03:48:10 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:48:10 UTC] making an api call
+[14-May-2016 03:48:10 UTC] method : GET
+[14-May-2016 03:48:10 UTC] url : https://my.trellocrm.com/api/instances/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:48:10 UTC] 1
+[14-May-2016 03:48:10 UTC] decoding results
+[14-May-2016 03:48:10 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:48:10 UTC] making an api call
+[14-May-2016 03:48:10 UTC] method : GET
+[14-May-2016 03:48:10 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:48:10 UTC] 1
+[14-May-2016 03:48:10 UTC] decoding results
+[14-May-2016 03:48:10 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:48:10 UTC] getting data for card 57369c786c16dda8e34b67c0
+[14-May-2016 03:48:10 UTC] making an api call
+[14-May-2016 03:48:10 UTC] method : GET
+[14-May-2016 03:48:10 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?actions=commentCard,updateCard:idList&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:48:10 UTC] 1
+[14-May-2016 03:48:10 UTC] decoding results
+[14-May-2016 03:48:10 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 1
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:48:09.826Z
+    [desc] => ##TCRM##
+email: scuzzell@hotmail.com
+history: [show](https://mail.google.com/mail/u/0/#search/from:scuzzell%40hotmail.com)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 2
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+        )
+
+    [name] => scuzzell
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/t3ab9cwG
+    [url] => https://trello.com/c/t3ab9cwG/2-scuzzell
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369c83788b47e8c3e71fea
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => t3ab9cwG
+                                    [idShort] => 2
+                                    [name] => scuzzell
+                                    [id] => 57369c786c16dda8e34b67c0
+                                )
+
+                            [text] => Started tracking contact history with scuzzell@hotmail.com
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:33:23.985Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:48:10 UTC] found formatted data
+[14-May-2016 03:48:10 UTC] email field exists and contains a valid address
+[14-May-2016 03:48:10 UTC] checking for existing person record
+[14-May-2016 03:48:10 UTC] person record exists
+[14-May-2016 03:48:10 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:48:10 UTC] email address on card matches address on record
+[14-May-2016 03:48:10 UTC] card passed validation
+[14-May-2016 03:48:14 UTC] initiating card parser
+[14-May-2016 03:48:14 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:48:14 UTC] making an api call
+[14-May-2016 03:48:14 UTC] method : GET
+[14-May-2016 03:48:14 UTC] url : https://my.trellocrm.com/api/instances/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:48:14 UTC] 1
+[14-May-2016 03:48:14 UTC] decoding results
+[14-May-2016 03:48:14 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:48:14 UTC] making an api call
+[14-May-2016 03:48:14 UTC] method : GET
+[14-May-2016 03:48:14 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:48:14 UTC] 1
+[14-May-2016 03:48:14 UTC] decoding results
+[14-May-2016 03:48:14 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:48:14 UTC] getting data for card 57369c786c16dda8e34b67c0
+[14-May-2016 03:48:14 UTC] making an api call
+[14-May-2016 03:48:14 UTC] method : GET
+[14-May-2016 03:48:14 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?actions=commentCard,updateCard:idList&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:48:14 UTC] 1
+[14-May-2016 03:48:14 UTC] decoding results
+[14-May-2016 03:48:14 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 1
+            [attachments] => 0
+            [description] => 
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:48:13.948Z
+    [desc] => 
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 2
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+        )
+
+    [name] => scuzzell
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/t3ab9cwG
+    [url] => https://trello.com/c/t3ab9cwG/2-scuzzell
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369c83788b47e8c3e71fea
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => t3ab9cwG
+                                    [idShort] => 2
+                                    [name] => scuzzell
+                                    [id] => 57369c786c16dda8e34b67c0
+                                )
+
+                            [text] => Started tracking contact history with scuzzell@hotmail.com
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:33:23.985Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:48:14 UTC] card description empty
+[14-May-2016 03:48:14 UTC] checking to see if we are tracking this card
+[14-May-2016 03:48:14 UTC] record exists for this card, deleting

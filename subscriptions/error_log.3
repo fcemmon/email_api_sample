@@ -1,0 +1,4351 @@
+[14-May-2016 03:18:35 UTC] callback from Trello
+[14-May-2016 03:18:35 UTC] payload saved as debug.out
+[14-May-2016 03:18:35 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:35 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:35 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:35 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:35 UTC] action : updateCard
+[14-May-2016 03:18:35 UTC] card moved between lists
+[14-May-2016 03:18:35 UTC] getting timestamp of last trello comment
+[14-May-2016 03:18:35 UTC] making an api call
+[14-May-2016 03:18:35 UTC] method : GET
+[14-May-2016 03:18:35 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?actions=commentCard&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:18:35 UTC] 1
+[14-May-2016 03:18:36 UTC] decoding results
+[14-May-2016 03:18:36 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 10
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:18:34.797Z
+    [desc] => ##TCRM##
+email: some@body
+history: [show](https://mail.google.com/mail/u/0/#search/from:some%40body)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 1
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 573648c4b0dfecc6d14b785d
+                    [idBoard] => 573648c4e9b43d87eee3d60c
+                    [name] => 
+                    [color] => yellow
+                    [uses] => 1
+                )
+
+        )
+
+    [name] => test
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/5ZZXSPLA
+    [url] => https://trello.com/c/5ZZXSPLA/1-test
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369841a6a10502ecc64713
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **20 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:15:13.392Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 57369828a31f6260c3eef545
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:14:48.894Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 573697e1c255a25d5e32783b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:13:37.277Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5736906094ffe7a2eba70b78
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **email sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:36.762Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 57369041d758ef3efd3e8a43
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **90 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:05.576Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 5736903419eb683b3e9a9347
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **emal sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:52.625Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 57369021d8458a24fd7b863b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:33.740Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 57368e2441970b27ee776a06
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:32:04.383Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 57368dfc8955d4475ea4c54c
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:31:24.143Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 57368ad75984039051c3c309
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => Started tracking contact history with some@body
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:17:59.091Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:18:36 UTC] Array
+(
+    [idAction] => 57369841a6a10502ecc64713
+    [timestamp] => 1463195713
+    [days] => 20
+)
+
+[14-May-2016 03:18:36 UTC] getting timestamp of last contact
+[14-May-2016 03:18:36 UTC] resolving label
+[14-May-2016 03:18:37 UTC] callback from Trello
+[14-May-2016 03:18:37 UTC] payload saved as debug.out
+[14-May-2016 03:18:37 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:37 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:37 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:37 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:37 UTC] action : removeLabelFromCard
+[14-May-2016 03:18:37 UTC] ignored
+[14-May-2016 03:18:37 UTC] callback from Trello
+[14-May-2016 03:18:37 UTC] payload saved as debug.out
+[14-May-2016 03:18:37 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:37 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:37 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:37 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:37 UTC] action : addLabelToCard
+[14-May-2016 03:18:37 UTC] ignored
+[14-May-2016 03:18:40 UTC] callback from Trello
+[14-May-2016 03:18:40 UTC] payload saved as debug.out
+[14-May-2016 03:18:40 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:40 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:40 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:40 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:40 UTC] action : updateCard
+[14-May-2016 03:18:40 UTC] card moved between lists
+[14-May-2016 03:18:42 UTC] getting timestamp of last trello comment
+[14-May-2016 03:18:42 UTC] making an api call
+[14-May-2016 03:18:42 UTC] method : GET
+[14-May-2016 03:18:42 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?actions=commentCard&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:18:42 UTC] 1
+[14-May-2016 03:18:42 UTC] decoding results
+[14-May-2016 03:18:42 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 10
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:18:39.714Z
+    [desc] => ##TCRM##
+email: some@body
+history: [show](https://mail.google.com/mail/u/0/#search/from:some%40body)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+    [idList] => 57369880753dc57951a581f7
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 1
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 573648c4b0dfecc6d14b785d
+                    [idBoard] => 573648c4e9b43d87eee3d60c
+                    [name] => 
+                    [color] => yellow
+                    [uses] => 1
+                )
+
+        )
+
+    [name] => test
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/5ZZXSPLA
+    [url] => https://trello.com/c/5ZZXSPLA/1-test
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369841a6a10502ecc64713
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **20 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:15:13.392Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 57369828a31f6260c3eef545
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:14:48.894Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 573697e1c255a25d5e32783b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:13:37.277Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5736906094ffe7a2eba70b78
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **email sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:36.762Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 57369041d758ef3efd3e8a43
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **90 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:05.576Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 5736903419eb683b3e9a9347
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **emal sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:52.625Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 57369021d8458a24fd7b863b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:33.740Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 57368e2441970b27ee776a06
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:32:04.383Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 57368dfc8955d4475ea4c54c
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:31:24.143Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 57368ad75984039051c3c309
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => Started tracking contact history with some@body
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:17:59.091Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:18:42 UTC] Array
+(
+    [idAction] => 57369841a6a10502ecc64713
+    [timestamp] => 1463195713
+    [days] => 20
+)
+
+[14-May-2016 03:18:42 UTC] getting timestamp of last contact
+[14-May-2016 03:18:42 UTC] resolving label
+[14-May-2016 03:18:43 UTC] callback from Trello
+[14-May-2016 03:18:43 UTC] payload saved as debug.out
+[14-May-2016 03:18:43 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:43 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:43 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:43 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:43 UTC] action : removeLabelFromCard
+[14-May-2016 03:18:43 UTC] ignored
+[14-May-2016 03:18:44 UTC] callback from Trello
+[14-May-2016 03:18:44 UTC] payload saved as debug.out
+[14-May-2016 03:18:44 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:44 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:44 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:44 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:44 UTC] action : createLabel
+[14-May-2016 03:18:44 UTC] ignored
+[14-May-2016 03:18:44 UTC] callback from Trello
+[14-May-2016 03:18:44 UTC] payload saved as debug.out
+[14-May-2016 03:18:44 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:18:44 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:18:44 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:18:44 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:18:44 UTC] action : addLabelToCard
+[14-May-2016 03:18:44 UTC] ignored
+[14-May-2016 03:19:39 UTC] callback from Trello
+[14-May-2016 03:19:39 UTC] payload saved as debug.out
+[14-May-2016 03:19:39 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:39 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:19:39 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:19:39 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:19:39 UTC] action : removeLabelFromCard
+[14-May-2016 03:19:39 UTC] ignored
+[14-May-2016 03:19:39 UTC] callback from Trello
+[14-May-2016 03:19:39 UTC] payload saved as debug.out
+[14-May-2016 03:19:39 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:39 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:19:39 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:19:39 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:19:39 UTC] action : addLabelToCard
+[14-May-2016 03:19:39 UTC] ignored
+[14-May-2016 03:19:42 UTC] callback from Trello
+[14-May-2016 03:19:42 UTC] payload saved as debug.out
+[14-May-2016 03:19:42 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:42 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:19:42 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:19:42 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:19:42 UTC] action : removeLabelFromCard
+[14-May-2016 03:19:42 UTC] ignored
+[14-May-2016 03:19:43 UTC] callback from Trello
+[14-May-2016 03:19:43 UTC] payload saved as debug.out
+[14-May-2016 03:19:43 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:43 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:19:43 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:19:43 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:19:43 UTC] action : addLabelToCard
+[14-May-2016 03:19:43 UTC] ignored
+[14-May-2016 03:19:55 UTC] callback from Trello
+[14-May-2016 03:19:55 UTC] payload saved as debug.out
+[14-May-2016 03:19:55 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:55 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:19:55 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:19:55 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:19:55 UTC] action : removeLabelFromCard
+[14-May-2016 03:19:55 UTC] ignored
+[14-May-2016 03:19:56 UTC] callback from Trello
+[14-May-2016 03:19:56 UTC] payload saved as debug.out
+[14-May-2016 03:19:56 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:56 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:19:56 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:19:56 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:19:56 UTC] action : addLabelToCard
+[14-May-2016 03:19:56 UTC] ignored
+[14-May-2016 03:22:19 UTC] callback from Trello
+[14-May-2016 03:22:19 UTC] payload saved as debug.out
+[14-May-2016 03:22:19 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:19 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:22:19 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:19 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:19 UTC] action : removeLabelFromCard
+[14-May-2016 03:22:19 UTC] ignored
+[14-May-2016 03:22:20 UTC] callback from Trello
+[14-May-2016 03:22:20 UTC] payload saved as debug.out
+[14-May-2016 03:22:20 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:20 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"6","label":"yellow"}]}}
+)
+
+[14-May-2016 03:22:20 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:20 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:20 UTC] action : addLabelToCard
+[14-May-2016 03:22:20 UTC] ignored
+[14-May-2016 03:22:30 UTC] callback from Trello
+[14-May-2016 03:22:30 UTC] payload saved as debug.out
+[14-May-2016 03:22:30 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:30 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:30 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:30 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:30 UTC] action : removeLabelFromCard
+[14-May-2016 03:22:30 UTC] ignored
+[14-May-2016 03:22:30 UTC] callback from Trello
+[14-May-2016 03:22:30 UTC] payload saved as debug.out
+[14-May-2016 03:22:30 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:30 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:30 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:30 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:30 UTC] action : addLabelToCard
+[14-May-2016 03:22:30 UTC] ignored
+[14-May-2016 03:22:36 UTC] callback from Trello
+[14-May-2016 03:22:36 UTC] payload saved as debug.out
+[14-May-2016 03:22:36 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:36 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:36 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:36 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:36 UTC] action : removeLabelFromCard
+[14-May-2016 03:22:36 UTC] ignored
+[14-May-2016 03:22:36 UTC] callback from Trello
+[14-May-2016 03:22:36 UTC] payload saved as debug.out
+[14-May-2016 03:22:36 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:36 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:36 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:36 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:36 UTC] action : addLabelToCard
+[14-May-2016 03:22:36 UTC] ignored
+[14-May-2016 03:22:55 UTC] callback from Trello
+[14-May-2016 03:22:55 UTC] payload saved as debug.out
+[14-May-2016 03:22:55 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:55 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:55 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:55 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:55 UTC] action : removeLabelFromCard
+[14-May-2016 03:22:55 UTC] ignored
+[14-May-2016 03:22:56 UTC] callback from Trello
+[14-May-2016 03:22:56 UTC] payload saved as debug.out
+[14-May-2016 03:22:56 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:56 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:56 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:22:56 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:56 UTC] action : addLabelToCard
+[14-May-2016 03:22:56 UTC] ignored
+[14-May-2016 03:26:58 UTC] callback from Trello
+[14-May-2016 03:26:58 UTC] payload saved as debug.out
+[14-May-2016 03:26:58 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:26:58 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:26:58 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:26:58 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:26:58 UTC] action : updateCard
+[14-May-2016 03:26:58 UTC] card moved between lists
+[14-May-2016 03:26:58 UTC] getting timestamp of last trello comment
+[14-May-2016 03:26:58 UTC] making an api call
+[14-May-2016 03:26:58 UTC] method : GET
+[14-May-2016 03:26:58 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?actions=commentCard&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:26:58 UTC] 1
+[14-May-2016 03:26:59 UTC] decoding results
+[14-May-2016 03:26:59 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 10
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:26:57.300Z
+    [desc] => ##TCRM##
+email: some@body
+history: [show](https://mail.google.com/mail/u/0/#search/from:some%40body)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 1
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 573648c4b0dfecc6d14b785d
+                    [idBoard] => 573648c4e9b43d87eee3d60c
+                    [name] => 
+                    [color] => yellow
+                    [uses] => 1
+                )
+
+        )
+
+    [name] => test
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/5ZZXSPLA
+    [url] => https://trello.com/c/5ZZXSPLA/1-test
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369841a6a10502ecc64713
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **20 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:15:13.392Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 57369828a31f6260c3eef545
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:14:48.894Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 573697e1c255a25d5e32783b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:13:37.277Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5736906094ffe7a2eba70b78
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **email sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:36.762Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 57369041d758ef3efd3e8a43
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **90 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:05.576Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 5736903419eb683b3e9a9347
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **emal sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:52.625Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 57369021d8458a24fd7b863b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:33.740Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 57368e2441970b27ee776a06
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:32:04.383Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 57368dfc8955d4475ea4c54c
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:31:24.143Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 57368ad75984039051c3c309
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => Started tracking contact history with some@body
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:17:59.091Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:26:59 UTC] Array
+(
+    [idAction] => 57369841a6a10502ecc64713
+    [timestamp] => 1463195713
+    [days] => 20
+)
+
+[14-May-2016 03:26:59 UTC] getting timestamp of last contact
+[14-May-2016 03:26:59 UTC] resolving label
+[14-May-2016 03:27:00 UTC] callback from Trello
+[14-May-2016 03:27:00 UTC] payload saved as debug.out
+[14-May-2016 03:27:00 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:00 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:27:00 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:27:00 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:27:00 UTC] action : removeLabelFromCard
+[14-May-2016 03:27:00 UTC] ignored
+[14-May-2016 03:27:00 UTC] updating record
+[14-May-2016 03:27:00 UTC] callback from Trello
+[14-May-2016 03:27:00 UTC] payload saved as debug.out
+[14-May-2016 03:27:00 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:00 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:27:00 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:27:00 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:27:00 UTC] action : addLabelToCard
+[14-May-2016 03:27:00 UTC] ignored
+[14-May-2016 03:27:02 UTC] callback from Trello
+[14-May-2016 03:27:02 UTC] payload saved as debug.out
+[14-May-2016 03:27:02 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:02 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:27:02 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:27:02 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:27:02 UTC] action : updateCard
+[14-May-2016 03:27:02 UTC] card moved between lists
+[14-May-2016 03:27:02 UTC] getting timestamp of last trello comment
+[14-May-2016 03:27:02 UTC] making an api call
+[14-May-2016 03:27:02 UTC] method : GET
+[14-May-2016 03:27:02 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?actions=commentCard&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:27:02 UTC] 1
+[14-May-2016 03:27:02 UTC] decoding results
+[14-May-2016 03:27:02 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 10
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:27:02.259Z
+    [desc] => ##TCRM##
+email: some@body
+history: [show](https://mail.google.com/mail/u/0/#search/from:some%40body)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+    [idList] => 57369880753dc57951a581f7
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 1
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 573648c4b0dfecc6d14b785d
+                    [idBoard] => 573648c4e9b43d87eee3d60c
+                    [name] => 
+                    [color] => yellow
+                    [uses] => 1
+                )
+
+        )
+
+    [name] => test
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/5ZZXSPLA
+    [url] => https://trello.com/c/5ZZXSPLA/1-test
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369841a6a10502ecc64713
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **20 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:15:13.392Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 57369828a31f6260c3eef545
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:14:48.894Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 573697e1c255a25d5e32783b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:13:37.277Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5736906094ffe7a2eba70b78
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **email sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:36.762Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 57369041d758ef3efd3e8a43
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **90 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:05.576Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 5736903419eb683b3e9a9347
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **emal sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:52.625Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 57369021d8458a24fd7b863b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:33.740Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 57368e2441970b27ee776a06
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:32:04.383Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 57368dfc8955d4475ea4c54c
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:31:24.143Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 57368ad75984039051c3c309
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => Started tracking contact history with some@body
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:17:59.091Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:27:02 UTC] Array
+(
+    [idAction] => 57369841a6a10502ecc64713
+    [timestamp] => 1463195713
+    [days] => 20
+)
+
+[14-May-2016 03:27:02 UTC] getting timestamp of last contact
+[14-May-2016 03:27:02 UTC] resolving label
+[14-May-2016 03:27:04 UTC] callback from Trello
+[14-May-2016 03:27:04 UTC] payload saved as debug.out
+[14-May-2016 03:27:04 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:04 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:27:04 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:27:04 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:27:04 UTC] action : removeLabelFromCard
+[14-May-2016 03:27:04 UTC] ignored
+[14-May-2016 03:27:04 UTC] updating record
+[14-May-2016 03:27:04 UTC] callback from Trello
+[14-May-2016 03:27:04 UTC] payload saved as debug.out
+[14-May-2016 03:27:04 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:04 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:27:04 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:27:04 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:27:04 UTC] action : addLabelToCard
+[14-May-2016 03:27:04 UTC] ignored
+[14-May-2016 03:28:29 UTC] callback from Trello
+[14-May-2016 03:28:29 UTC] payload saved as debug.out
+[14-May-2016 03:28:29 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:29 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:29 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:29 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:29 UTC] action : updateCard
+[14-May-2016 03:28:29 UTC] card moved between lists
+[14-May-2016 03:28:29 UTC] getting timestamp of last trello comment
+[14-May-2016 03:28:29 UTC] making an api call
+[14-May-2016 03:28:29 UTC] method : GET
+[14-May-2016 03:28:29 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?actions=commentCard&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:28:29 UTC] 1
+[14-May-2016 03:28:30 UTC] decoding results
+[14-May-2016 03:28:30 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 10
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:28:28.883Z
+    [desc] => ##TCRM##
+email: some@body
+history: [show](https://mail.google.com/mail/u/0/#search/from:some%40body)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+            [0] => 57369913b0dfecc6d14be574
+        )
+
+    [idList] => 573653ed3519822b09d9fb76
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 1
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369913b0dfecc6d14be574
+                    [idBoard] => 573648c4e9b43d87eee3d60c
+                    [name] => 
+                    [color] => pink
+                    [uses] => 1
+                )
+
+        )
+
+    [name] => test
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/5ZZXSPLA
+    [url] => https://trello.com/c/5ZZXSPLA/1-test
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369841a6a10502ecc64713
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **20 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:15:13.392Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 57369828a31f6260c3eef545
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:14:48.894Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 573697e1c255a25d5e32783b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:13:37.277Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5736906094ffe7a2eba70b78
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **email sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:36.762Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 57369041d758ef3efd3e8a43
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **90 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:05.576Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 5736903419eb683b3e9a9347
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **emal sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:52.625Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 57369021d8458a24fd7b863b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:33.740Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 57368e2441970b27ee776a06
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:32:04.383Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 57368dfc8955d4475ea4c54c
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:31:24.143Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 57368ad75984039051c3c309
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => Started tracking contact history with some@body
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:17:59.091Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:28:30 UTC] Array
+(
+    [idAction] => 57369841a6a10502ecc64713
+    [timestamp] => 1463195713
+    [days] => 20
+)
+
+[14-May-2016 03:28:30 UTC] getting timestamp of last contact
+[14-May-2016 03:28:30 UTC] resolving label
+[14-May-2016 03:28:31 UTC] updating record
+[14-May-2016 03:28:31 UTC] callback from Trello
+[14-May-2016 03:28:31 UTC] payload saved as debug.out
+[14-May-2016 03:28:31 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:31 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:31 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:31 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:31 UTC] action : removeLabelFromCard
+[14-May-2016 03:28:31 UTC] ignored
+[14-May-2016 03:28:31 UTC] callback from Trello
+[14-May-2016 03:28:31 UTC] payload saved as debug.out
+[14-May-2016 03:28:31 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:31 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:31 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:31 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:31 UTC] action : addLabelToCard
+[14-May-2016 03:28:31 UTC] ignored
+[14-May-2016 03:28:33 UTC] callback from Trello
+[14-May-2016 03:28:33 UTC] payload saved as debug.out
+[14-May-2016 03:28:33 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:33 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:33 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:33 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:33 UTC] action : updateCard
+[14-May-2016 03:28:33 UTC] card moved between lists
+[14-May-2016 03:28:33 UTC] getting timestamp of last trello comment
+[14-May-2016 03:28:33 UTC] making an api call
+[14-May-2016 03:28:33 UTC] method : GET
+[14-May-2016 03:28:33 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?actions=commentCard&key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:28:33 UTC] 1
+[14-May-2016 03:28:33 UTC] decoding results
+[14-May-2016 03:28:33 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [badges] => Array
+        (
+            [votes] => 0
+            [viewingMemberVoted] => 
+            [subscribed] => 
+            [fogbugz] => 
+            [checkItems] => 0
+            [checkItemsChecked] => 0
+            [comments] => 10
+            [attachments] => 0
+            [description] => 1
+            [due] => 
+        )
+
+    [checkItemStates] => Array
+        (
+        )
+
+    [closed] => 
+    [dateLastActivity] => 2016-05-14T03:28:33.165Z
+    [desc] => ##TCRM##
+email: some@body
+history: [show](https://mail.google.com/mail/u/0/#search/from:some%40body)
+##----##
+    [descData] => Array
+        (
+            [emoji] => Array
+                (
+                )
+
+        )
+
+    [due] => 
+    [email] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idChecklists] => Array
+        (
+        )
+
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+    [idList] => 57369880753dc57951a581f7
+    [idMembers] => Array
+        (
+        )
+
+    [idShort] => 1
+    [idAttachmentCover] => 
+    [manualCoverAttachment] => 
+    [labels] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 573648c4b0dfecc6d14b785d
+                    [idBoard] => 573648c4e9b43d87eee3d60c
+                    [name] => 
+                    [color] => yellow
+                    [uses] => 1
+                )
+
+        )
+
+    [name] => test
+    [pos] => 65535
+    [shortUrl] => https://trello.com/c/5ZZXSPLA
+    [url] => https://trello.com/c/5ZZXSPLA/1-test
+    [actions] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 57369841a6a10502ecc64713
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **20 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:15:13.392Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 57369828a31f6260c3eef545
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:14:48.894Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 573697e1c255a25d5e32783b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **call to**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T03:13:37.277Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 5736906094ffe7a2eba70b78
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **email sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:36.762Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 57369041d758ef3efd3e8a43
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **90 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:41:05.576Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 5736903419eb683b3e9a9347
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **emal sent**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:52.625Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [id] => 57369021d8458a24fd7b863b
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:40:33.740Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [id] => 57368e2441970b27ee776a06
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:32:04.383Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [id] => 57368dfc8955d4475ea4c54c
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => **0 days**
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:31:24.143Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [id] => 57368ad75984039051c3c309
+                    [idMemberCreator] => 55783550c9cee8eba42e6233
+                    [data] => Array
+                        (
+                            [list] => Array
+                                (
+                                    [name] => First Contact
+                                    [id] => 573653ed3519822b09d9fb76
+                                )
+
+                            [board] => Array
+                                (
+                                    [shortLink] => 1Ou73pjz
+                                    [name] => TrelloCRM
+                                    [id] => 573648c4e9b43d87eee3d60c
+                                )
+
+                            [card] => Array
+                                (
+                                    [shortLink] => 5ZZXSPLA
+                                    [idShort] => 1
+                                    [name] => test
+                                    [id] => 57368850625b1587085a160d
+                                )
+
+                            [text] => Started tracking contact history with some@body
+
+You have never had a gmail conversation with this address.
+                        )
+
+                    [type] => commentCard
+                    [date] => 2016-05-14T02:17:59.091Z
+                    [memberCreator] => Array
+                        (
+                            [id] => 55783550c9cee8eba42e6233
+                            [avatarHash] => 
+                            [fullName] => Russell Beswick
+                            [initials] => RB
+                            [username] => russellbeswick
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:28:33 UTC] Array
+(
+    [idAction] => 57369841a6a10502ecc64713
+    [timestamp] => 1463195713
+    [days] => 20
+)
+
+[14-May-2016 03:28:33 UTC] getting timestamp of last contact
+[14-May-2016 03:28:33 UTC] resolving label
+[14-May-2016 03:28:35 UTC] callback from Trello
+[14-May-2016 03:28:35 UTC] payload saved as debug.out
+[14-May-2016 03:28:35 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:35 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:35 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:35 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:35 UTC] action : removeLabelFromCard
+[14-May-2016 03:28:35 UTC] ignored
+[14-May-2016 03:28:35 UTC] updating record
+[14-May-2016 03:28:35 UTC] callback from Trello
+[14-May-2016 03:28:35 UTC] payload saved as debug.out
+[14-May-2016 03:28:35 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:35 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:35 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:35 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:35 UTC] action : addLabelToCard
+[14-May-2016 03:28:35 UTC] ignored
+[14-May-2016 03:28:42 UTC] callback from Trello
+[14-May-2016 03:28:42 UTC] payload saved as debug.out
+[14-May-2016 03:28:42 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:42 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:28:42 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:42 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:42 UTC] action : removeLabelFromCard
+[14-May-2016 03:28:42 UTC] ignored
+[14-May-2016 03:28:42 UTC] callback from Trello
+[14-May-2016 03:28:42 UTC] payload saved as debug.out
+[14-May-2016 03:28:42 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:42 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:28:42 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:28:42 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:42 UTC] action : addLabelToCard
+[14-May-2016 03:28:42 UTC] ignored
+[14-May-2016 03:29:05 UTC] callback from Trello
+[14-May-2016 03:29:05 UTC] payload saved as debug.out
+[14-May-2016 03:29:05 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:05 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:05 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:29:05 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:05 UTC] action : commentCard
+[14-May-2016 03:29:05 UTC] formatted comment detected
+[14-May-2016 03:29:05 UTC] resolving label for 0 days
+[14-May-2016 03:29:06 UTC] callback from Trello
+[14-May-2016 03:29:06 UTC] payload saved as debug.out
+[14-May-2016 03:29:06 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:06 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:06 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:29:06 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:06 UTC] action : removeLabelFromCard
+[14-May-2016 03:29:06 UTC] ignored
+[14-May-2016 03:29:06 UTC] {
+    "idCard": "57368850625b1587085a160d",
+    "newLabel": "green"
+}
+[14-May-2016 03:29:06 UTC] updating record
+[14-May-2016 03:29:06 UTC] callback from Trello
+[14-May-2016 03:29:06 UTC] payload saved as debug.out
+[14-May-2016 03:29:06 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:06 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:06 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:29:06 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:06 UTC] action : addLabelToCard
+[14-May-2016 03:29:06 UTC] ignored
+[14-May-2016 03:29:22 UTC] callback from Trello
+[14-May-2016 03:29:22 UTC] payload saved as debug.out
+[14-May-2016 03:29:22 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:22 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:22 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:29:22 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:22 UTC] action : commentCard
+[14-May-2016 03:29:22 UTC] formatted comment detected
+[14-May-2016 03:29:22 UTC] resolving label for 10 days
+[14-May-2016 03:29:23 UTC] callback from Trello
+[14-May-2016 03:29:23 UTC] payload saved as debug.out
+[14-May-2016 03:29:23 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:23 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:23 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:29:23 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:23 UTC] action : removeLabelFromCard
+[14-May-2016 03:29:23 UTC] ignored
+[14-May-2016 03:29:24 UTC] {
+    "idCard": "57368850625b1587085a160d",
+    "newLabel": "pink"
+}
+[14-May-2016 03:29:24 UTC] updating record
+[14-May-2016 03:29:24 UTC] callback from Trello
+[14-May-2016 03:29:24 UTC] payload saved as debug.out
+[14-May-2016 03:29:24 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:24 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:24 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:29:24 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:24 UTC] action : addLabelToCard
+[14-May-2016 03:29:24 UTC] ignored
+[14-May-2016 03:30:00 UTC] callback from Trello
+[14-May-2016 03:30:00 UTC] payload saved as debug.out
+[14-May-2016 03:30:00 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:30:00 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:30:00 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:30:00 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:30:00 UTC] action : removeLabelFromCard
+[14-May-2016 03:30:00 UTC] ignored
+[14-May-2016 03:30:00 UTC] callback from Trello
+[14-May-2016 03:30:00 UTC] payload saved as debug.out
+[14-May-2016 03:30:00 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:30:00 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:30:00 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:30:00 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:30:00 UTC] action : addLabelToCard
+[14-May-2016 03:30:00 UTC] ignored
+[14-May-2016 03:33:13 UTC] callback from Trello
+[14-May-2016 03:33:13 UTC] payload saved as debug.out
+[14-May-2016 03:33:13 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:33:13 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:33:13 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:33:13 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:33:13 UTC] action : createCard
+[14-May-2016 03:33:13 UTC] ignored
+[14-May-2016 03:33:22 UTC] callback from Trello
+[14-May-2016 03:33:22 UTC] payload saved as debug.out
+[14-May-2016 03:33:22 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:33:22 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:33:22 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:33:22 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:33:22 UTC] action : updateCard
+[14-May-2016 03:33:22 UTC] parsing
+[14-May-2016 03:33:23 UTC] getting last gmail message
+[14-May-2016 03:33:23 UTC] bad request
+[14-May-2016 03:33:23 UTC] Array
+(
+    [status] => failed
+    [code] => 400
+    [reason] => bad request
+    [detail] => missing parameter
+)
+
+[14-May-2016 03:33:24 UTC] callback from Trello
+[14-May-2016 03:33:24 UTC] payload saved as debug.out
+[14-May-2016 03:33:24 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:33:24 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:33:24 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:33:24 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:33:24 UTC] action : commentCard
+[14-May-2016 03:33:24 UTC] comment did not match any rules
+[14-May-2016 03:33:24 UTC] callback from Trello
+[14-May-2016 03:33:24 UTC] payload saved as debug.out
+[14-May-2016 03:33:24 UTC] payload from : 573648c4e9b43d87eee3d60c
+[14-May-2016 03:33:24 UTC] got instance : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:33:24 UTC] getting user 55783550c9cee8eba42e6233
+[14-May-2016 03:33:24 UTC] got user : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:33:24 UTC] action : updateCard
+[14-May-2016 03:33:24 UTC] parsing

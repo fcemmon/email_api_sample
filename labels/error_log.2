@@ -1,0 +1,5112 @@
+[14-May-2016 03:22:54 UTC] relabling all cards
+[14-May-2016 03:22:54 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:22:54 UTC] making an api call
+[14-May-2016 03:22:54 UTC] method : GET
+[14-May-2016 03:22:54 UTC] url : https://my.trellocrm.com/api/people/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:54 UTC] 1
+[14-May-2016 03:22:54 UTC] decoding results
+[14-May-2016 03:22:54 UTC] result : Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:22:54 UTC] making an api call
+[14-May-2016 03:22:54 UTC] method : POST
+[14-May-2016 03:22:54 UTC] url : https://my.trellocrm.com/api/labels/resolve.php?tcrmkey=russellisagod
+[14-May-2016 03:22:54 UTC] Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:22:54 UTC] initializing label resolver
+[14-May-2016 03:22:54 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:22:54 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:54 UTC] making an api call
+[14-May-2016 03:22:54 UTC] method : GET
+[14-May-2016 03:22:54 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:54 UTC] 1
+[14-May-2016 03:22:54 UTC] decoding results
+[14-May-2016 03:22:54 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:22:54 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:22:54 UTC] making an api call
+[14-May-2016 03:22:54 UTC] method : GET
+[14-May-2016 03:22:54 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:22:54 UTC] 1
+[14-May-2016 03:22:54 UTC] decoding results
+[14-May-2016 03:22:54 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:22:54 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:22:54 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 03:22:54 UTC] falling back to default
+[14-May-2016 03:22:54 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 03:22:54 UTC] checking input against rules
+[14-May-2016 03:22:54 UTC] found a matching rule
+[14-May-2016 03:22:54 UTC] unsetting existing labels
+[14-May-2016 03:22:54 UTC] making an api call
+[14-May-2016 03:22:54 UTC] method : POST
+[14-May-2016 03:22:54 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:22:54 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:22:54 UTC] initializing label unsetter
+[14-May-2016 03:22:54 UTC] getting list of applied labels
+[14-May-2016 03:22:54 UTC] making an api call
+[14-May-2016 03:22:54 UTC] method : GET
+[14-May-2016 03:22:54 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:22:54 UTC] 1
+[14-May-2016 03:22:55 UTC] decoding results
+[14-May-2016 03:22:55 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+)
+
+[14-May-2016 03:22:55 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:22:55 UTC] unsetting label : 573648c4b0dfecc6d14b785d
+[14-May-2016 03:22:55 UTC] making an api call
+[14-May-2016 03:22:55 UTC] method : DELETE
+[14-May-2016 03:22:55 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/573648c4b0dfecc6d14b785d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:22:55 UTC] 1
+[14-May-2016 03:22:55 UTC] result : {"_value":null}
+
+[14-May-2016 03:22:55 UTC] finished unsetting labels
+[14-May-2016 03:22:55 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:22:55 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:22:55 UTC] setting label yellow
+[14-May-2016 03:22:55 UTC] making an api call
+[14-May-2016 03:22:55 UTC] method : POST
+[14-May-2016 03:22:55 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:22:55 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:22:55 UTC] initiating label setter
+[14-May-2016 03:22:55 UTC] setting label yellow on 57368850625b1587085a160d
+[14-May-2016 03:22:55 UTC] label set successfully
+[14-May-2016 03:22:55 UTC] result : {"status":"success"}
+[14-May-2016 03:22:55 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+)
+
+[14-May-2016 03:22:55 UTC] decoding results
+[14-May-2016 03:22:55 UTC] result : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+)
+
+[14-May-2016 03:22:55 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [newLabel] => yellow
+        )
+
+)
+
+[14-May-2016 03:26:59 UTC] initializing label resolver
+[14-May-2016 03:26:59 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:26:59 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:26:59 UTC] making an api call
+[14-May-2016 03:26:59 UTC] method : GET
+[14-May-2016 03:26:59 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:26:59 UTC] 1
+[14-May-2016 03:26:59 UTC] decoding results
+[14-May-2016 03:26:59 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:26:59 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:26:59 UTC] making an api call
+[14-May-2016 03:26:59 UTC] method : GET
+[14-May-2016 03:26:59 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:26:59 UTC] 1
+[14-May-2016 03:26:59 UTC] decoding results
+[14-May-2016 03:26:59 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:26:59 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:26:59 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 03:26:59 UTC] falling back to default
+[14-May-2016 03:26:59 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 03:26:59 UTC] checking input against rules
+[14-May-2016 03:26:59 UTC] found a matching rule
+[14-May-2016 03:26:59 UTC] unsetting existing labels
+[14-May-2016 03:26:59 UTC] making an api call
+[14-May-2016 03:26:59 UTC] method : POST
+[14-May-2016 03:26:59 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:26:59 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:26:59 UTC] initializing label unsetter
+[14-May-2016 03:26:59 UTC] getting list of applied labels
+[14-May-2016 03:26:59 UTC] making an api call
+[14-May-2016 03:26:59 UTC] method : GET
+[14-May-2016 03:26:59 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:26:59 UTC] 1
+[14-May-2016 03:26:59 UTC] decoding results
+[14-May-2016 03:26:59 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+)
+
+[14-May-2016 03:26:59 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:26:59 UTC] unsetting label : 573648c4b0dfecc6d14b785d
+[14-May-2016 03:26:59 UTC] making an api call
+[14-May-2016 03:26:59 UTC] method : DELETE
+[14-May-2016 03:26:59 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/573648c4b0dfecc6d14b785d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:26:59 UTC] 1
+[14-May-2016 03:27:00 UTC] result : {"_value":null}
+
+[14-May-2016 03:27:00 UTC] finished unsetting labels
+[14-May-2016 03:27:00 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:27:00 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:27:00 UTC] setting label yellow
+[14-May-2016 03:27:00 UTC] making an api call
+[14-May-2016 03:27:00 UTC] method : POST
+[14-May-2016 03:27:00 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:27:00 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:27:00 UTC] initiating label setter
+[14-May-2016 03:27:00 UTC] setting label yellow on 57368850625b1587085a160d
+[14-May-2016 03:27:00 UTC] label set successfully
+[14-May-2016 03:27:00 UTC] result : {"status":"success"}
+[14-May-2016 03:27:00 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+)
+
+[14-May-2016 03:27:02 UTC] initializing label resolver
+[14-May-2016 03:27:02 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:27:02 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:02 UTC] making an api call
+[14-May-2016 03:27:02 UTC] method : GET
+[14-May-2016 03:27:02 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:02 UTC] 1
+[14-May-2016 03:27:03 UTC] decoding results
+[14-May-2016 03:27:03 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:27:03 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:27:03 UTC] making an api call
+[14-May-2016 03:27:03 UTC] method : GET
+[14-May-2016 03:27:03 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:27:03 UTC] 1
+[14-May-2016 03:27:03 UTC] decoding results
+[14-May-2016 03:27:03 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:27:03 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:27:03 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 3
+            [label] => pink
+        )
+
+)
+
+[14-May-2016 03:27:03 UTC] checking input against rules
+[14-May-2016 03:27:03 UTC] found a matching rule
+[14-May-2016 03:27:03 UTC] unsetting existing labels
+[14-May-2016 03:27:03 UTC] making an api call
+[14-May-2016 03:27:03 UTC] method : POST
+[14-May-2016 03:27:03 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:27:03 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:27:03 UTC] initializing label unsetter
+[14-May-2016 03:27:03 UTC] getting list of applied labels
+[14-May-2016 03:27:03 UTC] making an api call
+[14-May-2016 03:27:03 UTC] method : GET
+[14-May-2016 03:27:03 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:27:03 UTC] 1
+[14-May-2016 03:27:03 UTC] decoding results
+[14-May-2016 03:27:03 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+)
+
+[14-May-2016 03:27:03 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:27:03 UTC] unsetting label : 573648c4b0dfecc6d14b785d
+[14-May-2016 03:27:03 UTC] making an api call
+[14-May-2016 03:27:03 UTC] method : DELETE
+[14-May-2016 03:27:03 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/573648c4b0dfecc6d14b785d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:27:03 UTC] 1
+[14-May-2016 03:27:03 UTC] result : {"_value":null}
+
+[14-May-2016 03:27:03 UTC] finished unsetting labels
+[14-May-2016 03:27:03 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:27:03 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:27:03 UTC] setting label pink
+[14-May-2016 03:27:03 UTC] making an api call
+[14-May-2016 03:27:03 UTC] method : POST
+[14-May-2016 03:27:03 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:27:03 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:27:03 UTC] initiating label setter
+[14-May-2016 03:27:03 UTC] setting label pink on 57368850625b1587085a160d
+[14-May-2016 03:27:04 UTC] label set successfully
+[14-May-2016 03:27:04 UTC] result : {"status":"success"}
+[14-May-2016 03:27:04 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+)
+
+[14-May-2016 03:27:30 UTC] relabling all cards
+[14-May-2016 03:27:30 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:27:30 UTC] making an api call
+[14-May-2016 03:27:30 UTC] method : GET
+[14-May-2016 03:27:30 UTC] url : https://my.trellocrm.com/api/people/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:30 UTC] 1
+[14-May-2016 03:27:30 UTC] decoding results
+[14-May-2016 03:27:30 UTC] result : Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:27:30 UTC] making an api call
+[14-May-2016 03:27:30 UTC] method : POST
+[14-May-2016 03:27:30 UTC] url : https://my.trellocrm.com/api/labels/resolve.php?tcrmkey=russellisagod
+[14-May-2016 03:27:30 UTC] Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:27:30 UTC] initializing label resolver
+[14-May-2016 03:27:30 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:27:30 UTC] bad request
+[14-May-2016 03:27:30 UTC] Array
+(
+    [status] => failed
+    [code] => 400
+    [reason] => bad request
+    [detail] => missing parameter
+)
+
+[14-May-2016 03:27:30 UTC] decoding results
+[14-May-2016 03:27:30 UTC] result : Array
+(
+    [status] => failed
+    [code] => 400
+    [reason] => bad request
+    [detail] => missing parameter
+)
+
+[14-May-2016 03:27:30 UTC] Array
+(
+    [0] => Array
+        (
+            [status] => failed
+            [code] => 400
+            [reason] => bad request
+            [detail] => missing parameter
+        )
+
+)
+
+[14-May-2016 03:28:25 UTC] relabling all cards
+[14-May-2016 03:28:25 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:25 UTC] making an api call
+[14-May-2016 03:28:25 UTC] method : GET
+[14-May-2016 03:28:25 UTC] url : https://my.trellocrm.com/api/people/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:25 UTC] 1
+[14-May-2016 03:28:25 UTC] decoding results
+[14-May-2016 03:28:25 UTC] result : Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:28:25 UTC] making an api call
+[14-May-2016 03:28:25 UTC] method : POST
+[14-May-2016 03:28:25 UTC] url : https://my.trellocrm.com/api/labels/resolve.php?tcrmkey=russellisagod
+[14-May-2016 03:28:25 UTC] Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:28:25 UTC] initializing label resolver
+[14-May-2016 03:28:25 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:28:25 UTC] bad request
+[14-May-2016 03:28:25 UTC] Array
+(
+    [status] => failed
+    [code] => 400
+    [reason] => bad request
+    [detail] => missing parameter
+)
+
+[14-May-2016 03:28:25 UTC] decoding results
+[14-May-2016 03:28:25 UTC] result : Array
+(
+    [status] => failed
+    [code] => 400
+    [reason] => bad request
+    [detail] => missing parameter
+)
+
+[14-May-2016 03:28:25 UTC] Array
+(
+    [0] => Array
+        (
+            [status] => failed
+            [code] => 400
+            [reason] => bad request
+            [detail] => missing parameter
+        )
+
+)
+
+[14-May-2016 03:28:30 UTC] initializing label resolver
+[14-May-2016 03:28:30 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:28:30 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:30 UTC] making an api call
+[14-May-2016 03:28:30 UTC] method : GET
+[14-May-2016 03:28:30 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:30 UTC] 1
+[14-May-2016 03:28:30 UTC] decoding results
+[14-May-2016 03:28:30 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:30 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:28:30 UTC] making an api call
+[14-May-2016 03:28:30 UTC] method : GET
+[14-May-2016 03:28:30 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:28:30 UTC] 1
+[14-May-2016 03:28:30 UTC] decoding results
+[14-May-2016 03:28:30 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:30 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 7
+                            [label] => red
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:28:30 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 03:28:30 UTC] falling back to default
+[14-May-2016 03:28:30 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 03:28:30 UTC] checking input against rules
+[14-May-2016 03:28:30 UTC] found a matching rule
+[14-May-2016 03:28:30 UTC] unsetting existing labels
+[14-May-2016 03:28:30 UTC] making an api call
+[14-May-2016 03:28:30 UTC] method : POST
+[14-May-2016 03:28:30 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:28:30 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:30 UTC] initializing label unsetter
+[14-May-2016 03:28:30 UTC] getting list of applied labels
+[14-May-2016 03:28:30 UTC] making an api call
+[14-May-2016 03:28:30 UTC] method : GET
+[14-May-2016 03:28:30 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:28:30 UTC] 1
+[14-May-2016 03:28:30 UTC] decoding results
+[14-May-2016 03:28:30 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 57369913b0dfecc6d14be574
+        )
+
+)
+
+[14-May-2016 03:28:30 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:28:30 UTC] unsetting label : 57369913b0dfecc6d14be574
+[14-May-2016 03:28:30 UTC] making an api call
+[14-May-2016 03:28:30 UTC] method : DELETE
+[14-May-2016 03:28:30 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/57369913b0dfecc6d14be574?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:28:30 UTC] 1
+[14-May-2016 03:28:31 UTC] result : {"_value":null}
+
+[14-May-2016 03:28:31 UTC] finished unsetting labels
+[14-May-2016 03:28:31 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:28:31 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:28:31 UTC] setting label yellow
+[14-May-2016 03:28:31 UTC] making an api call
+[14-May-2016 03:28:31 UTC] method : POST
+[14-May-2016 03:28:31 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:28:31 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:31 UTC] initiating label setter
+[14-May-2016 03:28:31 UTC] setting label yellow on 57368850625b1587085a160d
+[14-May-2016 03:28:31 UTC] label set successfully
+[14-May-2016 03:28:31 UTC] result : {"status":"success"}
+[14-May-2016 03:28:31 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => yellow
+)
+
+[14-May-2016 03:28:33 UTC] initializing label resolver
+[14-May-2016 03:28:33 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:28:33 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:33 UTC] making an api call
+[14-May-2016 03:28:33 UTC] method : GET
+[14-May-2016 03:28:33 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:33 UTC] 1
+[14-May-2016 03:28:33 UTC] decoding results
+[14-May-2016 03:28:33 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"},{"age":"7","label":"red"}]}}
+)
+
+[14-May-2016 03:28:33 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:28:33 UTC] making an api call
+[14-May-2016 03:28:33 UTC] method : GET
+[14-May-2016 03:28:33 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:28:33 UTC] 1
+[14-May-2016 03:28:34 UTC] decoding results
+[14-May-2016 03:28:34 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:34 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 7
+                            [label] => red
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:28:34 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 3
+            [label] => pink
+        )
+
+    [2] => Array
+        (
+            [age] => 7
+            [label] => red
+        )
+
+)
+
+[14-May-2016 03:28:34 UTC] checking input against rules
+[14-May-2016 03:28:34 UTC] found a matching rule
+[14-May-2016 03:28:34 UTC] unsetting existing labels
+[14-May-2016 03:28:34 UTC] making an api call
+[14-May-2016 03:28:34 UTC] method : POST
+[14-May-2016 03:28:34 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:28:34 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:34 UTC] initializing label unsetter
+[14-May-2016 03:28:34 UTC] getting list of applied labels
+[14-May-2016 03:28:34 UTC] making an api call
+[14-May-2016 03:28:34 UTC] method : GET
+[14-May-2016 03:28:34 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:28:34 UTC] 1
+[14-May-2016 03:28:34 UTC] decoding results
+[14-May-2016 03:28:34 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+)
+
+[14-May-2016 03:28:34 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:28:34 UTC] unsetting label : 573648c4b0dfecc6d14b785d
+[14-May-2016 03:28:34 UTC] making an api call
+[14-May-2016 03:28:34 UTC] method : DELETE
+[14-May-2016 03:28:34 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/573648c4b0dfecc6d14b785d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:28:34 UTC] 1
+[14-May-2016 03:28:34 UTC] result : {"_value":null}
+
+[14-May-2016 03:28:34 UTC] finished unsetting labels
+[14-May-2016 03:28:34 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:28:34 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:28:34 UTC] setting label red
+[14-May-2016 03:28:34 UTC] making an api call
+[14-May-2016 03:28:34 UTC] method : POST
+[14-May-2016 03:28:34 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:28:34 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => red
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:34 UTC] initiating label setter
+[14-May-2016 03:28:34 UTC] setting label red on 57368850625b1587085a160d
+[14-May-2016 03:28:35 UTC] label set successfully
+[14-May-2016 03:28:35 UTC] result : {"status":"success"}
+[14-May-2016 03:28:35 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => red
+)
+
+[14-May-2016 03:28:41 UTC] relabling all cards
+[14-May-2016 03:28:41 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : GET
+[14-May-2016 03:28:41 UTC] url : https://my.trellocrm.com/api/people/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:41 UTC] 1
+[14-May-2016 03:28:41 UTC] decoding results
+[14-May-2016 03:28:41 UTC] result : Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 57369880753dc57951a581f7
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : POST
+[14-May-2016 03:28:41 UTC] url : https://my.trellocrm.com/api/labels/resolve.php?tcrmkey=russellisagod
+[14-May-2016 03:28:41 UTC] Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:28:41 UTC] initializing label resolver
+[14-May-2016 03:28:41 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 20
+)
+
+[14-May-2016 03:28:41 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : GET
+[14-May-2016 03:28:41 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:41 UTC] 1
+[14-May-2016 03:28:41 UTC] decoding results
+[14-May-2016 03:28:41 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:28:41 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : GET
+[14-May-2016 03:28:41 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:28:41 UTC] 1
+[14-May-2016 03:28:41 UTC] decoding results
+[14-May-2016 03:28:41 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:28:41 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:28:41 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 3
+            [label] => pink
+        )
+
+)
+
+[14-May-2016 03:28:41 UTC] checking input against rules
+[14-May-2016 03:28:41 UTC] found a matching rule
+[14-May-2016 03:28:41 UTC] unsetting existing labels
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : POST
+[14-May-2016 03:28:41 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:28:41 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:41 UTC] initializing label unsetter
+[14-May-2016 03:28:41 UTC] getting list of applied labels
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : GET
+[14-May-2016 03:28:41 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:28:41 UTC] 1
+[14-May-2016 03:28:41 UTC] decoding results
+[14-May-2016 03:28:41 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785f
+        )
+
+)
+
+[14-May-2016 03:28:41 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:28:41 UTC] unsetting label : 573648c4b0dfecc6d14b785f
+[14-May-2016 03:28:41 UTC] making an api call
+[14-May-2016 03:28:41 UTC] method : DELETE
+[14-May-2016 03:28:41 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/573648c4b0dfecc6d14b785f?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:28:41 UTC] 1
+[14-May-2016 03:28:42 UTC] result : {"_value":null}
+
+[14-May-2016 03:28:42 UTC] finished unsetting labels
+[14-May-2016 03:28:42 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:28:42 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:28:42 UTC] setting label pink
+[14-May-2016 03:28:42 UTC] making an api call
+[14-May-2016 03:28:42 UTC] method : POST
+[14-May-2016 03:28:42 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:28:42 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:28:42 UTC] initiating label setter
+[14-May-2016 03:28:42 UTC] setting label pink on 57368850625b1587085a160d
+[14-May-2016 03:28:42 UTC] label set successfully
+[14-May-2016 03:28:42 UTC] result : {"status":"success"}
+[14-May-2016 03:28:42 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+)
+
+[14-May-2016 03:28:42 UTC] decoding results
+[14-May-2016 03:28:42 UTC] result : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+)
+
+[14-May-2016 03:28:42 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [newLabel] => pink
+        )
+
+)
+
+[14-May-2016 03:29:05 UTC] initializing label resolver
+[14-May-2016 03:29:05 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 0
+)
+
+[14-May-2016 03:29:05 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:05 UTC] making an api call
+[14-May-2016 03:29:05 UTC] method : GET
+[14-May-2016 03:29:05 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:05 UTC] 1
+[14-May-2016 03:29:05 UTC] decoding results
+[14-May-2016 03:29:05 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:05 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:29:05 UTC] making an api call
+[14-May-2016 03:29:05 UTC] method : GET
+[14-May-2016 03:29:05 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:29:05 UTC] 1
+[14-May-2016 03:29:05 UTC] decoding results
+[14-May-2016 03:29:05 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:05 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:29:05 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 3
+            [label] => pink
+        )
+
+)
+
+[14-May-2016 03:29:05 UTC] checking input against rules
+[14-May-2016 03:29:05 UTC] found a matching rule
+[14-May-2016 03:29:05 UTC] unsetting existing labels
+[14-May-2016 03:29:05 UTC] making an api call
+[14-May-2016 03:29:05 UTC] method : POST
+[14-May-2016 03:29:05 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:29:05 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:29:05 UTC] initializing label unsetter
+[14-May-2016 03:29:05 UTC] getting list of applied labels
+[14-May-2016 03:29:05 UTC] making an api call
+[14-May-2016 03:29:05 UTC] method : GET
+[14-May-2016 03:29:05 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:29:05 UTC] 1
+[14-May-2016 03:29:05 UTC] decoding results
+[14-May-2016 03:29:05 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 57369913b0dfecc6d14be574
+        )
+
+)
+
+[14-May-2016 03:29:05 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:29:05 UTC] unsetting label : 57369913b0dfecc6d14be574
+[14-May-2016 03:29:05 UTC] making an api call
+[14-May-2016 03:29:05 UTC] method : DELETE
+[14-May-2016 03:29:05 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/57369913b0dfecc6d14be574?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:29:05 UTC] 1
+[14-May-2016 03:29:06 UTC] result : {"_value":null}
+
+[14-May-2016 03:29:06 UTC] finished unsetting labels
+[14-May-2016 03:29:06 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:29:06 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:29:06 UTC] setting label green
+[14-May-2016 03:29:06 UTC] making an api call
+[14-May-2016 03:29:06 UTC] method : POST
+[14-May-2016 03:29:06 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:29:06 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => green
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:29:06 UTC] initiating label setter
+[14-May-2016 03:29:06 UTC] setting label green on 57368850625b1587085a160d
+[14-May-2016 03:29:06 UTC] label set successfully
+[14-May-2016 03:29:06 UTC] result : {"status":"success"}
+[14-May-2016 03:29:06 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => green
+)
+
+[14-May-2016 03:29:22 UTC] initializing label resolver
+[14-May-2016 03:29:22 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 10
+)
+
+[14-May-2016 03:29:22 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:22 UTC] making an api call
+[14-May-2016 03:29:22 UTC] method : GET
+[14-May-2016 03:29:22 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:22 UTC] 1
+[14-May-2016 03:29:22 UTC] decoding results
+[14-May-2016 03:29:22 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:22 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:29:22 UTC] making an api call
+[14-May-2016 03:29:22 UTC] method : GET
+[14-May-2016 03:29:22 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:29:22 UTC] 1
+[14-May-2016 03:29:23 UTC] decoding results
+[14-May-2016 03:29:23 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:23 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:29:23 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 3
+            [label] => pink
+        )
+
+)
+
+[14-May-2016 03:29:23 UTC] checking input against rules
+[14-May-2016 03:29:23 UTC] found a matching rule
+[14-May-2016 03:29:23 UTC] unsetting existing labels
+[14-May-2016 03:29:23 UTC] making an api call
+[14-May-2016 03:29:23 UTC] method : POST
+[14-May-2016 03:29:23 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:29:23 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:29:23 UTC] initializing label unsetter
+[14-May-2016 03:29:23 UTC] getting list of applied labels
+[14-May-2016 03:29:23 UTC] making an api call
+[14-May-2016 03:29:23 UTC] method : GET
+[14-May-2016 03:29:23 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:29:23 UTC] 1
+[14-May-2016 03:29:23 UTC] decoding results
+[14-May-2016 03:29:23 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 03:29:23 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:29:23 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 03:29:23 UTC] making an api call
+[14-May-2016 03:29:23 UTC] method : DELETE
+[14-May-2016 03:29:23 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:29:23 UTC] 1
+[14-May-2016 03:29:23 UTC] result : {"_value":null}
+
+[14-May-2016 03:29:23 UTC] finished unsetting labels
+[14-May-2016 03:29:23 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:29:23 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:29:23 UTC] setting label pink
+[14-May-2016 03:29:23 UTC] making an api call
+[14-May-2016 03:29:23 UTC] method : POST
+[14-May-2016 03:29:23 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:29:23 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:29:23 UTC] initiating label setter
+[14-May-2016 03:29:23 UTC] setting label pink on 57368850625b1587085a160d
+[14-May-2016 03:29:24 UTC] label set successfully
+[14-May-2016 03:29:24 UTC] result : {"status":"success"}
+[14-May-2016 03:29:24 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+)
+
+[14-May-2016 03:29:59 UTC] running daily label update
+[14-May-2016 03:29:59 UTC] relabling all cards
+[14-May-2016 03:29:59 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : GET
+[14-May-2016 03:29:59 UTC] url : https://my.trellocrm.com/api/people/?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:59 UTC] 1
+[14-May-2016 03:29:59 UTC] decoding results
+[14-May-2016 03:29:59 UTC] result : Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 57369880753dc57951a581f7
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1462332564
+        )
+
+)
+
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : POST
+[14-May-2016 03:29:59 UTC] url : https://my.trellocrm.com/api/labels/resolve.php?tcrmkey=russellisagod
+[14-May-2016 03:29:59 UTC] Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 10
+)
+
+[14-May-2016 03:29:59 UTC] initializing label resolver
+[14-May-2016 03:29:59 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [idCard] => 57368850625b1587085a160d
+    [days] => 10
+)
+
+[14-May-2016 03:29:59 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : GET
+[14-May-2016 03:29:59 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:59 UTC] 1
+[14-May-2016 03:29:59 UTC] decoding results
+[14-May-2016 03:29:59 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:29:59 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : GET
+[14-May-2016 03:29:59 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:29:59 UTC] 1
+[14-May-2016 03:29:59 UTC] decoding results
+[14-May-2016 03:29:59 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:29:59 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:29:59 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 3
+            [label] => pink
+        )
+
+)
+
+[14-May-2016 03:29:59 UTC] checking input against rules
+[14-May-2016 03:29:59 UTC] found a matching rule
+[14-May-2016 03:29:59 UTC] unsetting existing labels
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : POST
+[14-May-2016 03:29:59 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:29:59 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:29:59 UTC] initializing label unsetter
+[14-May-2016 03:29:59 UTC] getting list of applied labels
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : GET
+[14-May-2016 03:29:59 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:29:59 UTC] 1
+[14-May-2016 03:29:59 UTC] decoding results
+[14-May-2016 03:29:59 UTC] result : Array
+(
+    [id] => 57368850625b1587085a160d
+    [idLabels] => Array
+        (
+            [0] => 57369913b0dfecc6d14be574
+        )
+
+)
+
+[14-May-2016 03:29:59 UTC] unsetting 1 labels on 57368850625b1587085a160d
+[14-May-2016 03:29:59 UTC] unsetting label : 57369913b0dfecc6d14be574
+[14-May-2016 03:29:59 UTC] making an api call
+[14-May-2016 03:29:59 UTC] method : DELETE
+[14-May-2016 03:29:59 UTC] url : https://api.trello.com/1/cards/57368850625b1587085a160d/idLabels/57369913b0dfecc6d14be574?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+[14-May-2016 03:29:59 UTC] 1
+[14-May-2016 03:30:00 UTC] result : {"_value":null}
+
+[14-May-2016 03:30:00 UTC] finished unsetting labels
+[14-May-2016 03:30:00 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:30:00 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:30:00 UTC] setting label pink
+[14-May-2016 03:30:00 UTC] making an api call
+[14-May-2016 03:30:00 UTC] method : POST
+[14-May-2016 03:30:00 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:30:00 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:30:00 UTC] initiating label setter
+[14-May-2016 03:30:00 UTC] setting label pink on 57368850625b1587085a160d
+[14-May-2016 03:30:00 UTC] label set successfully
+[14-May-2016 03:30:00 UTC] result : {"status":"success"}
+[14-May-2016 03:30:00 UTC] Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+)
+
+[14-May-2016 03:30:00 UTC] decoding results
+[14-May-2016 03:30:00 UTC] result : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [newLabel] => pink
+)
+
+[14-May-2016 03:30:00 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [newLabel] => pink
+        )
+
+)
+
+[14-May-2016 03:52:31 UTC] initializing label resolver
+[14-May-2016 03:52:31 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57369c786c16dda8e34b67c0
+    [days] => 3
+)
+
+[14-May-2016 03:52:31 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:52:31 UTC] making an api call
+[14-May-2016 03:52:31 UTC] method : GET
+[14-May-2016 03:52:31 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:52:31 UTC] 1
+[14-May-2016 03:52:32 UTC] decoding results
+[14-May-2016 03:52:32 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:52:32 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:52:32 UTC] making an api call
+[14-May-2016 03:52:32 UTC] method : GET
+[14-May-2016 03:52:32 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:52:32 UTC] 1
+[14-May-2016 03:52:32 UTC] decoding results
+[14-May-2016 03:52:32 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:52:32 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:52:32 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 03:52:32 UTC] falling back to default
+[14-May-2016 03:52:32 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 03:52:32 UTC] checking input against rules
+[14-May-2016 03:52:32 UTC] found a matching rule
+[14-May-2016 03:52:32 UTC] unsetting existing labels
+[14-May-2016 03:52:32 UTC] making an api call
+[14-May-2016 03:52:32 UTC] method : POST
+[14-May-2016 03:52:32 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:52:32 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:52:32 UTC] initializing label unsetter
+[14-May-2016 03:52:32 UTC] getting list of applied labels
+[14-May-2016 03:52:32 UTC] making an api call
+[14-May-2016 03:52:32 UTC] method : GET
+[14-May-2016 03:52:32 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:52:32 UTC] 1
+[14-May-2016 03:52:32 UTC] decoding results
+[14-May-2016 03:52:32 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [idLabels] => Array
+        (
+        )
+
+)
+
+[14-May-2016 03:52:32 UTC] unsetting 0 labels on 57369c786c16dda8e34b67c0
+[14-May-2016 03:52:32 UTC] finished unsetting labels
+[14-May-2016 03:52:32 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:52:32 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:52:32 UTC] setting label green
+[14-May-2016 03:52:32 UTC] making an api call
+[14-May-2016 03:52:32 UTC] method : POST
+[14-May-2016 03:52:32 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:52:32 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:52:32 UTC] initiating label setter
+[14-May-2016 03:52:32 UTC] setting label green on 57369c786c16dda8e34b67c0
+[14-May-2016 03:52:32 UTC] label set successfully
+[14-May-2016 03:52:32 UTC] result : {"status":"success"}
+[14-May-2016 03:52:32 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+)
+
+[14-May-2016 03:53:13 UTC] initializing label resolver
+[14-May-2016 03:53:13 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 2
+)
+
+[14-May-2016 03:53:13 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:53:13 UTC] making an api call
+[14-May-2016 03:53:13 UTC] method : GET
+[14-May-2016 03:53:13 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 03:53:13 UTC] 1
+[14-May-2016 03:53:13 UTC] decoding results
+[14-May-2016 03:53:13 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 57368ad5a288a898ebea44dc
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"3","label":"pink"}]}}
+)
+
+[14-May-2016 03:53:13 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 03:53:13 UTC] making an api call
+[14-May-2016 03:53:13 UTC] method : GET
+[14-May-2016 03:53:13 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 03:53:13 UTC] 1
+[14-May-2016 03:53:13 UTC] decoding results
+[14-May-2016 03:53:13 UTC] result : Array
+(
+    [userid] => 17
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/IAjTNmhLAIR6hVg_HW9wkAMeVNX1eLPlgo93DhCDjKY
+    [trello_token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+    [historyId] => 2333144
+)
+
+[14-May-2016 03:53:13 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 3
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 03:53:13 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 03:53:13 UTC] falling back to default
+[14-May-2016 03:53:13 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 03:53:13 UTC] checking input against rules
+[14-May-2016 03:53:13 UTC] found a matching rule
+[14-May-2016 03:53:13 UTC] unsetting existing labels
+[14-May-2016 03:53:13 UTC] making an api call
+[14-May-2016 03:53:13 UTC] method : POST
+[14-May-2016 03:53:13 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 03:53:13 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:53:13 UTC] initializing label unsetter
+[14-May-2016 03:53:13 UTC] getting list of applied labels
+[14-May-2016 03:53:13 UTC] making an api call
+[14-May-2016 03:53:13 UTC] method : GET
+[14-May-2016 03:53:13 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26&fields=idLabels
+[14-May-2016 03:53:13 UTC] 1
+[14-May-2016 03:53:13 UTC] decoding results
+[14-May-2016 03:53:13 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+        )
+
+)
+
+[14-May-2016 03:53:13 UTC] unsetting 0 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 03:53:13 UTC] finished unsetting labels
+[14-May-2016 03:53:13 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 03:53:13 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 03:53:13 UTC] setting label green
+[14-May-2016 03:53:13 UTC] making an api call
+[14-May-2016 03:53:13 UTC] method : POST
+[14-May-2016 03:53:13 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 03:53:13 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => fe94db2fb3ab4d153659bb7af3e529ee12b0e925b081db4aba6f6a9c18cd7e26
+)
+
+[14-May-2016 03:53:13 UTC] initiating label setter
+[14-May-2016 03:53:13 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 03:53:14 UTC] label set successfully
+[14-May-2016 03:53:14 UTC] result : {"status":"success"}
+[14-May-2016 03:53:14 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:22:22 UTC] initializing label resolver
+[14-May-2016 04:22:22 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57369c786c16dda8e34b67c0
+    [days] => 3
+)
+
+[14-May-2016 04:22:22 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:22:22 UTC] making an api call
+[14-May-2016 04:22:22 UTC] method : GET
+[14-May-2016 04:22:22 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:22:22 UTC] 1
+[14-May-2016 04:22:22 UTC] decoding results
+[14-May-2016 04:22:22 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[]}}
+)
+
+[14-May-2016 04:22:22 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:22:22 UTC] making an api call
+[14-May-2016 04:22:22 UTC] method : GET
+[14-May-2016 04:22:22 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:22:22 UTC] 1
+[14-May-2016 04:22:22 UTC] decoding results
+[14-May-2016 04:22:22 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2333970
+)
+
+[14-May-2016 04:22:22 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                )
+
+        )
+
+)
+
+[14-May-2016 04:22:22 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:22:22 UTC] falling back to default
+[14-May-2016 04:22:22 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:22:22 UTC] checking input against rules
+[14-May-2016 04:22:22 UTC] found a matching rule
+[14-May-2016 04:22:22 UTC] unsetting existing labels
+[14-May-2016 04:22:22 UTC] making an api call
+[14-May-2016 04:22:22 UTC] method : POST
+[14-May-2016 04:22:22 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:22:22 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:22:22 UTC] initializing label unsetter
+[14-May-2016 04:22:22 UTC] getting list of applied labels
+[14-May-2016 04:22:22 UTC] making an api call
+[14-May-2016 04:22:22 UTC] method : GET
+[14-May-2016 04:22:22 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:22:22 UTC] 1
+[14-May-2016 04:22:23 UTC] decoding results
+[14-May-2016 04:22:23 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:22:23 UTC] unsetting 1 labels on 57369c786c16dda8e34b67c0
+[14-May-2016 04:22:23 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:22:23 UTC] making an api call
+[14-May-2016 04:22:23 UTC] method : DELETE
+[14-May-2016 04:22:23 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:22:23 UTC] 1
+[14-May-2016 04:22:23 UTC] result : {"_value":null}
+
+[14-May-2016 04:22:23 UTC] finished unsetting labels
+[14-May-2016 04:22:23 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:22:23 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:22:23 UTC] setting label green
+[14-May-2016 04:22:23 UTC] making an api call
+[14-May-2016 04:22:23 UTC] method : POST
+[14-May-2016 04:22:23 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:22:23 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:22:23 UTC] initiating label setter
+[14-May-2016 04:22:23 UTC] setting label green on 57369c786c16dda8e34b67c0
+[14-May-2016 04:22:24 UTC] label set successfully
+[14-May-2016 04:22:24 UTC] result : {"status":"success"}
+[14-May-2016 04:22:24 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+)
+
+[14-May-2016 04:22:25 UTC] initializing label resolver
+[14-May-2016 04:22:25 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:22:25 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:22:25 UTC] making an api call
+[14-May-2016 04:22:25 UTC] method : GET
+[14-May-2016 04:22:25 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:22:25 UTC] 1
+[14-May-2016 04:22:25 UTC] decoding results
+[14-May-2016 04:22:25 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[]}}
+)
+
+[14-May-2016 04:22:25 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:22:25 UTC] making an api call
+[14-May-2016 04:22:25 UTC] method : GET
+[14-May-2016 04:22:25 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:22:25 UTC] 1
+[14-May-2016 04:22:25 UTC] decoding results
+[14-May-2016 04:22:25 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2333970
+)
+
+[14-May-2016 04:22:25 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                )
+
+        )
+
+)
+
+[14-May-2016 04:22:25 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:22:25 UTC] falling back to default
+[14-May-2016 04:22:25 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:22:25 UTC] checking input against rules
+[14-May-2016 04:22:25 UTC] found a matching rule
+[14-May-2016 04:22:25 UTC] unsetting existing labels
+[14-May-2016 04:22:25 UTC] making an api call
+[14-May-2016 04:22:25 UTC] method : POST
+[14-May-2016 04:22:25 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:22:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:22:25 UTC] initializing label unsetter
+[14-May-2016 04:22:25 UTC] getting list of applied labels
+[14-May-2016 04:22:25 UTC] making an api call
+[14-May-2016 04:22:25 UTC] method : GET
+[14-May-2016 04:22:25 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:22:25 UTC] 1
+[14-May-2016 04:22:25 UTC] decoding results
+[14-May-2016 04:22:25 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:22:25 UTC] unsetting 1 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:22:25 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:22:25 UTC] making an api call
+[14-May-2016 04:22:25 UTC] method : DELETE
+[14-May-2016 04:22:25 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:22:25 UTC] 1
+[14-May-2016 04:22:26 UTC] result : {"_value":null}
+
+[14-May-2016 04:22:26 UTC] finished unsetting labels
+[14-May-2016 04:22:26 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:22:26 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:22:26 UTC] setting label green
+[14-May-2016 04:22:26 UTC] making an api call
+[14-May-2016 04:22:26 UTC] method : POST
+[14-May-2016 04:22:26 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:22:26 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:22:26 UTC] initiating label setter
+[14-May-2016 04:22:26 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:22:26 UTC] label set successfully
+[14-May-2016 04:22:26 UTC] result : {"status":"success"}
+[14-May-2016 04:22:26 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:30:32 UTC] initializing label resolver
+[14-May-2016 04:30:32 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:30:32 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : GET
+[14-May-2016 04:30:32 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:30:32 UTC] 1
+[14-May-2016 04:30:32 UTC] decoding results
+[14-May-2016 04:30:32 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:30:32 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : GET
+[14-May-2016 04:30:32 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:30:32 UTC] 1
+[14-May-2016 04:30:32 UTC] decoding results
+[14-May-2016 04:30:32 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334051
+)
+
+[14-May-2016 04:30:32 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:30:32 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:30:32 UTC] falling back to default
+[14-May-2016 04:30:32 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:30:32 UTC] checking input against rules
+[14-May-2016 04:30:32 UTC] found a matching rule
+[14-May-2016 04:30:32 UTC] unsetting existing labels
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : POST
+[14-May-2016 04:30:32 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:30:32 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:30:32 UTC] initializing label unsetter
+[14-May-2016 04:30:32 UTC] getting list of applied labels
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : GET
+[14-May-2016 04:30:32 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:30:32 UTC] 1
+[14-May-2016 04:30:32 UTC] initializing label resolver
+[14-May-2016 04:30:32 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:30:32 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : GET
+[14-May-2016 04:30:32 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:30:32 UTC] 1
+[14-May-2016 04:30:32 UTC] decoding results
+[14-May-2016 04:30:32 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:30:32 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : GET
+[14-May-2016 04:30:32 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:30:32 UTC] 1
+[14-May-2016 04:30:32 UTC] decoding results
+[14-May-2016 04:30:32 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:30:32 UTC] unsetting 1 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:30:32 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:30:32 UTC] making an api call
+[14-May-2016 04:30:32 UTC] method : DELETE
+[14-May-2016 04:30:32 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:30:32 UTC] 1
+[14-May-2016 04:30:33 UTC] decoding results
+[14-May-2016 04:30:33 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334051
+)
+
+[14-May-2016 04:30:33 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:30:33 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:30:33 UTC] falling back to default
+[14-May-2016 04:30:33 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:30:33 UTC] checking input against rules
+[14-May-2016 04:30:33 UTC] found a matching rule
+[14-May-2016 04:30:33 UTC] unsetting existing labels
+[14-May-2016 04:30:33 UTC] making an api call
+[14-May-2016 04:30:33 UTC] method : POST
+[14-May-2016 04:30:33 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:30:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:30:33 UTC] initializing label unsetter
+[14-May-2016 04:30:33 UTC] getting list of applied labels
+[14-May-2016 04:30:33 UTC] making an api call
+[14-May-2016 04:30:33 UTC] method : GET
+[14-May-2016 04:30:33 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:30:33 UTC] 1
+[14-May-2016 04:30:33 UTC] result : {"_value":null}
+
+[14-May-2016 04:30:33 UTC] finished unsetting labels
+[14-May-2016 04:30:33 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:30:33 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:30:33 UTC] setting label green
+[14-May-2016 04:30:33 UTC] making an api call
+[14-May-2016 04:30:33 UTC] method : POST
+[14-May-2016 04:30:33 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:30:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:30:33 UTC] initiating label setter
+[14-May-2016 04:30:33 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:30:33 UTC] decoding results
+[14-May-2016 04:30:33 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+        )
+
+)
+
+[14-May-2016 04:30:33 UTC] unsetting 0 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:30:33 UTC] finished unsetting labels
+[14-May-2016 04:30:33 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:30:33 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:30:33 UTC] setting label green
+[14-May-2016 04:30:33 UTC] making an api call
+[14-May-2016 04:30:33 UTC] method : POST
+[14-May-2016 04:30:33 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:30:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:30:33 UTC] initiating label setter
+[14-May-2016 04:30:33 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:30:33 UTC] label set successfully
+[14-May-2016 04:30:33 UTC] result : {"status":"success"}
+[14-May-2016 04:30:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:30:33 UTC] label set successfully
+[14-May-2016 04:30:33 UTC] result : {"status":"success"}
+[14-May-2016 04:30:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:31:23 UTC] initializing label resolver
+[14-May-2016 04:31:23 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:31:23 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:23 UTC] making an api call
+[14-May-2016 04:31:23 UTC] method : GET
+[14-May-2016 04:31:23 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:23 UTC] 1
+[14-May-2016 04:31:23 UTC] decoding results
+[14-May-2016 04:31:23 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:31:23 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:31:23 UTC] making an api call
+[14-May-2016 04:31:23 UTC] method : GET
+[14-May-2016 04:31:23 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:31:23 UTC] 1
+[14-May-2016 04:31:23 UTC] decoding results
+[14-May-2016 04:31:23 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334068
+)
+
+[14-May-2016 04:31:23 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:31:23 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:31:23 UTC] falling back to default
+[14-May-2016 04:31:23 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:31:23 UTC] checking input against rules
+[14-May-2016 04:31:23 UTC] found a matching rule
+[14-May-2016 04:31:23 UTC] unsetting existing labels
+[14-May-2016 04:31:23 UTC] making an api call
+[14-May-2016 04:31:23 UTC] method : POST
+[14-May-2016 04:31:23 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:31:23 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:23 UTC] initializing label unsetter
+[14-May-2016 04:31:23 UTC] getting list of applied labels
+[14-May-2016 04:31:23 UTC] making an api call
+[14-May-2016 04:31:23 UTC] method : GET
+[14-May-2016 04:31:23 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:31:23 UTC] 1
+[14-May-2016 04:31:24 UTC] initializing label resolver
+[14-May-2016 04:31:24 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:31:24 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] decoding results
+[14-May-2016 04:31:24 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:31:24 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] decoding results
+[14-May-2016 04:31:24 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785d
+        )
+
+)
+
+[14-May-2016 04:31:24 UTC] unsetting 1 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:24 UTC] unsetting label : 573648c4b0dfecc6d14b785d
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : DELETE
+[14-May-2016 04:31:24 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038/idLabels/573648c4b0dfecc6d14b785d?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] decoding results
+[14-May-2016 04:31:24 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334068
+)
+
+[14-May-2016 04:31:24 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:31:24 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:31:24 UTC] falling back to default
+[14-May-2016 04:31:24 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:31:24 UTC] checking input against rules
+[14-May-2016 04:31:24 UTC] found a matching rule
+[14-May-2016 04:31:24 UTC] unsetting existing labels
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : POST
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:31:24 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:24 UTC] initializing label unsetter
+[14-May-2016 04:31:24 UTC] getting list of applied labels
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] initializing label resolver
+[14-May-2016 04:31:24 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:31:24 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] result : {"_value":null}
+
+[14-May-2016 04:31:24 UTC] finished unsetting labels
+[14-May-2016 04:31:24 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:31:24 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:31:24 UTC] setting label green
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : POST
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:31:24 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:24 UTC] decoding results
+[14-May-2016 04:31:24 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:31:24 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] initiating label setter
+[14-May-2016 04:31:24 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:24 UTC] decoding results
+[14-May-2016 04:31:24 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+        )
+
+)
+
+[14-May-2016 04:31:24 UTC] unsetting 0 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:24 UTC] finished unsetting labels
+[14-May-2016 04:31:24 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:31:24 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:31:24 UTC] setting label green
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : POST
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:31:24 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:24 UTC] decoding results
+[14-May-2016 04:31:24 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334068
+)
+
+[14-May-2016 04:31:24 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:31:24 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:31:24 UTC] falling back to default
+[14-May-2016 04:31:24 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:31:24 UTC] checking input against rules
+[14-May-2016 04:31:24 UTC] found a matching rule
+[14-May-2016 04:31:24 UTC] unsetting existing labels
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : POST
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:31:24 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:24 UTC] initiating label setter
+[14-May-2016 04:31:24 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:24 UTC] initializing label unsetter
+[14-May-2016 04:31:24 UTC] getting list of applied labels
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:24 UTC] initializing label resolver
+[14-May-2016 04:31:24 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:31:24 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:24 UTC] making an api call
+[14-May-2016 04:31:24 UTC] method : GET
+[14-May-2016 04:31:24 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:24 UTC] 1
+[14-May-2016 04:31:25 UTC] label set successfully
+[14-May-2016 04:31:25 UTC] result : {"status":"success"}
+[14-May-2016 04:31:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:31:25 UTC] decoding results
+[14-May-2016 04:31:25 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:31:25 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : GET
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:31:25 UTC] 1
+[14-May-2016 04:31:25 UTC] label set successfully
+[14-May-2016 04:31:25 UTC] result : {"status":"success"}
+[14-May-2016 04:31:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:31:25 UTC] decoding results
+[14-May-2016 04:31:25 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:31:25 UTC] unsetting 1 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:25 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : DELETE
+[14-May-2016 04:31:25 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:31:25 UTC] 1
+[14-May-2016 04:31:25 UTC] decoding results
+[14-May-2016 04:31:25 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334068
+)
+
+[14-May-2016 04:31:25 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:31:25 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:31:25 UTC] falling back to default
+[14-May-2016 04:31:25 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:31:25 UTC] checking input against rules
+[14-May-2016 04:31:25 UTC] found a matching rule
+[14-May-2016 04:31:25 UTC] unsetting existing labels
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : POST
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:31:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:25 UTC] initializing label unsetter
+[14-May-2016 04:31:25 UTC] getting list of applied labels
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : GET
+[14-May-2016 04:31:25 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:31:25 UTC] 1
+[14-May-2016 04:31:25 UTC] initializing label resolver
+[14-May-2016 04:31:25 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:31:25 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : GET
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:25 UTC] 1
+[14-May-2016 04:31:25 UTC] result : {"_value":null}
+
+[14-May-2016 04:31:25 UTC] finished unsetting labels
+[14-May-2016 04:31:25 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:31:25 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:31:25 UTC] setting label green
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : POST
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:31:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:25 UTC] decoding results
+[14-May-2016 04:31:25 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:31:25 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : GET
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:31:25 UTC] 1
+[14-May-2016 04:31:25 UTC] decoding results
+[14-May-2016 04:31:25 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+        )
+
+)
+
+[14-May-2016 04:31:25 UTC] unsetting 0 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:25 UTC] finished unsetting labels
+[14-May-2016 04:31:25 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:31:25 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:31:25 UTC] setting label green
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : POST
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:31:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:25 UTC] initiating label setter
+[14-May-2016 04:31:25 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:25 UTC] initiating label setter
+[14-May-2016 04:31:25 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:25 UTC] decoding results
+[14-May-2016 04:31:25 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334068
+)
+
+[14-May-2016 04:31:25 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:31:25 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:31:25 UTC] falling back to default
+[14-May-2016 04:31:25 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:31:25 UTC] checking input against rules
+[14-May-2016 04:31:25 UTC] found a matching rule
+[14-May-2016 04:31:25 UTC] unsetting existing labels
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : POST
+[14-May-2016 04:31:25 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:31:25 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:25 UTC] initializing label unsetter
+[14-May-2016 04:31:25 UTC] getting list of applied labels
+[14-May-2016 04:31:25 UTC] making an api call
+[14-May-2016 04:31:25 UTC] method : GET
+[14-May-2016 04:31:25 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:31:25 UTC] 1
+[14-May-2016 04:31:26 UTC] label set successfully
+[14-May-2016 04:31:26 UTC] result : {"status":"success"}
+[14-May-2016 04:31:26 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:31:26 UTC] label set successfully
+[14-May-2016 04:31:26 UTC] result : {"status":"success"}
+[14-May-2016 04:31:26 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:31:26 UTC] decoding results
+[14-May-2016 04:31:26 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:31:26 UTC] unsetting 1 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:26 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:31:26 UTC] making an api call
+[14-May-2016 04:31:26 UTC] method : DELETE
+[14-May-2016 04:31:26 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:31:26 UTC] 1
+[14-May-2016 04:31:26 UTC] result : {"_value":null}
+
+[14-May-2016 04:31:26 UTC] finished unsetting labels
+[14-May-2016 04:31:26 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:31:26 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:31:26 UTC] setting label green
+[14-May-2016 04:31:26 UTC] making an api call
+[14-May-2016 04:31:26 UTC] method : POST
+[14-May-2016 04:31:26 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:31:26 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:26 UTC] initiating label setter
+[14-May-2016 04:31:26 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:31:26 UTC] label set successfully
+[14-May-2016 04:31:26 UTC] result : {"status":"success"}
+[14-May-2016 04:31:26 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+
+[14-May-2016 04:31:48 UTC] initializing label resolver
+[14-May-2016 04:31:48 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57369c786c16dda8e34b67c0
+    [days] => 0
+)
+
+[14-May-2016 04:31:48 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:48 UTC] making an api call
+[14-May-2016 04:31:48 UTC] method : GET
+[14-May-2016 04:31:48 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:31:48 UTC] 1
+[14-May-2016 04:31:49 UTC] decoding results
+[14-May-2016 04:31:49 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:31:49 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:31:49 UTC] making an api call
+[14-May-2016 04:31:49 UTC] method : GET
+[14-May-2016 04:31:49 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:31:49 UTC] 1
+[14-May-2016 04:31:49 UTC] decoding results
+[14-May-2016 04:31:49 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334080
+)
+
+[14-May-2016 04:31:49 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:31:49 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:31:49 UTC] falling back to default
+[14-May-2016 04:31:49 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:31:49 UTC] checking input against rules
+[14-May-2016 04:31:49 UTC] found a matching rule
+[14-May-2016 04:31:49 UTC] unsetting existing labels
+[14-May-2016 04:31:49 UTC] making an api call
+[14-May-2016 04:31:49 UTC] method : POST
+[14-May-2016 04:31:49 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:31:49 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:49 UTC] initializing label unsetter
+[14-May-2016 04:31:49 UTC] getting list of applied labels
+[14-May-2016 04:31:49 UTC] making an api call
+[14-May-2016 04:31:49 UTC] method : GET
+[14-May-2016 04:31:49 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:31:49 UTC] 1
+[14-May-2016 04:31:49 UTC] decoding results
+[14-May-2016 04:31:49 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:31:49 UTC] unsetting 1 labels on 57369c786c16dda8e34b67c0
+[14-May-2016 04:31:49 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:31:49 UTC] making an api call
+[14-May-2016 04:31:49 UTC] method : DELETE
+[14-May-2016 04:31:49 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:31:49 UTC] 1
+[14-May-2016 04:31:49 UTC] result : {"_value":null}
+
+[14-May-2016 04:31:49 UTC] finished unsetting labels
+[14-May-2016 04:31:49 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:31:49 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:31:49 UTC] setting label green
+[14-May-2016 04:31:49 UTC] making an api call
+[14-May-2016 04:31:49 UTC] method : POST
+[14-May-2016 04:31:49 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:31:49 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:31:49 UTC] initiating label setter
+[14-May-2016 04:31:49 UTC] setting label green on 57369c786c16dda8e34b67c0
+[14-May-2016 04:31:50 UTC] label set successfully
+[14-May-2016 04:31:50 UTC] result : {"status":"success"}
+[14-May-2016 04:31:50 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+)
+
+[14-May-2016 04:34:31 UTC] initializing label resolver
+[14-May-2016 04:34:31 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 57369c786c16dda8e34b67c0
+    [days] => 0
+)
+
+[14-May-2016 04:34:31 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:34:31 UTC] making an api call
+[14-May-2016 04:34:31 UTC] method : GET
+[14-May-2016 04:34:31 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:34:31 UTC] 1
+[14-May-2016 04:34:31 UTC] decoding results
+[14-May-2016 04:34:31 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:34:31 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:34:31 UTC] making an api call
+[14-May-2016 04:34:31 UTC] method : GET
+[14-May-2016 04:34:31 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:34:31 UTC] 1
+[14-May-2016 04:34:31 UTC] decoding results
+[14-May-2016 04:34:31 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334153
+)
+
+[14-May-2016 04:34:31 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:34:31 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:34:31 UTC] falling back to default
+[14-May-2016 04:34:31 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:34:31 UTC] checking input against rules
+[14-May-2016 04:34:31 UTC] found a matching rule
+[14-May-2016 04:34:31 UTC] unsetting existing labels
+[14-May-2016 04:34:31 UTC] making an api call
+[14-May-2016 04:34:31 UTC] method : POST
+[14-May-2016 04:34:31 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:34:31 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:34:31 UTC] initializing label unsetter
+[14-May-2016 04:34:31 UTC] getting list of applied labels
+[14-May-2016 04:34:31 UTC] making an api call
+[14-May-2016 04:34:31 UTC] method : GET
+[14-May-2016 04:34:31 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:34:31 UTC] 1
+[14-May-2016 04:34:32 UTC] initializing label resolver
+[14-May-2016 04:34:32 UTC] PARAMS : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [days] => 0
+)
+
+[14-May-2016 04:34:32 UTC] getting instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : GET
+[14-May-2016 04:34:32 UTC] url : https://my.trellocrm.com/api/instances?tcrmkey=russellisagod&idBoard=573648c4e9b43d87eee3d60c
+[14-May-2016 04:34:32 UTC] 1
+[14-May-2016 04:34:32 UTC] decoding results
+[14-May-2016 04:34:32 UTC] result : Array
+(
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idMember] => 55783550c9cee8eba42e6233
+    [idHook] => 5736a7fab230d7e211c597e6
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"573653ed3519822b09d9fb76":{"name":"First Contact","rules":[]},"57369880753dc57951a581f7":{"name":"Beta","rules":[{"age":"0","label":"green"},{"age":"1","label":"pink"}]}}
+)
+
+[14-May-2016 04:34:32 UTC] getting user : 55783550c9cee8eba42e6233
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : GET
+[14-May-2016 04:34:32 UTC] url : https://my.trellocrm.com/api/users/?tcrmkey=russellisagod&idMember=55783550c9cee8eba42e6233
+[14-May-2016 04:34:32 UTC] 1
+[14-May-2016 04:34:32 UTC] decoding results
+[14-May-2016 04:34:32 UTC] result : Array
+(
+    [id] => 57369c786c16dda8e34b67c0
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:34:32 UTC] unsetting 1 labels on 57369c786c16dda8e34b67c0
+[14-May-2016 04:34:32 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : DELETE
+[14-May-2016 04:34:32 UTC] url : https://api.trello.com/1/cards/57369c786c16dda8e34b67c0/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:34:32 UTC] 1
+[14-May-2016 04:34:32 UTC] decoding results
+[14-May-2016 04:34:32 UTC] result : Array
+(
+    [userid] => 16
+    [idMember] => 55783550c9cee8eba42e6233
+    [invite_code] => test
+    [email] => scuzzell@gmail.com
+    [google_refresh_token] => 1/pv4qDY-gn5-VUlZvGfJzNDPCiOdafKukc58Tw5owDuoMEudVrK5jSpoR30zcRFq6
+    [trello_token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+    [historyId] => 2334153
+)
+
+[14-May-2016 04:34:32 UTC] available rulesets : Array
+(
+    [default] => Array
+        (
+            [name] => Default Ruleset
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 7
+                            [label] => lime
+                        )
+
+                    [2] => Array
+                        (
+                            [age] => 14
+                            [label] => yellow
+                        )
+
+                    [3] => Array
+                        (
+                            [age] => 21
+                            [label] => orange
+                        )
+
+                    [4] => Array
+                        (
+                            [age] => 30
+                            [label] => blue
+                        )
+
+                )
+
+        )
+
+    [573653ed3519822b09d9fb76] => Array
+        (
+            [name] => First Contact
+            [rules] => Array
+                (
+                )
+
+        )
+
+    [57369880753dc57951a581f7] => Array
+        (
+            [name] => Beta
+            [rules] => Array
+                (
+                    [0] => Array
+                        (
+                            [age] => 0
+                            [label] => green
+                        )
+
+                    [1] => Array
+                        (
+                            [age] => 1
+                            [label] => pink
+                        )
+
+                )
+
+        )
+
+)
+
+[14-May-2016 04:34:32 UTC] no rules for 573653ed3519822b09d9fb76
+[14-May-2016 04:34:32 UTC] falling back to default
+[14-May-2016 04:34:32 UTC] using ruleset : Array
+(
+    [0] => Array
+        (
+            [age] => 0
+            [label] => green
+        )
+
+    [1] => Array
+        (
+            [age] => 7
+            [label] => lime
+        )
+
+    [2] => Array
+        (
+            [age] => 14
+            [label] => yellow
+        )
+
+    [3] => Array
+        (
+            [age] => 21
+            [label] => orange
+        )
+
+    [4] => Array
+        (
+            [age] => 30
+            [label] => blue
+        )
+
+)
+
+[14-May-2016 04:34:32 UTC] checking input against rules
+[14-May-2016 04:34:32 UTC] found a matching rule
+[14-May-2016 04:34:32 UTC] unsetting existing labels
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : POST
+[14-May-2016 04:34:32 UTC] url : https://my.trellocrm.com/api/labels/unset.php?tcrmkey=russellisagod
+[14-May-2016 04:34:32 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:34:32 UTC] initializing label unsetter
+[14-May-2016 04:34:32 UTC] getting list of applied labels
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : GET
+[14-May-2016 04:34:32 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3&fields=idLabels
+[14-May-2016 04:34:32 UTC] 1
+[14-May-2016 04:34:32 UTC] result : {"_value":null}
+
+[14-May-2016 04:34:32 UTC] finished unsetting labels
+[14-May-2016 04:34:32 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:34:32 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:34:32 UTC] setting label green
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : POST
+[14-May-2016 04:34:32 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:34:32 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:34:32 UTC] initiating label setter
+[14-May-2016 04:34:32 UTC] setting label green on 57369c786c16dda8e34b67c0
+[14-May-2016 04:34:32 UTC] decoding results
+[14-May-2016 04:34:32 UTC] result : Array
+(
+    [id] => 5736a1182f7f5c11e49d3038
+    [idLabels] => Array
+        (
+            [0] => 573648c4b0dfecc6d14b785c
+        )
+
+)
+
+[14-May-2016 04:34:32 UTC] unsetting 1 labels on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:34:32 UTC] unsetting label : 573648c4b0dfecc6d14b785c
+[14-May-2016 04:34:32 UTC] making an api call
+[14-May-2016 04:34:32 UTC] method : DELETE
+[14-May-2016 04:34:32 UTC] url : https://api.trello.com/1/cards/5736a1182f7f5c11e49d3038/idLabels/573648c4b0dfecc6d14b785c?key=89fe09f489d2c56ed237fbd464145ad9&token=9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+[14-May-2016 04:34:32 UTC] 1
+[14-May-2016 04:34:33 UTC] label set successfully
+[14-May-2016 04:34:33 UTC] result : {"status":"success"}
+[14-May-2016 04:34:33 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [newLabel] => green
+)
+
+[14-May-2016 04:34:33 UTC] result : {"_value":null}
+
+[14-May-2016 04:34:33 UTC] finished unsetting labels
+[14-May-2016 04:34:33 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 04:34:33 UTC] result : {
+    "status": "success"
+}
+[14-May-2016 04:34:33 UTC] setting label green
+[14-May-2016 04:34:33 UTC] making an api call
+[14-May-2016 04:34:33 UTC] method : POST
+[14-May-2016 04:34:33 UTC] url : https://my.trellocrm.com/api/labels/set.php
+[14-May-2016 04:34:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+    [token] => 9d4944f7444d1079054fc1d8d029f1dfc75dd38a7cb72d01d790feb619a0eac3
+)
+
+[14-May-2016 04:34:33 UTC] initiating label setter
+[14-May-2016 04:34:33 UTC] setting label green on 5736a1182f7f5c11e49d3038
+[14-May-2016 04:34:33 UTC] label set successfully
+[14-May-2016 04:34:33 UTC] result : {"status":"success"}
+[14-May-2016 04:34:33 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [newLabel] => green
+)
+

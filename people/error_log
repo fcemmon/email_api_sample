@@ -1,0 +1,6017 @@
+[10-May-2016 16:09:30 UTC] REQUEST METHOD : GET
+[10-May-2016 16:09:30 UTC] PARAMS : Array
+(
+    [idCard] => 573132032dd0bed50a401e10
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:09:30 UTC] getting person 573132032dd0bed50a401e10
+[10-May-2016 16:09:30 UTC] Array
+(
+    [idCard] => 573132032dd0bed50a401e10
+    [idList] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => abartol@legacy.com
+    [days] => 0
+)
+
+[10-May-2016 16:09:30 UTC] REQUEST METHOD : POST
+[10-May-2016 16:09:30 UTC] PARAMS : Array
+(
+    [idCard] => 573132032dd0bed50a401e10
+    [idBoard] => 
+    [idList] => 571d90e7821e815bb2e00752
+    [days] => 
+    [email] => sbartol@legacy.com
+)
+
+[10-May-2016 16:09:30 UTC] Array
+(
+    [status] => success
+)
+
+[10-May-2016 16:09:35 UTC] REQUEST METHOD : GET
+[10-May-2016 16:09:35 UTC] PARAMS : Array
+(
+    [idCard] => 573132032dd0bed50a401e10
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:09:35 UTC] getting person 573132032dd0bed50a401e10
+[10-May-2016 16:09:35 UTC] Array
+(
+    [idCard] => 573132032dd0bed50a401e10
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => sbartol@legacy.com
+    [days] => 0
+)
+
+[10-May-2016 16:10:22 UTC] REQUEST METHOD : GET
+[10-May-2016 16:10:22 UTC] PARAMS : Array
+(
+    [idCard] => 5728da38f88de00f440cecfb
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:10:22 UTC] getting person 5728da38f88de00f440cecfb
+[10-May-2016 16:10:22 UTC] Array
+(
+    [idCard] => 5728da38f88de00f440cecfb
+    [idList] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => [jaxon.klein@gmail.com](mailto:jaxon.klein@gmail.com)
+    [days] => 0
+)
+
+[10-May-2016 16:10:28 UTC] REQUEST METHOD : GET
+[10-May-2016 16:10:28 UTC] PARAMS : Array
+(
+    [idCard] => 5730c505b6f64f2b1ec084d8
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:10:28 UTC] getting person 5730c505b6f64f2b1ec084d8
+[10-May-2016 16:10:28 UTC] Array
+(
+    [idCard] => 5730c505b6f64f2b1ec084d8
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => Alexandra@vinelake.co.uk
+    [days] => 20
+)
+
+[10-May-2016 16:11:08 UTC] REQUEST METHOD : GET
+[10-May-2016 16:11:08 UTC] PARAMS : Array
+(
+    [idCard] => 573208050192633d1e012f85
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:11:08 UTC] getting person 573208050192633d1e012f85
+[10-May-2016 16:11:08 UTC] REQUEST METHOD : PUT
+[10-May-2016 16:11:08 UTC] PARAMS : Array
+(
+    [idCard] => 573208050192633d1e012f85
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 571d90e7821e815bb2e00752
+    [days] => 
+    [email] => bill@catalyzechicago.org
+)
+
+[10-May-2016 16:11:08 UTC] resource created
+[10-May-2016 16:11:11 UTC] REQUEST METHOD : GET
+[10-May-2016 16:11:11 UTC] PARAMS : Array
+(
+    [idCard] => 573208050192633d1e012f85
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:11:11 UTC] getting person 573208050192633d1e012f85
+[10-May-2016 16:11:11 UTC] Array
+(
+    [idCard] => 573208050192633d1e012f85
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => bill@catalyzechicago.org
+    [days] => 0
+)
+
+[10-May-2016 16:11:56 UTC] REQUEST METHOD : GET
+[10-May-2016 16:11:56 UTC] PARAMS : Array
+(
+    [idCard] => 5732084050a86d991e45b84d
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:11:56 UTC] getting person 5732084050a86d991e45b84d
+[10-May-2016 16:11:56 UTC] REQUEST METHOD : PUT
+[10-May-2016 16:11:56 UTC] PARAMS : Array
+(
+    [idCard] => 5732084050a86d991e45b84d
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 571d90e7821e815bb2e00752
+    [days] => 
+    [email] => morellob@beloit.edu
+)
+
+[10-May-2016 16:11:56 UTC] resource created
+[10-May-2016 16:12:00 UTC] REQUEST METHOD : GET
+[10-May-2016 16:12:00 UTC] PARAMS : Array
+(
+    [idCard] => 5732084050a86d991e45b84d
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:12:00 UTC] getting person 5732084050a86d991e45b84d
+[10-May-2016 16:12:00 UTC] Array
+(
+    [idCard] => 5732084050a86d991e45b84d
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => morellob@beloit.edu
+    [days] => 1458663120
+)
+
+[10-May-2016 16:12:36 UTC] REQUEST METHOD : GET
+[10-May-2016 16:12:36 UTC] PARAMS : Array
+(
+    [idCard] => 573208689fe5aa007f5b8c94
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:12:36 UTC] getting person 573208689fe5aa007f5b8c94
+[10-May-2016 16:12:36 UTC] REQUEST METHOD : PUT
+[10-May-2016 16:12:36 UTC] PARAMS : Array
+(
+    [idCard] => 573208689fe5aa007f5b8c94
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 571d90e7821e815bb2e00752
+    [days] => 
+    [email] => anhalzer@gmail.com
+)
+
+[10-May-2016 16:12:36 UTC] resource created
+[10-May-2016 16:12:38 UTC] REQUEST METHOD : GET
+[10-May-2016 16:12:38 UTC] PARAMS : Array
+(
+    [idCard] => 573208689fe5aa007f5b8c94
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 16:12:38 UTC] getting person 573208689fe5aa007f5b8c94
+[10-May-2016 16:12:38 UTC] Array
+(
+    [idCard] => 573208689fe5aa007f5b8c94
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => anhalzer@gmail.com
+    [days] => 0
+)
+
+[10-May-2016 17:17:01 UTC] REQUEST METHOD : GET
+[10-May-2016 17:17:01 UTC] PARAMS : Array
+(
+    [idCard] => 5732178427b9ac86beece717
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 17:17:01 UTC] getting person 5732178427b9ac86beece717
+[10-May-2016 17:17:01 UTC] REQUEST METHOD : PUT
+[10-May-2016 17:17:01 UTC] PARAMS : Array
+(
+    [idCard] => 5732178427b9ac86beece717
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 571d90e7821e815bb2e00752
+    [days] => 
+    [email] => caye@keyo.co
+)
+
+[10-May-2016 17:17:01 UTC] resource created
+[10-May-2016 17:17:04 UTC] REQUEST METHOD : GET
+[10-May-2016 17:17:04 UTC] PARAMS : Array
+(
+    [idCard] => 5732178427b9ac86beece717
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 17:17:04 UTC] getting person 5732178427b9ac86beece717
+[10-May-2016 17:17:04 UTC] Array
+(
+    [idCard] => 5732178427b9ac86beece717
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => caye@keyo.co
+    [days] => 0
+)
+
+[10-May-2016 17:20:16 UTC] REQUEST METHOD : GET
+[10-May-2016 17:20:16 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 17:20:16 UTC] getting all people from instance 571d90cf839ac2a396f25051
+[10-May-2016 17:20:16 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57222a027dab502ee98ba4b3
+            [idList] => 
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => [jaxon.klein@gmail.com](mailto:jaxon.klein@gmail.com)
+            [days] => 0
+        )
+
+    [1] => Array
+        (
+            [idCard] => 57222acbb1efd121caa479c5
+            [idList] => 
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => [caye.polanco@gmail.com](mailto:caye.polanco@gmail.com)
+            [days] => 0
+        )
+
+    [2] => Array
+        (
+            [idCard] => 57282c8f41c6f0549cb882e5
+            [idList] => 
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => [jaxon.klein@gmail.com](mailto:jaxon.klein@gmail.com)
+            [days] => 0
+        )
+
+    [3] => Array
+        (
+            [idCard] => 5728da38f88de00f440cecfb
+            [idList] => 
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => [jaxon.klein@gmail.com](mailto:jaxon.klein@gmail.com)
+            [days] => 0
+        )
+
+    [4] => Array
+        (
+            [idCard] => 57290d8022dcc0633626a0aa
+            [idList] => 571d90dfa26b912815154304
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => sbartol@legacy.com
+            [days] => 1462896846
+        )
+
+    [5] => Array
+        (
+            [idCard] => 5730c505b6f64f2b1ec084d8
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => Alexandra@vinelake.co.uk
+            [days] => 20
+        )
+
+    [6] => Array
+        (
+            [idCard] => 573132032dd0bed50a401e10
+            [idList] => 571d90e7821e815bb2e00752
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => sbartol@legacy.com
+            [days] => 1462723775
+        )
+
+    [7] => Array
+        (
+            [idCard] => 573208050192633d1e012f85
+            [idList] => 571d90e7821e815bb2e00752
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => bill@catalyzechicago.org
+            [days] => 1462378271
+        )
+
+    [8] => Array
+        (
+            [idCard] => 5732084050a86d991e45b84d
+            [idList] => 571d90e7821e815bb2e00752
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => morellob@beloit.edu
+            [days] => 1458663120
+        )
+
+    [9] => Array
+        (
+            [idCard] => 573208689fe5aa007f5b8c94
+            [idList] => 571d90e7821e815bb2e00752
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => anhalzer@gmail.com
+            [days] => 1460045558
+        )
+
+    [10] => Array
+        (
+            [idCard] => 5732178427b9ac86beece717
+            [idList] => 571d90e7821e815bb2e00752
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => caye@keyo.co
+            [days] => 1462900669
+        )
+
+)
+
+[10-May-2016 17:22:41 UTC] REQUEST METHOD : GET
+[10-May-2016 17:22:41 UTC] PARAMS : Array
+(
+    [idCard] => 5732084050a86d991e45b84d
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 17:22:41 UTC] getting person 5732084050a86d991e45b84d
+[10-May-2016 17:22:41 UTC] Array
+(
+    [idCard] => 5732084050a86d991e45b84d
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => morellob@beloit.edu
+    [days] => 1462896718
+)
+
+[10-May-2016 18:16:47 UTC] REQUEST METHOD : GET
+[10-May-2016 18:16:47 UTC] PARAMS : Array
+(
+    [idCard] => 573208689fe5aa007f5b8c94
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 18:16:47 UTC] getting person 573208689fe5aa007f5b8c94
+[10-May-2016 18:16:47 UTC] Array
+(
+    [idCard] => 573208689fe5aa007f5b8c94
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => anhalzer@gmail.com
+    [days] => 1460045558
+)
+
+[10-May-2016 18:16:53 UTC] REQUEST METHOD : GET
+[10-May-2016 18:16:53 UTC] PARAMS : Array
+(
+    [idCard] => 573208050192633d1e012f85
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 18:16:53 UTC] getting person 573208050192633d1e012f85
+[10-May-2016 18:16:53 UTC] Array
+(
+    [idCard] => 573208050192633d1e012f85
+    [idList] => 571d90e7821e815bb2e00752
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => bill@catalyzechicago.org
+    [days] => 1462378271
+)
+
+[10-May-2016 20:34:24 UTC] REQUEST METHOD : GET
+[10-May-2016 20:34:24 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 20:34:24 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 20:34:24 UTC] Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idList] => 572164f266e6374bf9105f8f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => russell@besworks.net
+    [days] => 1462905441
+)
+
+[10-May-2016 20:57:22 UTC] REQUEST METHOD : GET
+[10-May-2016 20:57:22 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 20:57:22 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 20:57:22 UTC] Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idList] => 57242177decc09f659352f9a
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => russell@besworks.net
+    [days] => 1462912476
+)
+
+[10-May-2016 21:08:15 UTC] REQUEST METHOD : GET
+[10-May-2016 21:08:15 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:08:15 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 21:08:15 UTC] Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idList] => 57242177decc09f659352f9a
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => russell@besworks.net
+    [days] => 1462912476
+)
+
+[10-May-2016 21:08:36 UTC] REQUEST METHOD : GET
+[10-May-2016 21:08:36 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:08:36 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 21:08:36 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:08:36 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[10-May-2016 21:08:36 UTC] resource created
+[10-May-2016 21:11:14 UTC] REQUEST METHOD : GET
+[10-May-2016 21:11:14 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:11:14 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 21:11:14 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:11:14 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 21:11:14 UTC] resource created
+[10-May-2016 21:11:16 UTC] REQUEST METHOD : GET
+[10-May-2016 21:11:16 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:11:16 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 21:11:17 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:11:17 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 21:11:17 UTC] resource created
+[10-May-2016 21:11:19 UTC] REQUEST METHOD : GET
+[10-May-2016 21:11:19 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:11:19 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 21:11:19 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:11:19 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 21:11:19 UTC] resource created
+[10-May-2016 21:11:21 UTC] REQUEST METHOD : GET
+[10-May-2016 21:11:21 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:11:21 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 21:11:21 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:11:21 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 21:11:21 UTC] resource created
+[10-May-2016 21:11:24 UTC] REQUEST METHOD : GET
+[10-May-2016 21:11:24 UTC] PARAMS : Array
+(
+    [idCard] => 573160e11e2cf1a82f11455e
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:11:24 UTC] getting person 573160e11e2cf1a82f11455e
+[10-May-2016 21:11:24 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:11:24 UTC] PARAMS : Array
+(
+    [idCard] => 573160e11e2cf1a82f11455e
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => some@body
+)
+
+[10-May-2016 21:11:24 UTC] resource created
+[10-May-2016 21:11:39 UTC] REQUEST METHOD : GET
+[10-May-2016 21:11:39 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:11:39 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 21:11:39 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:11:39 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[10-May-2016 21:11:39 UTC] resource created
+[10-May-2016 21:12:00 UTC] REQUEST METHOD : GET
+[10-May-2016 21:12:00 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:12:00 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 21:12:00 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:12:00 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[10-May-2016 21:12:00 UTC] resource created
+[10-May-2016 21:14:49 UTC] REQUEST METHOD : GET
+[10-May-2016 21:14:49 UTC] PARAMS : Array
+(
+    [idCard] => 573160e11e2cf1a82f11455e
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:14:49 UTC] getting person 573160e11e2cf1a82f11455e
+[10-May-2016 21:14:49 UTC] REQUEST METHOD : PUT
+[10-May-2016 21:14:49 UTC] PARAMS : Array
+(
+    [idCard] => 573160e11e2cf1a82f11455e
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => some@body
+)
+
+[10-May-2016 21:14:49 UTC] resource created
+[10-May-2016 21:14:50 UTC] REQUEST METHOD : DELETE
+[10-May-2016 21:14:50 UTC] PARAMS : Array
+(
+    [idCard] => 573160e11e2cf1a82f11455e
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:14:50 UTC] Array
+(
+    [status] => success
+)
+
+[10-May-2016 21:16:01 UTC] REQUEST METHOD : GET
+[10-May-2016 21:16:01 UTC] PARAMS : Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 21:16:01 UTC] getting person 573186e9be3d6675dfdca48c
+[10-May-2016 21:16:01 UTC] Array
+(
+    [idCard] => 573186e9be3d6675dfdca48c
+    [idList] => 57242177decc09f659352f9a
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => russell@besworks.net
+    [days] => 1462914723
+)
+
+[10-May-2016 22:36:36 UTC] REQUEST METHOD : GET
+[10-May-2016 22:36:36 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:36:36 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 22:36:36 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:36:36 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 22:36:36 UTC] resource created
+[10-May-2016 22:36:38 UTC] REQUEST METHOD : GET
+[10-May-2016 22:36:38 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:36:38 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 22:36:38 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:36:38 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 22:36:38 UTC] resource created
+[10-May-2016 22:36:41 UTC] REQUEST METHOD : GET
+[10-May-2016 22:36:41 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:36:41 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 22:36:41 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:36:41 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 22:36:41 UTC] resource created
+[10-May-2016 22:36:44 UTC] REQUEST METHOD : GET
+[10-May-2016 22:36:44 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:36:44 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 22:36:44 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:36:44 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 22:36:44 UTC] resource created
+[10-May-2016 22:41:06 UTC] REQUEST METHOD : GET
+[10-May-2016 22:41:06 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:41:06 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 22:41:06 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:41:06 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 22:41:06 UTC] resource created
+[10-May-2016 22:41:08 UTC] REQUEST METHOD : GET
+[10-May-2016 22:41:08 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:41:08 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 22:41:08 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:41:08 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 22:41:08 UTC] resource created
+[10-May-2016 22:41:13 UTC] REQUEST METHOD : GET
+[10-May-2016 22:41:13 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:41:13 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 22:41:13 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:41:13 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 22:41:13 UTC] resource created
+[10-May-2016 22:41:15 UTC] REQUEST METHOD : GET
+[10-May-2016 22:41:15 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:41:15 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 22:41:15 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:41:15 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 22:41:15 UTC] resource created
+[10-May-2016 22:45:51 UTC] REQUEST METHOD : GET
+[10-May-2016 22:45:51 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:45:51 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 22:45:51 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:45:51 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 22:45:51 UTC] resource created
+[10-May-2016 22:45:56 UTC] REQUEST METHOD : GET
+[10-May-2016 22:45:56 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:45:56 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 22:45:56 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:45:56 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 22:45:56 UTC] resource created
+[10-May-2016 22:45:58 UTC] REQUEST METHOD : GET
+[10-May-2016 22:45:58 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:45:58 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 22:45:58 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:45:58 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 22:45:58 UTC] resource created
+[10-May-2016 22:46:00 UTC] REQUEST METHOD : GET
+[10-May-2016 22:46:00 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:46:00 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 22:46:00 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:46:00 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 22:46:00 UTC] resource created
+[10-May-2016 22:57:08 UTC] REQUEST METHOD : GET
+[10-May-2016 22:57:08 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:57:08 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 22:57:08 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:57:08 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 22:57:08 UTC] resource created
+[10-May-2016 22:57:10 UTC] REQUEST METHOD : GET
+[10-May-2016 22:57:10 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:57:10 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 22:57:11 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:57:11 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 22:57:11 UTC] resource created
+[10-May-2016 22:57:13 UTC] REQUEST METHOD : GET
+[10-May-2016 22:57:13 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:57:13 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 22:57:13 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:57:13 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 22:57:13 UTC] resource created
+[10-May-2016 22:57:16 UTC] REQUEST METHOD : GET
+[10-May-2016 22:57:16 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 22:57:16 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 22:57:16 UTC] REQUEST METHOD : PUT
+[10-May-2016 22:57:16 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 22:57:16 UTC] resource created
+[10-May-2016 23:00:01 UTC] REQUEST METHOD : GET
+[10-May-2016 23:00:01 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:00:01 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 23:00:01 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:00:01 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 23:00:01 UTC] resource created
+[10-May-2016 23:00:04 UTC] REQUEST METHOD : GET
+[10-May-2016 23:00:04 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:00:04 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:00:04 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:00:04 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 23:00:04 UTC] resource created
+[10-May-2016 23:00:06 UTC] REQUEST METHOD : GET
+[10-May-2016 23:00:06 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:00:06 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 23:00:06 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:00:06 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 23:00:06 UTC] resource created
+[10-May-2016 23:00:09 UTC] REQUEST METHOD : GET
+[10-May-2016 23:00:09 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:00:09 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 23:00:09 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:00:09 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 23:00:09 UTC] resource created
+[10-May-2016 23:02:29 UTC] REQUEST METHOD : GET
+[10-May-2016 23:02:29 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:02:29 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 23:02:29 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:02:29 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 23:02:29 UTC] resource created
+[10-May-2016 23:02:32 UTC] REQUEST METHOD : GET
+[10-May-2016 23:02:32 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:02:32 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:02:32 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:02:32 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 23:02:32 UTC] resource created
+[10-May-2016 23:02:34 UTC] REQUEST METHOD : GET
+[10-May-2016 23:02:34 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:02:34 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 23:02:34 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:02:34 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 23:02:34 UTC] resource created
+[10-May-2016 23:02:37 UTC] REQUEST METHOD : GET
+[10-May-2016 23:02:37 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:02:37 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 23:02:37 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:02:37 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 23:02:37 UTC] resource created
+[10-May-2016 23:03:02 UTC] REQUEST METHOD : GET
+[10-May-2016 23:03:02 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:03:02 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 23:03:02 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:03:02 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 23:03:02 UTC] resource created
+[10-May-2016 23:03:05 UTC] REQUEST METHOD : GET
+[10-May-2016 23:03:05 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:03:05 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:03:05 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:03:05 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 23:03:05 UTC] resource created
+[10-May-2016 23:03:07 UTC] REQUEST METHOD : GET
+[10-May-2016 23:03:07 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:03:07 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 23:03:07 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:03:07 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 23:03:07 UTC] resource created
+[10-May-2016 23:03:10 UTC] REQUEST METHOD : GET
+[10-May-2016 23:03:10 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:03:10 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 23:03:10 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:03:10 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 23:03:10 UTC] resource created
+[10-May-2016 23:04:55 UTC] REQUEST METHOD : GET
+[10-May-2016 23:04:55 UTC] PARAMS : Array
+(
+    [idCard] => 5732690fe4cb437d3fe1290a
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:04:55 UTC] getting person 5732690fe4cb437d3fe1290a
+[10-May-2016 23:04:55 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:04:55 UTC] PARAMS : Array
+(
+    [idCard] => 5732690fe4cb437d3fe1290a
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[10-May-2016 23:04:55 UTC] resource created
+[10-May-2016 23:04:57 UTC] REQUEST METHOD : GET
+[10-May-2016 23:04:57 UTC] PARAMS : Array
+(
+    [idCard] => 5732690fe4cb437d3fe1290a
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:04:57 UTC] getting person 5732690fe4cb437d3fe1290a
+[10-May-2016 23:04:57 UTC] Array
+(
+    [idCard] => 5732690fe4cb437d3fe1290a
+    [idList] => 572164f266e6374bf9105f8f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => russell@besworks.net
+    [days] => 0
+)
+
+[10-May-2016 23:14:16 UTC] REQUEST METHOD : GET
+[10-May-2016 23:14:16 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:14:16 UTC] getting person 572ffd455fe4a1a448fcc4e1
+[10-May-2016 23:14:16 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:14:16 UTC] PARAMS : Array
+(
+    [idCard] => 572ffd455fe4a1a448fcc4e1
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => jaxon@inventomedia.com
+)
+
+[10-May-2016 23:14:16 UTC] resource created
+[10-May-2016 23:14:19 UTC] REQUEST METHOD : GET
+[10-May-2016 23:14:19 UTC] PARAMS : Array
+(
+    [idCard] => 5732690fe4cb437d3fe1290a
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:14:19 UTC] getting person 5732690fe4cb437d3fe1290a
+[10-May-2016 23:14:19 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:14:19 UTC] PARAMS : Array
+(
+    [idCard] => 5732690fe4cb437d3fe1290a
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 572164f266e6374bf9105f8f
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[10-May-2016 23:14:19 UTC] resource created
+[10-May-2016 23:14:22 UTC] REQUEST METHOD : GET
+[10-May-2016 23:14:22 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:14:22 UTC] getting person 573000d78e66681614cc1361
+[10-May-2016 23:14:22 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:14:22 UTC] PARAMS : Array
+(
+    [idCard] => 573000d78e66681614cc1361
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => mgysgthath@gmail.com
+)
+
+[10-May-2016 23:14:22 UTC] resource created
+[10-May-2016 23:14:24 UTC] REQUEST METHOD : GET
+[10-May-2016 23:14:24 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:14:24 UTC] getting person 57304111c699a95b1cfdc655
+[10-May-2016 23:14:24 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:14:24 UTC] PARAMS : Array
+(
+    [idCard] => 57304111c699a95b1cfdc655
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 57242177decc09f659352f9a
+    [days] => 
+    [email] => torr@wimactel.com
+)
+
+[10-May-2016 23:14:24 UTC] resource created
+[10-May-2016 23:14:28 UTC] REQUEST METHOD : GET
+[10-May-2016 23:14:28 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:14:28 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:14:28 UTC] REQUEST METHOD : PUT
+[10-May-2016 23:14:28 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [idList] => 5732530535d0d987268de02f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 23:14:28 UTC] resource created
+[10-May-2016 23:22:25 UTC] REQUEST METHOD : GET
+[10-May-2016 23:22:25 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:22:25 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:22:25 UTC] Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idList] => 5732530535d0d987268de02f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => scuzzell@hotmail.com
+    [days] => 1454022870
+)
+
+[10-May-2016 23:22:26 UTC] REQUEST METHOD : GET
+[10-May-2016 23:22:26 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:22:26 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:22:26 UTC] Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idList] => 5732530535d0d987268de02f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => scuzzell@hotmail.com
+    [days] => 1454022870
+)
+
+[10-May-2016 23:22:52 UTC] REQUEST METHOD : GET
+[10-May-2016 23:22:52 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:22:52 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:22:52 UTC] Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idList] => 5732530535d0d987268de02f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => scuzzell@hotmail.com
+    [days] => 1454022870
+)
+
+[10-May-2016 23:22:52 UTC] REQUEST METHOD : POST
+[10-May-2016 23:22:52 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 5732530535d0d987268de02f
+    [days] => 
+    [email] => scuzzell@ghotmail.com
+)
+
+[10-May-2016 23:22:52 UTC] Array
+(
+    [status] => success
+)
+
+[10-May-2016 23:22:57 UTC] REQUEST METHOD : GET
+[10-May-2016 23:22:57 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:22:57 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:22:57 UTC] Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idList] => 5732530535d0d987268de02f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => scuzzell@ghotmail.com
+    [days] => 0
+)
+
+[10-May-2016 23:23:13 UTC] REQUEST METHOD : GET
+[10-May-2016 23:23:13 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[10-May-2016 23:23:13 UTC] getting person 573196e33b35ecb0153d88c3
+[10-May-2016 23:23:13 UTC] Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idList] => 5732530535d0d987268de02f
+    [idBoard] => 5721617c57fc3219c5015ef7
+    [email] => scuzzell@ghotmail.com
+    [days] => 0
+)
+
+[10-May-2016 23:23:13 UTC] REQUEST METHOD : POST
+[10-May-2016 23:23:13 UTC] PARAMS : Array
+(
+    [idCard] => 573196e33b35ecb0153d88c3
+    [idBoard] => 
+    [idList] => 5732530535d0d987268de02f
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[10-May-2016 23:23:13 UTC] Array
+(
+    [status] => success
+)
+
+[14-May-2016 00:39:56 UTC] REQUEST METHOD : GET
+[14-May-2016 00:39:56 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 00:39:56 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 00:39:56 UTC] Array
+(
+)
+
+[14-May-2016 02:17:58 UTC] REQUEST METHOD : GET
+[14-May-2016 02:17:58 UTC] PARAMS : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 02:17:58 UTC] getting person 57368850625b1587085a160d
+[14-May-2016 02:17:58 UTC] REQUEST METHOD : PUT
+[14-May-2016 02:17:58 UTC] PARAMS : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => some@body
+)
+
+[14-May-2016 02:17:58 UTC] resource created
+[14-May-2016 02:51:02 UTC] REQUEST METHOD : GET
+[14-May-2016 02:51:02 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 02:51:02 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 02:51:02 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 0
+        )
+
+)
+
+[14-May-2016 03:19:38 UTC] REQUEST METHOD : GET
+[14-May-2016 03:19:38 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:19:38 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:38 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:19:41 UTC] REQUEST METHOD : GET
+[14-May-2016 03:19:41 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:19:41 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:41 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:19:54 UTC] REQUEST METHOD : GET
+[14-May-2016 03:19:54 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:19:54 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:19:54 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:22:18 UTC] REQUEST METHOD : GET
+[14-May-2016 03:22:18 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:22:18 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:18 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:22:28 UTC] REQUEST METHOD : GET
+[14-May-2016 03:22:28 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:22:28 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:28 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:22:34 UTC] REQUEST METHOD : GET
+[14-May-2016 03:22:34 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:22:34 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:34 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:22:54 UTC] REQUEST METHOD : GET
+[14-May-2016 03:22:54 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:22:54 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:22:54 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:27:30 UTC] REQUEST METHOD : GET
+[14-May-2016 03:27:30 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:27:30 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:27:30 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:28:25 UTC] REQUEST METHOD : GET
+[14-May-2016 03:28:25 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:28:25 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:25 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:28:41 UTC] REQUEST METHOD : GET
+[14-May-2016 03:28:41 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:28:41 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:28:41 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 57369880753dc57951a581f7
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1461467715
+        )
+
+)
+
+[14-May-2016 03:29:59 UTC] REQUEST METHOD : GET
+[14-May-2016 03:29:59 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:29:59 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 03:29:59 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 57369880753dc57951a581f7
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 1462332564
+        )
+
+)
+
+[14-May-2016 03:33:23 UTC] REQUEST METHOD : GET
+[14-May-2016 03:33:23 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:33:23 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:33:23 UTC] REQUEST METHOD : PUT
+[14-May-2016 03:33:23 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[14-May-2016 03:33:23 UTC] resource created
+[14-May-2016 03:33:25 UTC] REQUEST METHOD : GET
+[14-May-2016 03:33:25 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:33:25 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:33:25 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:35:00 UTC] REQUEST METHOD : GET
+[14-May-2016 03:35:00 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:35:00 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:35:01 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:35:02 UTC] REQUEST METHOD : GET
+[14-May-2016 03:35:02 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:35:02 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:35:02 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:40:21 UTC] REQUEST METHOD : GET
+[14-May-2016 03:40:21 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:40:21 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:40:21 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:40:22 UTC] REQUEST METHOD : GET
+[14-May-2016 03:40:22 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:40:22 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:40:22 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:48:09 UTC] REQUEST METHOD : GET
+[14-May-2016 03:48:09 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:48:09 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:48:09 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:48:10 UTC] REQUEST METHOD : GET
+[14-May-2016 03:48:10 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:48:10 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:48:10 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:49:38 UTC] REQUEST METHOD : GET
+[14-May-2016 03:49:38 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:49:38 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:49:38 UTC] REQUEST METHOD : PUT
+[14-May-2016 03:49:38 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[14-May-2016 03:49:38 UTC] resource created
+[14-May-2016 03:49:40 UTC] REQUEST METHOD : GET
+[14-May-2016 03:49:40 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:49:40 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:49:40 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:51:52 UTC] REQUEST METHOD : GET
+[14-May-2016 03:51:52 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:51:52 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:51:52 UTC] REQUEST METHOD : PUT
+[14-May-2016 03:51:52 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => scuzzell@hotmai.com
+)
+
+[14-May-2016 03:51:52 UTC] resource created
+[14-May-2016 03:51:54 UTC] REQUEST METHOD : GET
+[14-May-2016 03:51:54 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:51:54 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:51:54 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmai.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:52:30 UTC] REQUEST METHOD : GET
+[14-May-2016 03:52:30 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:52:30 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:52:30 UTC] REQUEST METHOD : PUT
+[14-May-2016 03:52:30 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[14-May-2016 03:52:30 UTC] resource created
+[14-May-2016 03:52:32 UTC] REQUEST METHOD : GET
+[14-May-2016 03:52:32 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:52:32 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 03:52:32 UTC] Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => scuzzell@hotmail.com
+    [timestamp] => 0
+)
+
+[14-May-2016 03:53:11 UTC] REQUEST METHOD : GET
+[14-May-2016 03:53:11 UTC] PARAMS : Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:53:11 UTC] getting person 5736a1182f7f5c11e49d3038
+[14-May-2016 03:53:11 UTC] REQUEST METHOD : PUT
+[14-May-2016 03:53:11 UTC] PARAMS : Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[14-May-2016 03:53:11 UTC] resource created
+[14-May-2016 03:53:14 UTC] REQUEST METHOD : GET
+[14-May-2016 03:53:14 UTC] PARAMS : Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 03:53:14 UTC] getting person 5736a1182f7f5c11e49d3038
+[14-May-2016 03:53:14 UTC] Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [idList] => 573653ed3519822b09d9fb76
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [email] => russell@besworks.net
+    [timestamp] => 0
+)
+
+[14-May-2016 04:22:21 UTC] REQUEST METHOD : GET
+[14-May-2016 04:22:21 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 04:22:21 UTC] getting person 57369c786c16dda8e34b67c0
+[14-May-2016 04:22:21 UTC] REQUEST METHOD : PUT
+[14-May-2016 04:22:21 UTC] PARAMS : Array
+(
+    [idCard] => 57369c786c16dda8e34b67c0
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => scuzzell@hotmail.com
+)
+
+[14-May-2016 04:22:21 UTC] resource created
+[14-May-2016 04:22:23 UTC] REQUEST METHOD : GET
+[14-May-2016 04:22:23 UTC] PARAMS : Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 04:22:23 UTC] getting person 5736a1182f7f5c11e49d3038
+[14-May-2016 04:22:23 UTC] REQUEST METHOD : PUT
+[14-May-2016 04:22:23 UTC] PARAMS : Array
+(
+    [idCard] => 5736a1182f7f5c11e49d3038
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 573653ed3519822b09d9fb76
+    [days] => 
+    [email] => russell@besworks.net
+)
+
+[14-May-2016 04:22:23 UTC] resource created
+[14-May-2016 04:22:25 UTC] REQUEST METHOD : GET
+[14-May-2016 04:22:25 UTC] PARAMS : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 04:22:25 UTC] getting person 57368850625b1587085a160d
+[14-May-2016 04:22:25 UTC] REQUEST METHOD : PUT
+[14-May-2016 04:22:25 UTC] PARAMS : Array
+(
+    [idCard] => 57368850625b1587085a160d
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 57369880753dc57951a581f7
+    [days] => 
+    [email] => some@body
+)
+
+[14-May-2016 04:22:25 UTC] resource created
+[14-May-2016 04:56:04 UTC] REQUEST METHOD : GET
+[14-May-2016 04:56:04 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573648c4e9b43d87eee3d60c
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 04:56:04 UTC] getting all people from instance 573648c4e9b43d87eee3d60c
+[14-May-2016 04:56:04 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57368850625b1587085a160d
+            [idList] => 57369880753dc57951a581f7
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => some@body
+            [timestamp] => 0
+        )
+
+    [1] => Array
+        (
+            [idCard] => 57369c786c16dda8e34b67c0
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => scuzzell@hotmail.com
+            [timestamp] => 1463200473
+        )
+
+    [2] => Array
+        (
+            [idCard] => 5736a1182f7f5c11e49d3038
+            [idList] => 573653ed3519822b09d9fb76
+            [idBoard] => 573648c4e9b43d87eee3d60c
+            [email] => russell@besworks.net
+            [timestamp] => 1463200473
+        )
+
+)
+
+[14-May-2016 05:56:36 UTC] REQUEST METHOD : GET
+[14-May-2016 05:56:36 UTC] PARAMS : Array
+(
+    [idCard] => 5736be0aaff40275121ed8bc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:56:36 UTC] getting person 5736be0aaff40275121ed8bc
+[14-May-2016 05:56:36 UTC] REQUEST METHOD : PUT
+[14-May-2016 05:56:36 UTC] PARAMS : Array
+(
+    [idCard] => 5736be0aaff40275121ed8bc
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [days] => 
+    [email] => caye@keyo.co
+)
+
+[14-May-2016 05:56:36 UTC] resource created
+[14-May-2016 05:56:39 UTC] REQUEST METHOD : GET
+[14-May-2016 05:56:39 UTC] PARAMS : Array
+(
+    [idCard] => 5736be0aaff40275121ed8bc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:56:39 UTC] getting person 5736be0aaff40275121ed8bc
+[14-May-2016 05:56:39 UTC] Array
+(
+    [idCard] => 5736be0aaff40275121ed8bc
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => caye@keyo.co
+    [timestamp] => 0
+)
+
+[14-May-2016 05:57:13 UTC] REQUEST METHOD : GET
+[14-May-2016 05:57:13 UTC] PARAMS : Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:57:13 UTC] getting person 5736be21ef7aaf55c31778cc
+[14-May-2016 05:57:13 UTC] REQUEST METHOD : PUT
+[14-May-2016 05:57:13 UTC] PARAMS : Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [days] => 
+    [email] => palmer@beloit.edu
+)
+
+[14-May-2016 05:57:13 UTC] resource created
+[14-May-2016 05:57:15 UTC] REQUEST METHOD : GET
+[14-May-2016 05:57:15 UTC] PARAMS : Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:57:15 UTC] getting person 5736be21ef7aaf55c31778cc
+[14-May-2016 05:57:15 UTC] Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => palmer@beloit.edu
+    [timestamp] => 0
+)
+
+[14-May-2016 05:57:20 UTC] REQUEST METHOD : GET
+[14-May-2016 05:57:20 UTC] PARAMS : Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:57:20 UTC] getting person 5736be21ef7aaf55c31778cc
+[14-May-2016 05:57:20 UTC] Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => palmer@beloit.edu
+    [timestamp] => 1461995835
+)
+
+[14-May-2016 05:58:41 UTC] REQUEST METHOD : GET
+[14-May-2016 05:58:41 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:58:41 UTC] getting all people from instance 571d90cf839ac2a396f25051
+[14-May-2016 05:58:41 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 5736be0aaff40275121ed8bc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => caye@keyo.co
+            [timestamp] => 1463205399
+        )
+
+    [1] => Array
+        (
+            [idCard] => 5736be21ef7aaf55c31778cc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => palmer@beloit.edu
+            [timestamp] => 1461995835
+        )
+
+)
+
+[14-May-2016 05:59:04 UTC] REQUEST METHOD : GET
+[14-May-2016 05:59:04 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:59:04 UTC] getting all people from instance 571d90cf839ac2a396f25051
+[14-May-2016 05:59:04 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 5736be0aaff40275121ed8bc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => caye@keyo.co
+            [timestamp] => 1463205399
+        )
+
+    [1] => Array
+        (
+            [idCard] => 5736be21ef7aaf55c31778cc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => palmer@beloit.edu
+            [timestamp] => 1461995835
+        )
+
+)
+
+[14-May-2016 05:59:31 UTC] REQUEST METHOD : GET
+[14-May-2016 05:59:31 UTC] PARAMS : Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:59:31 UTC] getting person 5736be21ef7aaf55c31778cc
+[14-May-2016 05:59:31 UTC] Array
+(
+    [idCard] => 5736be21ef7aaf55c31778cc
+    [idList] => 571d90dbd7aaeaf3a1754cd3
+    [idBoard] => 571d90cf839ac2a396f25051
+    [email] => palmer@beloit.edu
+    [timestamp] => 1461995835
+)
+
+[14-May-2016 05:59:47 UTC] REQUEST METHOD : GET
+[14-May-2016 05:59:47 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 05:59:47 UTC] getting all people from instance 571d90cf839ac2a396f25051
+[14-May-2016 05:59:47 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 5736be0aaff40275121ed8bc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => caye@keyo.co
+            [timestamp] => 1463205399
+        )
+
+    [1] => Array
+        (
+            [idCard] => 5736be21ef7aaf55c31778cc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => palmer@beloit.edu
+            [timestamp] => 1461995835
+        )
+
+)
+
+[14-May-2016 06:00:08 UTC] REQUEST METHOD : GET
+[14-May-2016 06:00:08 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 571d90cf839ac2a396f25051
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-May-2016 06:00:08 UTC] getting all people from instance 571d90cf839ac2a396f25051
+[14-May-2016 06:00:08 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 5736be0aaff40275121ed8bc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => caye@keyo.co
+            [timestamp] => 1463205399
+        )
+
+    [1] => Array
+        (
+            [idCard] => 5736be21ef7aaf55c31778cc
+            [idList] => 571d90dbd7aaeaf3a1754cd3
+            [idBoard] => 571d90cf839ac2a396f25051
+            [email] => palmer@beloit.edu
+            [timestamp] => 1461995835
+        )
+
+)
+
+[25-May-2016 03:14:20 UTC] api access from : 
+[25-May-2016 03:14:20 UTC] REQUEST METHOD : GET
+[25-May-2016 03:14:20 UTC] PARAMS : Array
+(
+    [idCard] => 57451876273bf2198d4d42b4
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:14:20 UTC] getting person 57451876273bf2198d4d42b4
+[25-May-2016 03:14:20 UTC] api access from : 
+[25-May-2016 03:14:20 UTC] REQUEST METHOD : PUT
+[25-May-2016 03:14:20 UTC] PARAMS : Array
+(
+    [idCard] => 57451876273bf2198d4d42b4
+    [idBoard] => 573e89878be38b7ecc341244
+    [idList] => 573e898caa338d2429baedbf
+    [days] => 
+    [email] => Caye@keyo.co
+)
+
+[25-May-2016 03:14:20 UTC] resource created
+[25-May-2016 03:14:23 UTC] api access from : 
+[25-May-2016 03:14:23 UTC] REQUEST METHOD : GET
+[25-May-2016 03:14:23 UTC] PARAMS : Array
+(
+    [idCard] => 57451876273bf2198d4d42b4
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:14:23 UTC] getting person 57451876273bf2198d4d42b4
+[25-May-2016 03:14:23 UTC] Array
+(
+    [idCard] => 57451876273bf2198d4d42b4
+    [idList] => 573e898caa338d2429baedbf
+    [idBoard] => 573e89878be38b7ecc341244
+    [email] => Caye@keyo.co
+    [timestamp] => 0
+)
+
+[25-May-2016 03:15:07 UTC] api access from : 
+[25-May-2016 03:15:07 UTC] REQUEST METHOD : GET
+[25-May-2016 03:15:07 UTC] PARAMS : Array
+(
+    [idCard] => 57451894f59ccc0d6ecc2c35
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:15:07 UTC] getting person 57451894f59ccc0d6ecc2c35
+[25-May-2016 03:15:07 UTC] api access from : 
+[25-May-2016 03:15:07 UTC] REQUEST METHOD : PUT
+[25-May-2016 03:15:07 UTC] PARAMS : Array
+(
+    [idCard] => 57451894f59ccc0d6ecc2c35
+    [idBoard] => 573e89878be38b7ecc341244
+    [idList] => 573e898caa338d2429baedbf
+    [days] => 
+    [email] => davidmeehan@paulhastings.com
+)
+
+[25-May-2016 03:15:07 UTC] resource created
+[25-May-2016 03:15:10 UTC] api access from : 
+[25-May-2016 03:15:10 UTC] REQUEST METHOD : GET
+[25-May-2016 03:15:10 UTC] PARAMS : Array
+(
+    [idCard] => 57451894f59ccc0d6ecc2c35
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:15:10 UTC] getting person 57451894f59ccc0d6ecc2c35
+[25-May-2016 03:15:10 UTC] Array
+(
+    [idCard] => 57451894f59ccc0d6ecc2c35
+    [idList] => 573e898caa338d2429baedbf
+    [idBoard] => 573e89878be38b7ecc341244
+    [email] => davidmeehan@paulhastings.com
+    [timestamp] => 0
+)
+
+[25-May-2016 03:15:16 UTC] api access from : 
+[25-May-2016 03:15:16 UTC] REQUEST METHOD : GET
+[25-May-2016 03:15:16 UTC] PARAMS : Array
+(
+    [idCard] => 57451894f59ccc0d6ecc2c35
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:15:16 UTC] getting person 57451894f59ccc0d6ecc2c35
+[25-May-2016 03:15:16 UTC] Array
+(
+    [idCard] => 57451894f59ccc0d6ecc2c35
+    [idList] => 573e898caa338d2429baedbf
+    [idBoard] => 573e89878be38b7ecc341244
+    [email] => davidmeehan@paulhastings.com
+    [timestamp] => 1459480510
+)
+
+[25-May-2016 03:17:06 UTC] api access from : 
+[25-May-2016 03:17:06 UTC] REQUEST METHOD : GET
+[25-May-2016 03:17:06 UTC] PARAMS : Array
+(
+    [idCard] => 574518cb5c77134f3f0bd9e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:17:06 UTC] getting person 574518cb5c77134f3f0bd9e1
+[25-May-2016 03:17:06 UTC] api access from : 
+[25-May-2016 03:17:06 UTC] REQUEST METHOD : PUT
+[25-May-2016 03:17:06 UTC] PARAMS : Array
+(
+    [idCard] => 574518cb5c77134f3f0bd9e1
+    [idBoard] => 573e89878be38b7ecc341244
+    [idList] => 573e898e6e88262634f61a69
+    [days] => 
+    [email] => Morellob@beloit.edu
+)
+
+[25-May-2016 03:17:06 UTC] resource created
+[25-May-2016 03:17:09 UTC] api access from : 
+[25-May-2016 03:17:09 UTC] REQUEST METHOD : GET
+[25-May-2016 03:17:09 UTC] PARAMS : Array
+(
+    [idCard] => 574518cb5c77134f3f0bd9e1
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:17:09 UTC] getting person 574518cb5c77134f3f0bd9e1
+[25-May-2016 03:17:09 UTC] Array
+(
+    [idCard] => 574518cb5c77134f3f0bd9e1
+    [idList] => 573e898e6e88262634f61a69
+    [idBoard] => 573e89878be38b7ecc341244
+    [email] => Morellob@beloit.edu
+    [timestamp] => 0
+)
+
+[25-May-2016 03:18:45 UTC] api access from : 
+[25-May-2016 03:18:45 UTC] REQUEST METHOD : GET
+[25-May-2016 03:18:45 UTC] PARAMS : Array
+(
+    [idCard] => 57451941522242b59beb3f73
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:18:45 UTC] getting person 57451941522242b59beb3f73
+[25-May-2016 03:18:45 UTC] api access from : 
+[25-May-2016 03:18:45 UTC] REQUEST METHOD : PUT
+[25-May-2016 03:18:45 UTC] PARAMS : Array
+(
+    [idCard] => 57451941522242b59beb3f73
+    [idBoard] => 573e89878be38b7ecc341244
+    [idList] => 573e898e6e88262634f61a69
+    [days] => 
+    [email] => sbartol@legacy.com
+)
+
+[25-May-2016 03:18:45 UTC] resource created
+[25-May-2016 03:18:47 UTC] api access from : 
+[25-May-2016 03:18:47 UTC] REQUEST METHOD : GET
+[25-May-2016 03:18:47 UTC] PARAMS : Array
+(
+    [idCard] => 57451941522242b59beb3f73
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:18:47 UTC] getting person 57451941522242b59beb3f73
+[25-May-2016 03:18:47 UTC] Array
+(
+    [idCard] => 57451941522242b59beb3f73
+    [idList] => 573e898e6e88262634f61a69
+    [idBoard] => 573e89878be38b7ecc341244
+    [email] => sbartol@legacy.com
+    [timestamp] => 0
+)
+
+[25-May-2016 03:21:07 UTC] api access from : 
+[25-May-2016 03:21:07 UTC] REQUEST METHOD : GET
+[25-May-2016 03:21:07 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573e89878be38b7ecc341244
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:21:07 UTC] getting all people from instance 573e89878be38b7ecc341244
+[25-May-2016 03:21:07 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57451876273bf2198d4d42b4
+            [idList] => 573e898caa338d2429baedbf
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => Caye@keyo.co
+            [timestamp] => 1464146063
+        )
+
+    [1] => Array
+        (
+            [idCard] => 57451894f59ccc0d6ecc2c35
+            [idList] => 573e898caa338d2429baedbf
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => davidmeehan@paulhastings.com
+            [timestamp] => 1459480510
+        )
+
+    [2] => Array
+        (
+            [idCard] => 574518cb5c77134f3f0bd9e1
+            [idList] => 573e898e6e88262634f61a69
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => Morellob@beloit.edu
+            [timestamp] => 1458703029
+        )
+
+    [3] => Array
+        (
+            [idCard] => 57451941522242b59beb3f73
+            [idList] => 573e898e6e88262634f61a69
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => sbartol@legacy.com
+            [timestamp] => 1464146327
+        )
+
+)
+
+[25-May-2016 03:21:39 UTC] api access from : 
+[25-May-2016 03:21:39 UTC] REQUEST METHOD : GET
+[25-May-2016 03:21:39 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 573e89878be38b7ecc341244
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[25-May-2016 03:21:39 UTC] getting all people from instance 573e89878be38b7ecc341244
+[25-May-2016 03:21:39 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 57451876273bf2198d4d42b4
+            [idList] => 573e898caa338d2429baedbf
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => Caye@keyo.co
+            [timestamp] => 1464146063
+        )
+
+    [1] => Array
+        (
+            [idCard] => 57451894f59ccc0d6ecc2c35
+            [idList] => 573e898caa338d2429baedbf
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => davidmeehan@paulhastings.com
+            [timestamp] => 1459480510
+        )
+
+    [2] => Array
+        (
+            [idCard] => 574518cb5c77134f3f0bd9e1
+            [idList] => 573e898e6e88262634f61a69
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => Morellob@beloit.edu
+            [timestamp] => 1458703029
+        )
+
+    [3] => Array
+        (
+            [idCard] => 57451941522242b59beb3f73
+            [idList] => 573e898e6e88262634f61a69
+            [idBoard] => 573e89878be38b7ecc341244
+            [email] => sbartol@legacy.com
+            [timestamp] => 1464146327
+        )
+
+)
+
+[26-May-2016 01:17:34 UTC] api access from : 
+[26-May-2016 01:17:34 UTC] unauthorized
+[26-May-2016 01:17:44 UTC] api access from : 
+[26-May-2016 01:17:44 UTC] REQUEST METHOD : GET
+[26-May-2016 01:17:44 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[26-May-2016 01:17:44 UTC] bad request
+[26-May-2016 01:17:44 UTC] Array
+(
+    [status] => failed
+    [code] => 400
+    [reason] => bad request
+    [detail] => missing parameter
+)
+
+[02-Jun-2016 17:45:13 UTC] api access from : 
+[02-Jun-2016 17:45:13 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:45:13 UTC] PARAMS : Array
+(
+    [idCard] => 5750709c527c80ac065822f5
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:45:13 UTC] getting person 5750709c527c80ac065822f5
+[02-Jun-2016 17:45:13 UTC] api access from : 
+[02-Jun-2016 17:45:13 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:45:13 UTC] PARAMS : Array
+(
+    [idCard] => 5750709c527c80ac065822f5
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506dc96a3279bc84d8f047
+    [days] => 
+    [email] => sbartol@legacy.com
+)
+
+[02-Jun-2016 17:45:13 UTC] resource created
+[02-Jun-2016 17:45:16 UTC] api access from : 
+[02-Jun-2016 17:45:16 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:45:16 UTC] PARAMS : Array
+(
+    [idCard] => 5750709c527c80ac065822f5
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:45:16 UTC] getting person 5750709c527c80ac065822f5
+[02-Jun-2016 17:45:16 UTC] Array
+(
+    [idCard] => 5750709c527c80ac065822f5
+    [idList] => 57506dc96a3279bc84d8f047
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => sbartol@legacy.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 17:48:47 UTC] api access from : 
+[02-Jun-2016 17:48:47 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:48:47 UTC] PARAMS : Array
+(
+    [idCard] => 5750714d672efaaa144fd5dc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:48:47 UTC] getting person 5750714d672efaaa144fd5dc
+[02-Jun-2016 17:48:47 UTC] api access from : 
+[02-Jun-2016 17:48:47 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:48:47 UTC] PARAMS : Array
+(
+    [idCard] => 5750714d672efaaa144fd5dc
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506dd549e236453284eaa5
+    [days] => 
+    [email] => morellob@beloit.edu
+)
+
+[02-Jun-2016 17:48:47 UTC] resource created
+[02-Jun-2016 17:48:51 UTC] api access from : 
+[02-Jun-2016 17:48:51 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:48:51 UTC] PARAMS : Array
+(
+    [idCard] => 5750714d672efaaa144fd5dc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:48:51 UTC] getting person 5750714d672efaaa144fd5dc
+[02-Jun-2016 17:48:51 UTC] Array
+(
+    [idCard] => 5750714d672efaaa144fd5dc
+    [idList] => 57506dd549e236453284eaa5
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => morellob@beloit.edu
+    [timestamp] => 1464371330
+)
+
+[02-Jun-2016 17:49:26 UTC] api access from : 
+[02-Jun-2016 17:49:26 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:49:26 UTC] PARAMS : Array
+(
+    [idCard] => 57507193ac8be3e332f77935
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:49:26 UTC] getting person 57507193ac8be3e332f77935
+[02-Jun-2016 17:49:26 UTC] api access from : 
+[02-Jun-2016 17:49:26 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:49:26 UTC] PARAMS : Array
+(
+    [idCard] => 57507193ac8be3e332f77935
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506dcead9c03f48a405ba8
+    [days] => 
+    [email] => anhalzer@gmail.com
+)
+
+[02-Jun-2016 17:49:26 UTC] resource created
+[02-Jun-2016 17:49:28 UTC] api access from : 
+[02-Jun-2016 17:49:28 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:49:28 UTC] PARAMS : Array
+(
+    [idCard] => 57507193ac8be3e332f77935
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:49:28 UTC] getting person 57507193ac8be3e332f77935
+[02-Jun-2016 17:49:28 UTC] Array
+(
+    [idCard] => 57507193ac8be3e332f77935
+    [idList] => 57506dcead9c03f48a405ba8
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => anhalzer@gmail.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 17:49:53 UTC] api access from : 
+[02-Jun-2016 17:49:53 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:49:53 UTC] PARAMS : Array
+(
+    [idCard] => 575071b926eaafe683cf1f68
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:49:53 UTC] getting person 575071b926eaafe683cf1f68
+[02-Jun-2016 17:49:53 UTC] api access from : 
+[02-Jun-2016 17:49:53 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:49:53 UTC] PARAMS : Array
+(
+    [idCard] => 575071b926eaafe683cf1f68
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506dcead9c03f48a405ba8
+    [days] => 
+    [email] => manhalzer@yahoo.com
+)
+
+[02-Jun-2016 17:49:53 UTC] resource created
+[02-Jun-2016 17:49:56 UTC] api access from : 
+[02-Jun-2016 17:49:56 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:49:56 UTC] PARAMS : Array
+(
+    [idCard] => 575071b926eaafe683cf1f68
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:49:56 UTC] getting person 575071b926eaafe683cf1f68
+[02-Jun-2016 17:49:56 UTC] Array
+(
+    [idCard] => 575071b926eaafe683cf1f68
+    [idList] => 57506dcead9c03f48a405ba8
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => manhalzer@yahoo.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 17:50:34 UTC] api access from : 
+[02-Jun-2016 17:50:34 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:50:34 UTC] PARAMS : Array
+(
+    [idCard] => 575071e3ec1926cf3265dcd0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:50:34 UTC] getting person 575071e3ec1926cf3265dcd0
+[02-Jun-2016 17:50:35 UTC] api access from : 
+[02-Jun-2016 17:50:35 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:50:35 UTC] PARAMS : Array
+(
+    [idCard] => 575071e3ec1926cf3265dcd0
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506dcead9c03f48a405ba8
+    [days] => 
+    [email] => stommysch@aol.com
+)
+
+[02-Jun-2016 17:50:35 UTC] resource created
+[02-Jun-2016 17:50:38 UTC] api access from : 
+[02-Jun-2016 17:50:38 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:50:38 UTC] PARAMS : Array
+(
+    [idCard] => 575071e3ec1926cf3265dcd0
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:50:38 UTC] getting person 575071e3ec1926cf3265dcd0
+[02-Jun-2016 17:50:38 UTC] Array
+(
+    [idCard] => 575071e3ec1926cf3265dcd0
+    [idList] => 57506dcead9c03f48a405ba8
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => stommysch@aol.com
+    [timestamp] => 1459619437
+)
+
+[02-Jun-2016 17:51:24 UTC] api access from : 
+[02-Jun-2016 17:51:24 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:51:24 UTC] PARAMS : Array
+(
+    [idCard] => 575072167b054658d57bb7ab
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:51:24 UTC] getting person 575072167b054658d57bb7ab
+[02-Jun-2016 17:51:24 UTC] api access from : 
+[02-Jun-2016 17:51:24 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:51:24 UTC] PARAMS : Array
+(
+    [idCard] => 575072167b054658d57bb7ab
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506d50ecd618f7314f4284
+    [days] => 
+    [email] => stommysch@aol.com
+)
+
+[02-Jun-2016 17:51:24 UTC] resource created
+[02-Jun-2016 17:51:27 UTC] api access from : 
+[02-Jun-2016 17:51:27 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:51:27 UTC] PARAMS : Array
+(
+    [idCard] => 575072167b054658d57bb7ab
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:51:27 UTC] getting person 575072167b054658d57bb7ab
+[02-Jun-2016 17:51:27 UTC] Array
+(
+    [idCard] => 575072167b054658d57bb7ab
+    [idList] => 57506d50ecd618f7314f4284
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => stommysch@aol.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 17:51:37 UTC] api access from : 
+[02-Jun-2016 17:51:37 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:51:37 UTC] PARAMS : Array
+(
+    [idCard] => 5750720c174b1bd3f84213f9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:51:37 UTC] getting person 5750720c174b1bd3f84213f9
+[02-Jun-2016 17:51:37 UTC] api access from : 
+[02-Jun-2016 17:51:37 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:51:37 UTC] PARAMS : Array
+(
+    [idCard] => 5750720c174b1bd3f84213f9
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506d50ecd618f7314f4284
+    [days] => 
+    [email] => anhalzer@gmail.com
+)
+
+[02-Jun-2016 17:51:37 UTC] resource created
+[02-Jun-2016 17:51:40 UTC] api access from : 
+[02-Jun-2016 17:51:40 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:51:40 UTC] PARAMS : Array
+(
+    [idCard] => 5750720c174b1bd3f84213f9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:51:40 UTC] getting person 5750720c174b1bd3f84213f9
+[02-Jun-2016 17:51:40 UTC] Array
+(
+    [idCard] => 5750720c174b1bd3f84213f9
+    [idList] => 57506d50ecd618f7314f4284
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => anhalzer@gmail.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 17:51:53 UTC] api access from : 
+[02-Jun-2016 17:51:53 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:51:53 UTC] PARAMS : Array
+(
+    [idCard] => 57507234e3ad2242256213f7
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:51:53 UTC] getting person 57507234e3ad2242256213f7
+[02-Jun-2016 17:51:53 UTC] api access from : 
+[02-Jun-2016 17:51:53 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 17:51:53 UTC] PARAMS : Array
+(
+    [idCard] => 57507234e3ad2242256213f7
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506d50ecd618f7314f4284
+    [days] => 
+    [email] => manhalzer@yahoo.com
+)
+
+[02-Jun-2016 17:51:53 UTC] resource created
+[02-Jun-2016 17:51:58 UTC] api access from : 
+[02-Jun-2016 17:51:58 UTC] REQUEST METHOD : GET
+[02-Jun-2016 17:51:58 UTC] PARAMS : Array
+(
+    [idCard] => 57507234e3ad2242256213f7
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 17:51:58 UTC] getting person 57507234e3ad2242256213f7
+[02-Jun-2016 17:51:58 UTC] Array
+(
+    [idCard] => 57507234e3ad2242256213f7
+    [idList] => 57506d50ecd618f7314f4284
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => manhalzer@yahoo.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 18:08:10 UTC] api access from : 
+[02-Jun-2016 18:08:10 UTC] REQUEST METHOD : GET
+[02-Jun-2016 18:08:10 UTC] PARAMS : Array
+(
+    [idCard] => 57507601b326813f90e61d5c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 18:08:10 UTC] getting person 57507601b326813f90e61d5c
+[02-Jun-2016 18:08:10 UTC] api access from : 
+[02-Jun-2016 18:08:10 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 18:08:10 UTC] PARAMS : Array
+(
+    [idCard] => 57507601b326813f90e61d5c
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506d50ecd618f7314f4284
+    [days] => 
+    [email] => davidmeehan@paulhastings.com
+)
+
+[02-Jun-2016 18:08:10 UTC] resource created
+[02-Jun-2016 18:08:14 UTC] api access from : 
+[02-Jun-2016 18:08:14 UTC] REQUEST METHOD : GET
+[02-Jun-2016 18:08:14 UTC] PARAMS : Array
+(
+    [idCard] => 57507601b326813f90e61d5c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 18:08:14 UTC] getting person 57507601b326813f90e61d5c
+[02-Jun-2016 18:08:14 UTC] Array
+(
+    [idCard] => 57507601b326813f90e61d5c
+    [idList] => 57506d50ecd618f7314f4284
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => davidmeehan@paulhastings.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 18:11:52 UTC] api access from : 
+[02-Jun-2016 18:11:52 UTC] REQUEST METHOD : GET
+[02-Jun-2016 18:11:52 UTC] PARAMS : Array
+(
+    [idCard] => 5750768dcedaafdf0d55c317
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 18:11:52 UTC] getting person 5750768dcedaafdf0d55c317
+[02-Jun-2016 18:11:52 UTC] api access from : 
+[02-Jun-2016 18:11:52 UTC] REQUEST METHOD : PUT
+[02-Jun-2016 18:11:52 UTC] PARAMS : Array
+(
+    [idCard] => 5750768dcedaafdf0d55c317
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 57506d50ecd618f7314f4284
+    [days] => 
+    [email] => davidmeehan@paulhastings.com
+)
+
+[02-Jun-2016 18:11:52 UTC] resource created
+[02-Jun-2016 18:11:56 UTC] api access from : 
+[02-Jun-2016 18:11:56 UTC] REQUEST METHOD : GET
+[02-Jun-2016 18:11:56 UTC] PARAMS : Array
+(
+    [idCard] => 5750768dcedaafdf0d55c317
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 18:11:56 UTC] getting person 5750768dcedaafdf0d55c317
+[02-Jun-2016 18:11:56 UTC] Array
+(
+    [idCard] => 5750768dcedaafdf0d55c317
+    [idList] => 57506d50ecd618f7314f4284
+    [idBoard] => 57506d2f5a6f453d15767034
+    [email] => davidmeehan@paulhastings.com
+    [timestamp] => 0
+)
+
+[02-Jun-2016 18:14:16 UTC] api access from : 
+[02-Jun-2016 18:14:16 UTC] REQUEST METHOD : GET
+[02-Jun-2016 18:14:16 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 18:14:16 UTC] getting all people from instance 57506d2f5a6f453d15767034
+[02-Jun-2016 18:14:16 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 5750709c527c80ac065822f5
+            [idList] => 57506dc96a3279bc84d8f047
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => sbartol@legacy.com
+            [timestamp] => 1464889517
+        )
+
+    [1] => Array
+        (
+            [idCard] => 5750714d672efaaa144fd5dc
+            [idList] => 57506dd549e236453284eaa5
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => morellob@beloit.edu
+            [timestamp] => 1464371330
+        )
+
+    [2] => Array
+        (
+            [idCard] => 57507193ac8be3e332f77935
+            [idList] => 57506dcead9c03f48a405ba8
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => anhalzer@gmail.com
+            [timestamp] => 1459964969
+        )
+
+    [3] => Array
+        (
+            [idCard] => 575071b926eaafe683cf1f68
+            [idList] => 57506dcead9c03f48a405ba8
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => manhalzer@yahoo.com
+            [timestamp] => 1459619396
+        )
+
+    [4] => Array
+        (
+            [idCard] => 575071e3ec1926cf3265dcd0
+            [idList] => 57506dcead9c03f48a405ba8
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => stommysch@aol.com
+            [timestamp] => 1459619437
+        )
+
+    [5] => Array
+        (
+            [idCard] => 5750720c174b1bd3f84213f9
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => anhalzer@gmail.com
+            [timestamp] => 1459965102
+        )
+
+    [6] => Array
+        (
+            [idCard] => 575072167b054658d57bb7ab
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => stommysch@aol.com
+            [timestamp] => 1459619487
+        )
+
+    [7] => Array
+        (
+            [idCard] => 57507234e3ad2242256213f7
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => manhalzer@yahoo.com
+            [timestamp] => 1459619519
+        )
+
+    [8] => Array
+        (
+            [idCard] => 5750768dcedaafdf0d55c317
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => davidmeehan@paulhastings.com
+            [timestamp] => 1459534316
+        )
+
+)
+
+[02-Jun-2016 18:14:37 UTC] api access from : 
+[02-Jun-2016 18:14:37 UTC] REQUEST METHOD : GET
+[02-Jun-2016 18:14:37 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 57506d2f5a6f453d15767034
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[02-Jun-2016 18:14:37 UTC] getting all people from instance 57506d2f5a6f453d15767034
+[02-Jun-2016 18:14:37 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 5750709c527c80ac065822f5
+            [idList] => 57506dc96a3279bc84d8f047
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => sbartol@legacy.com
+            [timestamp] => 1464889517
+        )
+
+    [1] => Array
+        (
+            [idCard] => 5750714d672efaaa144fd5dc
+            [idList] => 57506dd549e236453284eaa5
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => morellob@beloit.edu
+            [timestamp] => 1464371330
+        )
+
+    [2] => Array
+        (
+            [idCard] => 57507193ac8be3e332f77935
+            [idList] => 57506dcead9c03f48a405ba8
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => anhalzer@gmail.com
+            [timestamp] => 1459964969
+        )
+
+    [3] => Array
+        (
+            [idCard] => 575071b926eaafe683cf1f68
+            [idList] => 57506dcead9c03f48a405ba8
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => manhalzer@yahoo.com
+            [timestamp] => 1459619396
+        )
+
+    [4] => Array
+        (
+            [idCard] => 575071e3ec1926cf3265dcd0
+            [idList] => 57506dcead9c03f48a405ba8
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => stommysch@aol.com
+            [timestamp] => 1459619437
+        )
+
+    [5] => Array
+        (
+            [idCard] => 5750720c174b1bd3f84213f9
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => anhalzer@gmail.com
+            [timestamp] => 1459965102
+        )
+
+    [6] => Array
+        (
+            [idCard] => 575072167b054658d57bb7ab
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => stommysch@aol.com
+            [timestamp] => 1459619487
+        )
+
+    [7] => Array
+        (
+            [idCard] => 57507234e3ad2242256213f7
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => manhalzer@yahoo.com
+            [timestamp] => 1459619519
+        )
+
+    [8] => Array
+        (
+            [idCard] => 5750768dcedaafdf0d55c317
+            [idList] => 57506d50ecd618f7314f4284
+            [idBoard] => 57506d2f5a6f453d15767034
+            [email] => davidmeehan@paulhastings.com
+            [timestamp] => 1459534316
+        )
+
+)
+
+[14-Nov-2016 18:42:54 UTC] api access from : 
+[14-Nov-2016 18:42:54 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:42:54 UTC] PARAMS : Array
+(
+    [idCard] => 582a05a1c6dc1e043bfb2193
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 18:42:54 UTC] getting person 582a05a1c6dc1e043bfb2193
+[14-Nov-2016 18:42:54 UTC] api access from : 
+[14-Nov-2016 18:42:54 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 18:42:54 UTC] PARAMS : Array
+(
+    [idCard] => 582a05a1c6dc1e043bfb2193
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => jaxon.klein@gmail.com
+)
+
+[14-Nov-2016 18:42:54 UTC] resource created
+[14-Nov-2016 18:42:57 UTC] api access from : 
+[14-Nov-2016 18:42:57 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 18:42:57 UTC] PARAMS : Array
+(
+    [idCard] => 582a05a1c6dc1e043bfb2193
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => jaxon.klein@gmail.com
+)
+
+[14-Nov-2016 18:42:57 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a05a1c6dc1e043bfb2193' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 18:52:35 UTC] api access from : 
+[14-Nov-2016 18:52:35 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:52:35 UTC] PARAMS : Array
+(
+    [idCard] => 582a07e7625510b42ea524bf
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 18:52:35 UTC] getting person 582a07e7625510b42ea524bf
+[14-Nov-2016 18:52:36 UTC] api access from : 
+[14-Nov-2016 18:52:36 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 18:52:36 UTC] PARAMS : Array
+(
+    [idCard] => 582a07e7625510b42ea524bf
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => caye.polanco@gmail.com
+)
+
+[14-Nov-2016 18:52:36 UTC] resource created
+[14-Nov-2016 18:52:38 UTC] api access from : 
+[14-Nov-2016 18:52:38 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 18:52:38 UTC] PARAMS : Array
+(
+    [idCard] => 582a07e7625510b42ea524bf
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => caye.polanco@gmail.com
+)
+
+[14-Nov-2016 18:52:38 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a07e7625510b42ea524bf' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 18:53:47 UTC] api access from : 
+[14-Nov-2016 18:53:47 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:53:47 UTC] PARAMS : Array
+(
+    [idCard] => 582a0832f904eb22aaeb365e
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 18:53:47 UTC] getting person 582a0832f904eb22aaeb365e
+[14-Nov-2016 18:53:47 UTC] api access from : 
+[14-Nov-2016 18:53:47 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 18:53:47 UTC] PARAMS : Array
+(
+    [idCard] => 582a0832f904eb22aaeb365e
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => caye@keyo.co
+)
+
+[14-Nov-2016 18:53:47 UTC] resource created
+[14-Nov-2016 18:53:49 UTC] api access from : 
+[14-Nov-2016 18:53:49 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 18:53:49 UTC] PARAMS : Array
+(
+    [idCard] => 582a0832f904eb22aaeb365e
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => caye@keyo.co
+)
+
+[14-Nov-2016 18:53:49 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a0832f904eb22aaeb365e' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 18:56:11 UTC] api access from : 
+[14-Nov-2016 18:56:11 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:56:11 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 18:56:11 UTC] getting all people from instance 582a04be2a386f0ebbf0132e
+[14-Nov-2016 18:56:11 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 582a0832f904eb22aaeb365e
+            [idList] => 582a04de8688111b520b8655
+            [idBoard] => 582a04be2a386f0ebbf0132e
+            [email] => caye@keyo.co
+            [timestamp] => 0
+        )
+
+)
+
+[14-Nov-2016 18:59:07 UTC] api access from : 
+[14-Nov-2016 18:59:07 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:59:07 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 18:59:07 UTC] getting all people from instance 582a04be2a386f0ebbf0132e
+[14-Nov-2016 18:59:07 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 582a0832f904eb22aaeb365e
+            [idList] => 582a04de8688111b520b8655
+            [idBoard] => 582a04be2a386f0ebbf0132e
+            [email] => caye@keyo.co
+            [timestamp] => 0
+        )
+
+)
+
+[14-Nov-2016 19:00:16 UTC] api access from : 
+[14-Nov-2016 19:00:16 UTC] REQUEST METHOD : GET
+[14-Nov-2016 19:00:16 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 19:00:16 UTC] getting all people from instance 582a04be2a386f0ebbf0132e
+[14-Nov-2016 19:00:16 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 582a0832f904eb22aaeb365e
+            [idList] => 582a04de8688111b520b8655
+            [idBoard] => 582a04be2a386f0ebbf0132e
+            [email] => caye@keyo.co
+            [timestamp] => 0
+        )
+
+)
+
+[14-Nov-2016 19:01:11 UTC] api access from : 
+[14-Nov-2016 19:01:11 UTC] REQUEST METHOD : GET
+[14-Nov-2016 19:01:11 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 19:01:11 UTC] getting all people from instance 582a04be2a386f0ebbf0132e
+[14-Nov-2016 19:01:11 UTC] Array
+(
+    [0] => Array
+        (
+            [idCard] => 582a0832f904eb22aaeb365e
+            [idList] => 582a04de8688111b520b8655
+            [idBoard] => 582a04be2a386f0ebbf0132e
+            [email] => caye@keyo.co
+            [timestamp] => 0
+        )
+
+)
+
+[14-Nov-2016 19:05:53 UTC] api access from : 
+[14-Nov-2016 19:05:53 UTC] REQUEST METHOD : GET
+[14-Nov-2016 19:05:53 UTC] PARAMS : Array
+(
+    [idCard] => 582a098e64401c2e3bd4f83c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 19:05:53 UTC] getting person 582a098e64401c2e3bd4f83c
+[14-Nov-2016 19:05:53 UTC] api access from : 
+[14-Nov-2016 19:05:53 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 19:05:53 UTC] PARAMS : Array
+(
+    [idCard] => 582a098e64401c2e3bd4f83c
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => tiago@keyo.co
+)
+
+[14-Nov-2016 19:05:53 UTC] resource created
+[14-Nov-2016 19:05:56 UTC] api access from : 
+[14-Nov-2016 19:05:56 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 19:05:56 UTC] PARAMS : Array
+(
+    [idCard] => 582a098e64401c2e3bd4f83c
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => tiago@keyo.co
+)
+
+[14-Nov-2016 19:05:56 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a098e64401c2e3bd4f83c' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 19:06:51 UTC] api access from : 
+[14-Nov-2016 19:06:51 UTC] REQUEST METHOD : GET
+[14-Nov-2016 19:06:51 UTC] PARAMS : Array
+(
+    [idCard] => 582a0b40bb02501970148cef
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 19:06:51 UTC] getting person 582a0b40bb02501970148cef
+[14-Nov-2016 19:06:51 UTC] api access from : 
+[14-Nov-2016 19:06:51 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 19:06:51 UTC] PARAMS : Array
+(
+    [idCard] => 582a0b40bb02501970148cef
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => jaxon.klein@gmail.com
+)
+
+[14-Nov-2016 19:06:51 UTC] resource created
+[14-Nov-2016 19:06:54 UTC] api access from : 
+[14-Nov-2016 19:06:54 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 19:06:54 UTC] PARAMS : Array
+(
+    [idCard] => 582a0b40bb02501970148cef
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => jaxon.klein@gmail.com
+)
+
+[14-Nov-2016 19:06:54 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a0b40bb02501970148cef' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 21:07:12 UTC] api access from : 
+[14-Nov-2016 21:07:12 UTC] REQUEST METHOD : GET
+[14-Nov-2016 21:07:12 UTC] PARAMS : Array
+(
+    [idCard] => 5808f7179b31f1a642978965
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 21:07:12 UTC] getting person 5808f7179b31f1a642978965
+[14-Nov-2016 21:07:12 UTC] api access from : 
+[14-Nov-2016 21:07:12 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:07:12 UTC] PARAMS : Array
+(
+    [idCard] => 5808f7179b31f1a642978965
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => dimitri@dimospizza.com
+)
+
+[14-Nov-2016 21:07:12 UTC] resource created
+[14-Nov-2016 21:07:14 UTC] api access from : 
+[14-Nov-2016 21:07:14 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:07:14 UTC] PARAMS : Array
+(
+    [idCard] => 5808f7179b31f1a642978965
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => dimitri@dimospizza.com
+)
+
+[14-Nov-2016 21:07:14 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5808f7179b31f1a642978965' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 21:08:34 UTC] api access from : 
+[14-Nov-2016 21:08:34 UTC] REQUEST METHOD : GET
+[14-Nov-2016 21:08:34 UTC] PARAMS : Array
+(
+    [idCard] => 5808f71d89da2ced5b1555aa
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 21:08:34 UTC] getting person 5808f71d89da2ced5b1555aa
+[14-Nov-2016 21:08:34 UTC] api access from : 
+[14-Nov-2016 21:08:34 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:08:34 UTC] PARAMS : Array
+(
+    [idCard] => 5808f71d89da2ced5b1555aa
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => roderick.dejesus@rapha.cc
+)
+
+[14-Nov-2016 21:08:34 UTC] resource created
+[14-Nov-2016 21:08:36 UTC] api access from : 
+[14-Nov-2016 21:08:36 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:08:36 UTC] PARAMS : Array
+(
+    [idCard] => 5808f71d89da2ced5b1555aa
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => roderick.dejesus@rapha.cc
+)
+
+[14-Nov-2016 21:08:36 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5808f71d89da2ced5b1555aa' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 21:11:11 UTC] api access from : 
+[14-Nov-2016 21:11:11 UTC] REQUEST METHOD : GET
+[14-Nov-2016 21:11:11 UTC] PARAMS : Array
+(
+    [idCard] => 582a28629529e6242ba76af3
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 21:11:11 UTC] getting person 582a28629529e6242ba76af3
+[14-Nov-2016 21:11:11 UTC] api access from : 
+[14-Nov-2016 21:11:11 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:11:11 UTC] PARAMS : Array
+(
+    [idCard] => 582a28629529e6242ba76af3
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => dimitri@dimospizza.com
+)
+
+[14-Nov-2016 21:11:11 UTC] resource created
+[14-Nov-2016 21:11:14 UTC] api access from : 
+[14-Nov-2016 21:11:14 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:11:14 UTC] PARAMS : Array
+(
+    [idCard] => 582a28629529e6242ba76af3
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => dimitri@dimospizza.com
+)
+
+[14-Nov-2016 21:11:14 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a28629529e6242ba76af3' for key 'PRIMARY'
+        )
+
+)
+
+[14-Nov-2016 21:55:41 UTC] api access from : 
+[14-Nov-2016 21:55:41 UTC] REQUEST METHOD : GET
+[14-Nov-2016 21:55:41 UTC] PARAMS : Array
+(
+    [idCard] => 582a32be0b96c96955e794b9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[14-Nov-2016 21:55:41 UTC] getting person 582a32be0b96c96955e794b9
+[14-Nov-2016 21:55:42 UTC] api access from : 
+[14-Nov-2016 21:55:42 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:55:42 UTC] PARAMS : Array
+(
+    [idCard] => 582a32be0b96c96955e794b9
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => tiago@keyo.co
+)
+
+[14-Nov-2016 21:55:42 UTC] resource created
+[14-Nov-2016 21:55:44 UTC] api access from : 
+[14-Nov-2016 21:55:44 UTC] REQUEST METHOD : PUT
+[14-Nov-2016 21:55:44 UTC] PARAMS : Array
+(
+    [idCard] => 582a32be0b96c96955e794b9
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a04de8688111b520b8655
+    [days] => 
+    [email] => tiago@keyo.co
+)
+
+[14-Nov-2016 21:55:44 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582a32be0b96c96955e794b9' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:16:11 UTC] api access from : 
+[17-Nov-2016 19:16:11 UTC] REQUEST METHOD : GET
+[17-Nov-2016 19:16:11 UTC] PARAMS : Array
+(
+    [idCard] => 5818d51d6f5fb426274b7781
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 19:16:11 UTC] getting person 5818d51d6f5fb426274b7781
+[17-Nov-2016 19:16:11 UTC] api access from : 
+[17-Nov-2016 19:16:11 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:16:11 UTC] PARAMS : Array
+(
+    [idCard] => 5818d51d6f5fb426274b7781
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eebc662730986ae20d35
+    [days] => 
+    [email] => info@flashtacochicago.com
+)
+
+[17-Nov-2016 19:16:11 UTC] resource created
+[17-Nov-2016 19:16:15 UTC] api access from : 
+[17-Nov-2016 19:16:15 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:16:15 UTC] PARAMS : Array
+(
+    [idCard] => 5818d51d6f5fb426274b7781
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eebc662730986ae20d35
+    [days] => 
+    [email] => info@flashtacochicago.com
+)
+
+[17-Nov-2016 19:16:15 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818d51d6f5fb426274b7781' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:16:37 UTC] api access from : 
+[17-Nov-2016 19:16:37 UTC] REQUEST METHOD : GET
+[17-Nov-2016 19:16:37 UTC] PARAMS : Array
+(
+    [idCard] => 5808f759cbaf6586c6237e85
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 19:16:37 UTC] getting person 5808f759cbaf6586c6237e85
+[17-Nov-2016 19:16:37 UTC] api access from : 
+[17-Nov-2016 19:16:37 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:16:37 UTC] PARAMS : Array
+(
+    [idCard] => 5808f759cbaf6586c6237e85
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => GM@THEWORMHOLE.US
+)
+
+[17-Nov-2016 19:16:37 UTC] resource created
+[17-Nov-2016 19:16:40 UTC] api access from : 
+[17-Nov-2016 19:16:40 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:16:40 UTC] PARAMS : Array
+(
+    [idCard] => 5808f759cbaf6586c6237e85
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => GM@THEWORMHOLE.US
+)
+
+[17-Nov-2016 19:16:40 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5808f759cbaf6586c6237e85' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:17:01 UTC] api access from : 
+[17-Nov-2016 19:17:01 UTC] REQUEST METHOD : GET
+[17-Nov-2016 19:17:01 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc8d2f4dd6493ce768e5
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 19:17:01 UTC] getting person 5818cc8d2f4dd6493ce768e5
+[17-Nov-2016 19:17:01 UTC] api access from : 
+[17-Nov-2016 19:17:01 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:17:01 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc8d2f4dd6493ce768e5
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => info@volumesbooks.com
+)
+
+[17-Nov-2016 19:17:01 UTC] resource created
+[17-Nov-2016 19:17:04 UTC] api access from : 
+[17-Nov-2016 19:17:04 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:17:04 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc8d2f4dd6493ce768e5
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => info@volumesbooks.com
+)
+
+[17-Nov-2016 19:17:04 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cc8d2f4dd6493ce768e5' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:17:23 UTC] api access from : 
+[17-Nov-2016 19:17:23 UTC] REQUEST METHOD : GET
+[17-Nov-2016 19:17:23 UTC] PARAMS : Array
+(
+    [idCard] => 5808f727134f30bc0c42da35
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 19:17:23 UTC] getting person 5808f727134f30bc0c42da35
+[17-Nov-2016 19:17:23 UTC] api access from : 
+[17-Nov-2016 19:17:23 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:17:23 UTC] PARAMS : Array
+(
+    [idCard] => 5808f727134f30bc0c42da35
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => michael@bangbangpie.com
+)
+
+[17-Nov-2016 19:17:23 UTC] resource created
+[17-Nov-2016 19:17:26 UTC] api access from : 
+[17-Nov-2016 19:17:26 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:17:26 UTC] PARAMS : Array
+(
+    [idCard] => 5808f727134f30bc0c42da35
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => michael@bangbangpie.com
+)
+
+[17-Nov-2016 19:17:26 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5808f727134f30bc0c42da35' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:31:04 UTC] api access from : 
+[17-Nov-2016 19:31:04 UTC] REQUEST METHOD : GET
+[17-Nov-2016 19:31:04 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca64d7b19f7c3e6dd85e
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 19:31:04 UTC] getting person 5818ca64d7b19f7c3e6dd85e
+[17-Nov-2016 19:31:04 UTC] api access from : 
+[17-Nov-2016 19:31:04 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:31:04 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca64d7b19f7c3e6dd85e
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => info@bruchicago.com
+)
+
+[17-Nov-2016 19:31:04 UTC] resource created
+[17-Nov-2016 19:31:07 UTC] api access from : 
+[17-Nov-2016 19:31:07 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:31:07 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca64d7b19f7c3e6dd85e
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => info@bruchicago.com
+)
+
+[17-Nov-2016 19:31:07 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818ca64d7b19f7c3e6dd85e' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:32:59 UTC] api access from : 
+[17-Nov-2016 19:32:59 UTC] REQUEST METHOD : GET
+[17-Nov-2016 19:32:59 UTC] PARAMS : Array
+(
+    [idCard] => 5818d5eeb9ecfa863e932ddc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 19:32:59 UTC] getting person 5818d5eeb9ecfa863e932ddc
+[17-Nov-2016 19:32:59 UTC] api access from : 
+[17-Nov-2016 19:32:59 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:32:59 UTC] PARAMS : Array
+(
+    [idCard] => 5818d5eeb9ecfa863e932ddc
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@bigstarchicago.com
+)
+
+[17-Nov-2016 19:32:59 UTC] resource created
+[17-Nov-2016 19:33:02 UTC] api access from : 
+[17-Nov-2016 19:33:02 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:33:02 UTC] PARAMS : Array
+(
+    [idCard] => 5818d5eeb9ecfa863e932ddc
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@bigstarchicago.com
+)
+
+[17-Nov-2016 19:33:02 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818d5eeb9ecfa863e932ddc' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 19:33:04 UTC] api access from : 
+[17-Nov-2016 19:33:04 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 19:33:04 UTC] PARAMS : Array
+(
+    [idCard] => 5818d5eeb9ecfa863e932ddc
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [days] => 
+    [email] => info@bigstarchicago.com
+)
+
+[17-Nov-2016 19:33:04 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818d5eeb9ecfa863e932ddc' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 20:27:13 UTC] api access from : 
+[17-Nov-2016 20:27:13 UTC] REQUEST METHOD : GET
+[17-Nov-2016 20:27:13 UTC] PARAMS : Array
+(
+    [idCard] => 5818cd923ed22f0aebc3460b
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 20:27:13 UTC] getting person 5818cd923ed22f0aebc3460b
+[17-Nov-2016 20:27:14 UTC] api access from : 
+[17-Nov-2016 20:27:14 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 20:27:14 UTC] PARAMS : Array
+(
+    [idCard] => 5818cd923ed22f0aebc3460b
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => stuff@iron-cycles.com
+)
+
+[17-Nov-2016 20:27:14 UTC] resource created
+[17-Nov-2016 20:27:16 UTC] api access from : 
+[17-Nov-2016 20:27:16 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 20:27:16 UTC] PARAMS : Array
+(
+    [idCard] => 5818cd923ed22f0aebc3460b
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => stuff@iron-cycles.com
+)
+
+[17-Nov-2016 20:27:16 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cd923ed22f0aebc3460b' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 20:27:25 UTC] api access from : 
+[17-Nov-2016 20:27:25 UTC] REQUEST METHOD : GET
+[17-Nov-2016 20:27:25 UTC] PARAMS : Array
+(
+    [idCard] => 5818cd923ed22f0aebc3460b
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 20:27:25 UTC] getting person 5818cd923ed22f0aebc3460b
+[17-Nov-2016 20:27:25 UTC] Array
+(
+    [idCard] => 5818cd923ed22f0aebc3460b
+    [idList] => 5818cd4cd458a3c336d6d047
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => stuff@iron-cycles.com
+    [timestamp] => 1479414439
+)
+
+[17-Nov-2016 20:33:32 UTC] api access from : 
+[17-Nov-2016 20:33:32 UTC] REQUEST METHOD : GET
+[17-Nov-2016 20:33:32 UTC] PARAMS : Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 20:33:32 UTC] getting person 5818cda2bff8d21dfc376498
+[17-Nov-2016 20:33:32 UTC] api access from : 
+[17-Nov-2016 20:33:32 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 20:33:32 UTC] PARAMS : Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => upriseskateshop@gmail.com
+)
+
+[17-Nov-2016 20:33:32 UTC] resource created
+[17-Nov-2016 20:33:35 UTC] api access from : 
+[17-Nov-2016 20:33:35 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 20:33:35 UTC] PARAMS : Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => upriseskateshop@gmail.com
+)
+
+[17-Nov-2016 20:33:35 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cda2bff8d21dfc376498' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 20:33:49 UTC] api access from : 
+[17-Nov-2016 20:33:49 UTC] REQUEST METHOD : GET
+[17-Nov-2016 20:33:49 UTC] PARAMS : Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 20:33:49 UTC] getting person 5818cda2bff8d21dfc376498
+[17-Nov-2016 20:33:49 UTC] Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idList] => 5818cd4cd458a3c336d6d047
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => upriseskateshop@gmail.com
+    [timestamp] => 1479414819
+)
+
+[17-Nov-2016 21:16:24 UTC] api access from : 
+[17-Nov-2016 21:16:24 UTC] REQUEST METHOD : DELETE
+[17-Nov-2016 21:16:24 UTC] PARAMS : Array
+(
+    [idCard] => 5818d4971f8d399db1cc51f7
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:16:24 UTC] Array
+(
+    [status] => success
+)
+
+[17-Nov-2016 21:25:43 UTC] api access from : 
+[17-Nov-2016 21:25:43 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:25:43 UTC] PARAMS : Array
+(
+    [idCard] => 5818da09e327bf1e9058a7f5
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:25:43 UTC] getting person 5818da09e327bf1e9058a7f5
+[17-Nov-2016 21:25:43 UTC] api access from : 
+[17-Nov-2016 21:25:43 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 21:25:43 UTC] PARAMS : Array
+(
+    [idCard] => 5818da09e327bf1e9058a7f5
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => brobagelbakery@gmail.com
+)
+
+[17-Nov-2016 21:25:43 UTC] resource created
+[17-Nov-2016 21:25:46 UTC] api access from : 
+[17-Nov-2016 21:25:46 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 21:25:46 UTC] PARAMS : Array
+(
+    [idCard] => 5818da09e327bf1e9058a7f5
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => brobagelbakery@gmail.com
+)
+
+[17-Nov-2016 21:25:46 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818da09e327bf1e9058a7f5' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 21:25:56 UTC] api access from : 
+[17-Nov-2016 21:25:56 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:25:56 UTC] PARAMS : Array
+(
+    [idCard] => 5818da09e327bf1e9058a7f5
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:25:56 UTC] getting person 5818da09e327bf1e9058a7f5
+[17-Nov-2016 21:25:56 UTC] Array
+(
+    [idCard] => 5818da09e327bf1e9058a7f5
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => brobagelbakery@gmail.com
+    [timestamp] => 1479417949
+)
+
+[17-Nov-2016 21:44:32 UTC] api access from : 
+[17-Nov-2016 21:44:32 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:44:32 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc9fb9ecfa863e9262bf
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:44:32 UTC] getting person 5818cc9fb9ecfa863e9262bf
+[17-Nov-2016 21:44:32 UTC] api access from : 
+[17-Nov-2016 21:44:32 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 21:44:32 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc9fb9ecfa863e9262bf
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@oakmillbakery.com
+)
+
+[17-Nov-2016 21:44:32 UTC] resource created
+[17-Nov-2016 21:44:35 UTC] api access from : 
+[17-Nov-2016 21:44:35 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 21:44:35 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc9fb9ecfa863e9262bf
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@oakmillbakery.com
+)
+
+[17-Nov-2016 21:44:35 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cc9fb9ecfa863e9262bf' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 21:44:44 UTC] api access from : 
+[17-Nov-2016 21:44:44 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:44:44 UTC] PARAMS : Array
+(
+    [idCard] => 5818cc9fb9ecfa863e9262bf
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:44:44 UTC] getting person 5818cc9fb9ecfa863e9262bf
+[17-Nov-2016 21:44:44 UTC] Array
+(
+    [idCard] => 5818cc9fb9ecfa863e9262bf
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => info@oakmillbakery.com
+    [timestamp] => 1479419078
+)
+
+[17-Nov-2016 21:46:04 UTC] api access from : 
+[17-Nov-2016 21:46:04 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:46:04 UTC] PARAMS : Array
+(
+    [idCard] => 5808f759cbaf6586c6237e85
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:46:04 UTC] getting person 5808f759cbaf6586c6237e85
+[17-Nov-2016 21:46:04 UTC] Array
+(
+    [idCard] => 5808f759cbaf6586c6237e85
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => GM@THEWORMHOLE.US
+    [timestamp] => 0
+)
+
+[17-Nov-2016 21:46:07 UTC] api access from : 
+[17-Nov-2016 21:46:07 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:46:07 UTC] PARAMS : Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:46:07 UTC] getting person 5818cda2bff8d21dfc376498
+[17-Nov-2016 21:46:07 UTC] Array
+(
+    [idCard] => 5818cda2bff8d21dfc376498
+    [idList] => 5810dff0f85bb6218dd1dd3a
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => upriseskateshop@gmail.com
+    [timestamp] => 1479417721
+)
+
+[17-Nov-2016 21:47:55 UTC] api access from : 
+[17-Nov-2016 21:47:55 UTC] REQUEST METHOD : GET
+[17-Nov-2016 21:47:55 UTC] PARAMS : Array
+(
+    [idCard] => 582e257380e00fcc650033aa
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 21:47:55 UTC] getting person 582e257380e00fcc650033aa
+[17-Nov-2016 21:47:55 UTC] api access from : 
+[17-Nov-2016 21:47:55 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 21:47:55 UTC] PARAMS : Array
+(
+    [idCard] => 582e257380e00fcc650033aa
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => brian@reckless.com
+)
+
+[17-Nov-2016 21:47:55 UTC] resource created
+[17-Nov-2016 21:47:57 UTC] api access from : 
+[17-Nov-2016 21:47:57 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 21:47:57 UTC] PARAMS : Array
+(
+    [idCard] => 582e257380e00fcc650033aa
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => brian@reckless.com
+)
+
+[17-Nov-2016 21:47:57 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582e257380e00fcc650033aa' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 22:37:04 UTC] api access from : 
+[17-Nov-2016 22:37:04 UTC] REQUEST METHOD : GET
+[17-Nov-2016 22:37:04 UTC] PARAMS : Array
+(
+    [idCard] => 5818c9be6ed0d232d1ef853e
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 22:37:04 UTC] getting person 5818c9be6ed0d232d1ef853e
+[17-Nov-2016 22:37:04 UTC] api access from : 
+[17-Nov-2016 22:37:04 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 22:37:04 UTC] PARAMS : Array
+(
+    [idCard] => 5818c9be6ed0d232d1ef853e
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@chicagochopshop.com
+)
+
+[17-Nov-2016 22:37:04 UTC] resource created
+[17-Nov-2016 22:37:07 UTC] api access from : 
+[17-Nov-2016 22:37:07 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 22:37:07 UTC] PARAMS : Array
+(
+    [idCard] => 5818c9be6ed0d232d1ef853e
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@chicagochopshop.com
+)
+
+[17-Nov-2016 22:37:07 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818c9be6ed0d232d1ef853e' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 22:58:55 UTC] api access from : 
+[17-Nov-2016 22:58:55 UTC] REQUEST METHOD : GET
+[17-Nov-2016 22:58:55 UTC] PARAMS : Array
+(
+    [idCard] => 5818c8fcc7b4367fd18e7897
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 22:58:55 UTC] getting person 5818c8fcc7b4367fd18e7897
+[17-Nov-2016 22:58:55 UTC] api access from : 
+[17-Nov-2016 22:58:55 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 22:58:55 UTC] PARAMS : Array
+(
+    [idCard] => 5818c8fcc7b4367fd18e7897
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => info@5411empanadas.com
+)
+
+[17-Nov-2016 22:58:55 UTC] resource created
+[17-Nov-2016 22:59:00 UTC] api access from : 
+[17-Nov-2016 22:59:00 UTC] REQUEST METHOD : GET
+[17-Nov-2016 22:59:00 UTC] PARAMS : Array
+(
+    [idCard] => 5818c8fcc7b4367fd18e7897
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 22:59:00 UTC] getting person 5818c8fcc7b4367fd18e7897
+[17-Nov-2016 22:59:00 UTC] Array
+(
+    [idCard] => 5818c8fcc7b4367fd18e7897
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => info@5411empanadas.com
+    [timestamp] => 1479423539
+)
+
+[17-Nov-2016 23:17:39 UTC] api access from : 
+[17-Nov-2016 23:17:39 UTC] REQUEST METHOD : GET
+[17-Nov-2016 23:17:39 UTC] PARAMS : Array
+(
+    [idCard] => 5818cba5696ab83bd4f784a2
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 23:17:39 UTC] getting person 5818cba5696ab83bd4f784a2
+[17-Nov-2016 23:17:39 UTC] api access from : 
+[17-Nov-2016 23:17:39 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 23:17:39 UTC] PARAMS : Array
+(
+    [idCard] => 5818cba5696ab83bd4f784a2
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eebab2819c872bb07642
+    [days] => 
+    [email] => devildawgschicago@gmail.com
+)
+
+[17-Nov-2016 23:17:39 UTC] resource created
+[17-Nov-2016 23:17:42 UTC] api access from : 
+[17-Nov-2016 23:17:42 UTC] REQUEST METHOD : PUT
+[17-Nov-2016 23:17:42 UTC] PARAMS : Array
+(
+    [idCard] => 5818cba5696ab83bd4f784a2
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eebab2819c872bb07642
+    [days] => 
+    [email] => devildawgschicago@gmail.com
+)
+
+[17-Nov-2016 23:17:42 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cba5696ab83bd4f784a2' for key 'PRIMARY'
+        )
+
+)
+
+[17-Nov-2016 23:18:58 UTC] api access from : 
+[17-Nov-2016 23:18:58 UTC] REQUEST METHOD : GET
+[17-Nov-2016 23:18:58 UTC] PARAMS : Array
+(
+    [idCard] => 5818cba5696ab83bd4f784a2
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[17-Nov-2016 23:18:58 UTC] getting person 5818cba5696ab83bd4f784a2
+[17-Nov-2016 23:18:58 UTC] Array
+(
+    [idCard] => 5818cba5696ab83bd4f784a2
+    [idList] => 5818eebab2819c872bb07642
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => devildawgschicago@gmail.com
+    [timestamp] => 1479424665
+)
+
+[18-Nov-2016 00:01:28 UTC] api access from : 
+[18-Nov-2016 00:01:28 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:01:28 UTC] PARAMS : Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:01:28 UTC] getting person 5818ccab7e1ea30d9e5fafd2
+[18-Nov-2016 00:01:29 UTC] api access from : 
+[18-Nov-2016 00:01:29 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:01:29 UTC] PARAMS : Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => chris.thewinchester@gmail.com
+)
+
+[18-Nov-2016 00:01:29 UTC] resource created
+[18-Nov-2016 00:01:31 UTC] api access from : 
+[18-Nov-2016 00:01:31 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:01:31 UTC] PARAMS : Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => chris.thewinchester@gmail.com
+)
+
+[18-Nov-2016 00:01:31 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818ccab7e1ea30d9e5fafd2' for key 'PRIMARY'
+        )
+
+)
+
+[18-Nov-2016 00:01:53 UTC] api access from : 
+[18-Nov-2016 00:01:53 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:01:53 UTC] PARAMS : Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:01:53 UTC] getting person 5818ccab7e1ea30d9e5fafd2
+[18-Nov-2016 00:01:53 UTC] Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => chris.thewinchester@gmail.com
+    [timestamp] => 0
+)
+
+[18-Nov-2016 00:02:03 UTC] api access from : 
+[18-Nov-2016 00:02:03 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:02:03 UTC] PARAMS : Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:02:03 UTC] getting person 5818ccab7e1ea30d9e5fafd2
+[18-Nov-2016 00:02:03 UTC] Array
+(
+    [idCard] => 5818ccab7e1ea30d9e5fafd2
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => chris.thewinchester@gmail.com
+    [timestamp] => 0
+)
+
+[18-Nov-2016 00:09:27 UTC] api access from : 
+[18-Nov-2016 00:09:27 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:09:27 UTC] PARAMS : Array
+(
+    [idCard] => 5818cb6d0dd774e23551f07f
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:09:27 UTC] getting person 5818cb6d0dd774e23551f07f
+[18-Nov-2016 00:09:27 UTC] api access from : 
+[18-Nov-2016 00:09:27 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:09:27 UTC] PARAMS : Array
+(
+    [idCard] => 5818cb6d0dd774e23551f07f
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => filtercafe1373@gmail.com
+)
+
+[18-Nov-2016 00:09:27 UTC] resource created
+[18-Nov-2016 00:09:31 UTC] api access from : 
+[18-Nov-2016 00:09:31 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:09:31 UTC] PARAMS : Array
+(
+    [idCard] => 5818cb6d0dd774e23551f07f
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => filtercafe1373@gmail.com
+)
+
+[18-Nov-2016 00:09:31 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cb6d0dd774e23551f07f' for key 'PRIMARY'
+        )
+
+)
+
+[18-Nov-2016 00:09:37 UTC] api access from : 
+[18-Nov-2016 00:09:37 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:09:37 UTC] PARAMS : Array
+(
+    [idCard] => 5818cb6d0dd774e23551f07f
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:09:37 UTC] getting person 5818cb6d0dd774e23551f07f
+[18-Nov-2016 00:09:37 UTC] Array
+(
+    [idCard] => 5818cb6d0dd774e23551f07f
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => filtercafe1373@gmail.com
+    [timestamp] => 1479427773
+)
+
+[18-Nov-2016 00:17:05 UTC] api access from : 
+[18-Nov-2016 00:17:05 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:17:05 UTC] PARAMS : Array
+(
+    [idCard] => 582e257380e00fcc650033aa
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:17:05 UTC] getting person 582e257380e00fcc650033aa
+[18-Nov-2016 00:17:05 UTC] Array
+(
+    [idCard] => 582e257380e00fcc650033aa
+    [idList] => 5818cd4cd458a3c336d6d047
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => brian@reckless.com
+    [timestamp] => 1479428215
+)
+
+[18-Nov-2016 00:22:58 UTC] api access from : 
+[18-Nov-2016 00:22:58 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:22:58 UTC] PARAMS : Array
+(
+    [idCard] => 5818cde63c4a9f8335023e91
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:22:58 UTC] getting person 5818cde63c4a9f8335023e91
+[18-Nov-2016 00:22:58 UTC] api access from : 
+[18-Nov-2016 00:22:58 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:22:58 UTC] PARAMS : Array
+(
+    [idCard] => 5818cde63c4a9f8335023e91
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => info@garrisonsurplus.com
+)
+
+[18-Nov-2016 00:22:58 UTC] resource created
+[18-Nov-2016 00:23:02 UTC] api access from : 
+[18-Nov-2016 00:23:02 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:23:02 UTC] PARAMS : Array
+(
+    [idCard] => 5818cde63c4a9f8335023e91
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818cd4cd458a3c336d6d047
+    [days] => 
+    [email] => info@garrisonsurplus.com
+)
+
+[18-Nov-2016 00:23:02 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818cde63c4a9f8335023e91' for key 'PRIMARY'
+        )
+
+)
+
+[18-Nov-2016 00:23:10 UTC] api access from : 
+[18-Nov-2016 00:23:10 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:23:10 UTC] PARAMS : Array
+(
+    [idCard] => 5818cde63c4a9f8335023e91
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:23:10 UTC] getting person 5818cde63c4a9f8335023e91
+[18-Nov-2016 00:23:10 UTC] Array
+(
+    [idCard] => 5818cde63c4a9f8335023e91
+    [idList] => 5818cd4cd458a3c336d6d047
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => info@garrisonsurplus.com
+    [timestamp] => 1479428585
+)
+
+[18-Nov-2016 00:54:43 UTC] api access from : 
+[18-Nov-2016 00:54:43 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:54:43 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca228fb91fcfd102a2cb
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:54:43 UTC] getting person 5818ca228fb91fcfd102a2cb
+[18-Nov-2016 00:54:43 UTC] api access from : 
+[18-Nov-2016 00:54:43 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:54:43 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca228fb91fcfd102a2cb
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => jpaulus@stansdonutschicago.com
+)
+
+[18-Nov-2016 00:54:43 UTC] resource created
+[18-Nov-2016 00:54:46 UTC] api access from : 
+[18-Nov-2016 00:54:46 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 00:54:46 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca228fb91fcfd102a2cb
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idList] => 5818eeb7de35220a0641da51
+    [days] => 
+    [email] => jpaulus@stansdonutschicago.com
+)
+
+[18-Nov-2016 00:54:46 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '5818ca228fb91fcfd102a2cb' for key 'PRIMARY'
+        )
+
+)
+
+[18-Nov-2016 00:54:52 UTC] api access from : 
+[18-Nov-2016 00:54:52 UTC] REQUEST METHOD : GET
+[18-Nov-2016 00:54:52 UTC] PARAMS : Array
+(
+    [idCard] => 5818ca228fb91fcfd102a2cb
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 00:54:52 UTC] getting person 5818ca228fb91fcfd102a2cb
+[18-Nov-2016 00:54:52 UTC] Array
+(
+    [idCard] => 5818ca228fb91fcfd102a2cb
+    [idList] => 5818eeb7de35220a0641da51
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [email] => jpaulus@stansdonutschicago.com
+    [timestamp] => 1479430489
+)
+
+[18-Nov-2016 22:11:43 UTC] api access from : 
+[18-Nov-2016 22:11:43 UTC] REQUEST METHOD : GET
+[18-Nov-2016 22:11:43 UTC] PARAMS : Array
+(
+    [idCard] => 582a32be0b96c96955e794b9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 22:11:43 UTC] getting person 582a32be0b96c96955e794b9
+[18-Nov-2016 22:11:43 UTC] Array
+(
+    [idCard] => 582a32be0b96c96955e794b9
+    [idList] => 582a04de8688111b520b8655
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [email] => tiago@keyo.co
+    [timestamp] => 1478037347
+)
+
+[18-Nov-2016 22:12:09 UTC] api access from : 
+[18-Nov-2016 22:12:09 UTC] REQUEST METHOD : GET
+[18-Nov-2016 22:12:09 UTC] PARAMS : Array
+(
+    [idCard] => 582a098e64401c2e3bd4f83c
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 22:12:09 UTC] getting person 582a098e64401c2e3bd4f83c
+[18-Nov-2016 22:12:09 UTC] Array
+(
+    [idCard] => 582a098e64401c2e3bd4f83c
+    [idList] => 582a04de8688111b520b8655
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [email] => tiago@keyo.co
+    [timestamp] => 1478113559
+)
+
+[18-Nov-2016 22:12:58 UTC] api access from : 
+[18-Nov-2016 22:12:58 UTC] REQUEST METHOD : GET
+[18-Nov-2016 22:12:58 UTC] PARAMS : Array
+(
+    [idCard] => 582f7c94fa5f06800ee933ec
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 22:12:58 UTC] getting person 582f7c94fa5f06800ee933ec
+[18-Nov-2016 22:12:59 UTC] api access from : 
+[18-Nov-2016 22:12:59 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 22:12:59 UTC] PARAMS : Array
+(
+    [idCard] => 582f7c94fa5f06800ee933ec
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a05384a9dee14d50ccd13
+    [days] => 
+    [email] => fk@faisalkhan.com
+)
+
+[18-Nov-2016 22:12:59 UTC] resource created
+[18-Nov-2016 22:13:01 UTC] api access from : 
+[18-Nov-2016 22:13:01 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 22:13:01 UTC] PARAMS : Array
+(
+    [idCard] => 582f7c94fa5f06800ee933ec
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a05384a9dee14d50ccd13
+    [days] => 
+    [email] => fk@faisalkhan.com
+)
+
+[18-Nov-2016 22:13:01 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582f7c94fa5f06800ee933ec' for key 'PRIMARY'
+        )
+
+)
+
+[18-Nov-2016 22:13:21 UTC] api access from : 
+[18-Nov-2016 22:13:21 UTC] REQUEST METHOD : GET
+[18-Nov-2016 22:13:21 UTC] PARAMS : Array
+(
+    [idCard] => 582f7c989b44bb7715258611
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[18-Nov-2016 22:13:21 UTC] getting person 582f7c989b44bb7715258611
+[18-Nov-2016 22:13:21 UTC] api access from : 
+[18-Nov-2016 22:13:21 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 22:13:21 UTC] PARAMS : Array
+(
+    [idCard] => 582f7c989b44bb7715258611
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a05384a9dee14d50ccd13
+    [days] => 
+    [email] => suneera921@gmail.com
+)
+
+[18-Nov-2016 22:13:21 UTC] resource created
+[18-Nov-2016 22:13:23 UTC] api access from : 
+[18-Nov-2016 22:13:23 UTC] REQUEST METHOD : PUT
+[18-Nov-2016 22:13:23 UTC] PARAMS : Array
+(
+    [idCard] => 582f7c989b44bb7715258611
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a05384a9dee14d50ccd13
+    [days] => 
+    [email] => suneera921@gmail.com
+)
+
+[18-Nov-2016 22:13:23 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582f7c989b44bb7715258611' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 00:48:17 UTC] api access from : 
+[19-Nov-2016 00:48:17 UTC] REQUEST METHOD : GET
+[19-Nov-2016 00:48:17 UTC] PARAMS : Array
+(
+    [idCard] => 582fa13c6549830efef418d5
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 00:48:17 UTC] getting person 582fa13c6549830efef418d5
+[19-Nov-2016 00:48:17 UTC] api access from : 
+[19-Nov-2016 00:48:17 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 00:48:17 UTC] PARAMS : Array
+(
+    [idCard] => 582fa13c6549830efef418d5
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a050829e0803b0c336507
+    [days] => 
+    [email] => shake@shack.com
+)
+
+[19-Nov-2016 00:48:17 UTC] resource created
+[19-Nov-2016 00:48:20 UTC] api access from : 
+[19-Nov-2016 00:48:20 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 00:48:20 UTC] PARAMS : Array
+(
+    [idCard] => 582fa13c6549830efef418d5
+    [idBoard] => 582a04be2a386f0ebbf0132e
+    [idList] => 582a050829e0803b0c336507
+    [days] => 
+    [email] => shake@shack.com
+)
+
+[19-Nov-2016 00:48:20 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fa13c6549830efef418d5' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 01:33:33 UTC] api access from : 
+[19-Nov-2016 01:33:33 UTC] REQUEST METHOD : GET
+[19-Nov-2016 01:33:33 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 01:33:33 UTC] getting all people from instance 582fa79bb32cf5050fc729c5
+[19-Nov-2016 01:33:33 UTC] Array
+(
+)
+
+[19-Nov-2016 02:47:05 UTC] api access from : 
+[19-Nov-2016 02:47:05 UTC] REQUEST METHOD : GET
+[19-Nov-2016 02:47:05 UTC] PARAMS : Array
+(
+    [idCard] => 582fa7e609f3326d16be71d7
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 02:47:05 UTC] getting person 582fa7e609f3326d16be71d7
+[19-Nov-2016 02:47:05 UTC] api access from : 
+[19-Nov-2016 02:47:05 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 02:47:05 UTC] PARAMS : Array
+(
+    [idCard] => 582fa7e609f3326d16be71d7
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7be3578f025e9c7d472
+    [days] => 
+    [email] => test.acct.1428@gmail.com
+)
+
+[19-Nov-2016 02:47:05 UTC] resource created
+[19-Nov-2016 02:47:08 UTC] api access from : 
+[19-Nov-2016 02:47:08 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 02:47:08 UTC] PARAMS : Array
+(
+    [idCard] => 582fa7e609f3326d16be71d7
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7be3578f025e9c7d472
+    [days] => 
+    [email] => test.acct.1428@gmail.com
+)
+
+[19-Nov-2016 02:47:08 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fa7e609f3326d16be71d7' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 02:54:02 UTC] api access from : 
+[19-Nov-2016 02:54:03 UTC] REQUEST METHOD : GET
+[19-Nov-2016 02:54:03 UTC] PARAMS : Array
+(
+    [idCard] => 582faf4b3d5499d786b6a900
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 02:54:03 UTC] getting person 582faf4b3d5499d786b6a900
+[19-Nov-2016 02:54:03 UTC] api access from : 
+[19-Nov-2016 02:54:03 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 02:54:03 UTC] PARAMS : Array
+(
+    [idCard] => 582faf4b3d5499d786b6a900
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7c9d6364ae37a0675b2
+    [days] => 
+    [email] => test.acct.2842@gmail.com
+)
+
+[19-Nov-2016 02:54:03 UTC] resource created
+[19-Nov-2016 02:54:05 UTC] api access from : 
+[19-Nov-2016 02:54:05 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 02:54:05 UTC] PARAMS : Array
+(
+    [idCard] => 582faf4b3d5499d786b6a900
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7c9d6364ae37a0675b2
+    [days] => 
+    [email] => test.acct.2842@gmail.com
+)
+
+[19-Nov-2016 02:54:05 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582faf4b3d5499d786b6a900' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 03:27:50 UTC] api access from : 
+[19-Nov-2016 03:27:50 UTC] REQUEST METHOD : GET
+[19-Nov-2016 03:27:50 UTC] PARAMS : Array
+(
+    [idCard] => 582fc6a81799f399afa1b431
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 03:27:50 UTC] getting person 582fc6a81799f399afa1b431
+[19-Nov-2016 03:27:51 UTC] api access from : 
+[19-Nov-2016 03:27:51 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:27:51 UTC] PARAMS : Array
+(
+    [idCard] => 582fc6a81799f399afa1b431
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7d229a47a6d1e87293c
+    [days] => 
+    [email] => test.acct.2842@gmail.com
+)
+
+[19-Nov-2016 03:27:51 UTC] resource created
+[19-Nov-2016 03:27:53 UTC] api access from : 
+[19-Nov-2016 03:27:53 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:27:53 UTC] PARAMS : Array
+(
+    [idCard] => 582fc6a81799f399afa1b431
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7d229a47a6d1e87293c
+    [days] => 
+    [email] => test.acct.2842@gmail.com
+)
+
+[19-Nov-2016 03:27:53 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fc6a81799f399afa1b431' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 03:41:18 UTC] api access from : 
+[19-Nov-2016 03:41:18 UTC] REQUEST METHOD : GET
+[19-Nov-2016 03:41:18 UTC] PARAMS : Array
+(
+    [idCard] => 582fc9cd94d4a245875ef8b9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 03:41:18 UTC] getting person 582fc9cd94d4a245875ef8b9
+[19-Nov-2016 03:41:18 UTC] api access from : 
+[19-Nov-2016 03:41:18 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:41:18 UTC] PARAMS : Array
+(
+    [idCard] => 582fc9cd94d4a245875ef8b9
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7ba3c8f63fbc04304da
+    [days] => 
+    [email] => test.acct.8675@gmail.com
+)
+
+[19-Nov-2016 03:41:18 UTC] resource created
+[19-Nov-2016 03:41:21 UTC] api access from : 
+[19-Nov-2016 03:41:21 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:41:21 UTC] PARAMS : Array
+(
+    [idCard] => 582fc9cd94d4a245875ef8b9
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7ba3c8f63fbc04304da
+    [days] => 
+    [email] => test.acct.8675@gmail.com
+)
+
+[19-Nov-2016 03:41:21 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fc9cd94d4a245875ef8b9' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 03:43:43 UTC] api access from : 
+[19-Nov-2016 03:43:43 UTC] REQUEST METHOD : GET
+[19-Nov-2016 03:43:43 UTC] PARAMS : Array
+(
+    [idCard] => 582faf3f68c942b17be8c7bc
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 03:43:43 UTC] getting person 582faf3f68c942b17be8c7bc
+[19-Nov-2016 03:43:43 UTC] api access from : 
+[19-Nov-2016 03:43:43 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:43:43 UTC] PARAMS : Array
+(
+    [idCard] => 582faf3f68c942b17be8c7bc
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7be3578f025e9c7d472
+    [days] => 
+    [email] => test.acct.1428@gmail.com
+)
+
+[19-Nov-2016 03:43:43 UTC] resource created
+[19-Nov-2016 03:43:46 UTC] api access from : 
+[19-Nov-2016 03:43:46 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:43:46 UTC] PARAMS : Array
+(
+    [idCard] => 582faf3f68c942b17be8c7bc
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7be3578f025e9c7d472
+    [days] => 
+    [email] => test.acct.1428@gmail.com
+)
+
+[19-Nov-2016 03:43:46 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582faf3f68c942b17be8c7bc' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 03:47:49 UTC] api access from : 
+[19-Nov-2016 03:47:49 UTC] REQUEST METHOD : GET
+[19-Nov-2016 03:47:49 UTC] PARAMS : Array
+(
+    [idCard] => 582fcb50ca3ca3414569e622
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 03:47:49 UTC] getting person 582fcb50ca3ca3414569e622
+[19-Nov-2016 03:47:49 UTC] api access from : 
+[19-Nov-2016 03:47:49 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:47:49 UTC] PARAMS : Array
+(
+    [idCard] => 582fcb50ca3ca3414569e622
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7ba3c8f63fbc04304da
+    [days] => 
+    [email] => test.acct.8675@gmail.com
+)
+
+[19-Nov-2016 03:47:49 UTC] resource created
+[19-Nov-2016 03:47:52 UTC] api access from : 
+[19-Nov-2016 03:47:52 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:47:52 UTC] PARAMS : Array
+(
+    [idCard] => 582fcb50ca3ca3414569e622
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7ba3c8f63fbc04304da
+    [days] => 
+    [email] => test.acct.8675@gmail.com
+)
+
+[19-Nov-2016 03:47:52 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fcb50ca3ca3414569e622' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 03:52:27 UTC] api access from : 
+[19-Nov-2016 03:52:27 UTC] REQUEST METHOD : GET
+[19-Nov-2016 03:52:27 UTC] PARAMS : Array
+(
+    [idCard] => 582fcc6af66b82108b5f86b9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 03:52:27 UTC] getting person 582fcc6af66b82108b5f86b9
+[19-Nov-2016 03:52:27 UTC] api access from : 
+[19-Nov-2016 03:52:27 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:52:27 UTC] PARAMS : Array
+(
+    [idCard] => 582fcc6af66b82108b5f86b9
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7d229a47a6d1e87293c
+    [days] => 
+    [email] => test.acct.8675@gmail.com
+)
+
+[19-Nov-2016 03:52:27 UTC] resource created
+[19-Nov-2016 03:52:30 UTC] api access from : 
+[19-Nov-2016 03:52:30 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 03:52:30 UTC] PARAMS : Array
+(
+    [idCard] => 582fcc6af66b82108b5f86b9
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [idList] => 582fa7d229a47a6d1e87293c
+    [days] => 
+    [email] => test.acct.8675@gmail.com
+)
+
+[19-Nov-2016 03:52:30 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fcc6af66b82108b5f86b9' for key 'PRIMARY'
+        )
+
+)
+
+[19-Nov-2016 03:53:21 UTC] api access from : 
+[19-Nov-2016 03:53:21 UTC] REQUEST METHOD : GET
+[19-Nov-2016 03:53:21 UTC] PARAMS : Array
+(
+    [idCard] => 582fcc6af66b82108b5f86b9
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 03:53:21 UTC] getting person 582fcc6af66b82108b5f86b9
+[19-Nov-2016 03:53:21 UTC] Array
+(
+    [idCard] => 582fcc6af66b82108b5f86b9
+    [idList] => 582fa7d229a47a6d1e87293c
+    [idBoard] => 582fa79bb32cf5050fc729c5
+    [email] => test.acct.8675@gmail.com
+    [timestamp] => 0
+)
+
+[19-Nov-2016 04:22:53 UTC] api access from : 
+[19-Nov-2016 04:22:53 UTC] REQUEST METHOD : GET
+[19-Nov-2016 04:22:53 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582fd20dffa6dec40e697e36
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 04:22:53 UTC] getting all people from instance 582fd20dffa6dec40e697e36
+[19-Nov-2016 04:22:53 UTC] Array
+(
+)
+
+[19-Nov-2016 04:23:06 UTC] api access from : 
+[19-Nov-2016 04:23:06 UTC] REQUEST METHOD : GET
+[19-Nov-2016 04:23:06 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582fd20dffa6dec40e697e36
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 04:23:06 UTC] getting all people from instance 582fd20dffa6dec40e697e36
+[19-Nov-2016 04:23:06 UTC] Array
+(
+)
+
+[19-Nov-2016 04:25:39 UTC] api access from : 
+[19-Nov-2016 04:25:39 UTC] REQUEST METHOD : GET
+[19-Nov-2016 04:25:39 UTC] PARAMS : Array
+(
+    [idCard] => 
+    [idBoard] => 582fd20dffa6dec40e697e36
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 04:25:39 UTC] getting all people from instance 582fd20dffa6dec40e697e36
+[19-Nov-2016 04:25:39 UTC] Array
+(
+)
+
+[19-Nov-2016 04:27:06 UTC] api access from : 
+[19-Nov-2016 04:27:06 UTC] REQUEST METHOD : GET
+[19-Nov-2016 04:27:06 UTC] PARAMS : Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idBoard] => 
+    [idList] => 
+    [days] => 
+    [email] => 
+)
+
+[19-Nov-2016 04:27:06 UTC] getting person 582fd2e6b7717701907422fe
+[19-Nov-2016 04:27:06 UTC] api access from : 
+[19-Nov-2016 04:27:06 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 04:27:06 UTC] PARAMS : Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idList] => 582fd2e6b7717701907422e9
+    [days] => 
+    [email] => gregburns74@gmail.com
+)
+
+[19-Nov-2016 04:27:06 UTC] resource created
+[19-Nov-2016 04:27:08 UTC] api access from : 
+[19-Nov-2016 04:27:08 UTC] REQUEST METHOD : PUT
+[19-Nov-2016 04:27:08 UTC] PARAMS : Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idList] => 582fd2e6b7717701907422e9
+    [days] => 
+    [email] => gregburns74@gmail.com
+)
+
+[19-Nov-2016 04:27:08 UTC] Array
+(
+    [status] => failed
+    [code] => 500
+    [reason] => server error
+    [detail] => Array
+        (
+            [state] => 23000
+            [code] => 1062
+            [db_error] => Duplicate entry '582fd2e6b7717701907422fe' for key 'PRIMARY'
+        )
+
+)
+

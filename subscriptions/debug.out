@@ -1,0 +1,94 @@
+Array
+(
+    [model] => Array
+        (
+            [id] => 5807b4ff381a84f7a7161e69
+            [name] => Merchant Leads
+            [desc] => 
+            [descData] => 
+            [closed] => 
+            [idOrganization] => 
+            [pinned] => 
+            [url] => https://trello.com/b/GFxIZmMd/merchant-leads
+            [shortUrl] => https://trello.com/b/GFxIZmMd
+            [prefs] => Array
+                (
+                    [permissionLevel] => private
+                    [voting] => disabled
+                    [comments] => members
+                    [invitations] => members
+                    [selfJoin] => 
+                    [cardCovers] => 1
+                    [cardAging] => regular
+                    [calendarFeedEnabled] => 
+                    [background] => blue
+                    [backgroundImage] => 
+                    [backgroundImageScaled] => 
+                    [backgroundTile] => 
+                    [backgroundBrightness] => dark
+                    [backgroundColor] => #0079BF
+                    [canBePublic] => 1
+                    [canBeOrg] => 1
+                    [canBePrivate] => 1
+                    [canInvite] => 1
+                )
+
+            [labelNames] => Array
+                (
+                    [green] => 
+                    [yellow] => 
+                    [orange] => Start
+                    [red] => 
+                    [purple] => 
+                    [blue] => 
+                    [sky] => 
+                    [lime] => 
+                    [pink] => 
+                    [black] => 
+                )
+
+        )
+
+    [action] => Array
+        (
+            [id] => 583473bf9eae45db851845ad
+            [idMemberCreator] => 5807b33d5e6b76fa14f8cf0e
+            [data] => Array
+                (
+                    [board] => Array
+                        (
+                            [shortLink] => GFxIZmMd
+                            [name] => Merchant Leads
+                            [id] => 5807b4ff381a84f7a7161e69
+                        )
+
+                    [list] => Array
+                        (
+                            [name] => Leads
+                            [id] => 5808f609a062514401285d5a
+                        )
+
+                    [card] => Array
+                        (
+                            [shortLink] => 0ZaMDeWO
+                            [idShort] => 158
+                            [name] => West on North
+                            [id] => 583473bf9eae45db851845ac
+                        )
+
+                )
+
+            [type] => createCard
+            [date] => 2016-11-22T16:35:11.426Z
+            [memberCreator] => Array
+                (
+                    [id] => 5807b33d5e6b76fa14f8cf0e
+                    [avatarHash] => 
+                    [fullName] => Alan Gagne
+                    [initials] => AG
+                    [username] => alangagne18
+                )
+
+        )
+
+)

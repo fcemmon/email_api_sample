@@ -1,0 +1,63 @@
+<?php
+  require_once('../settings.php');
+  require_once('../api.php');
+
+  error_log('getting timestamp of last trello comment');
+
+  if ($_SERVER['REQUEST_METHOD'] != 'GET') {
+    tcrm_api_bad_request('wrong request method');
+  }
+  
+  $params = array(
+    'idCard' => @$_GET['idCard'],
+    'token' => @$_GET['token']
+  );
+  
+  if (!$params['idCard'] || !$params['token']) {
+    error_log('PARAMS : ' . print_r($params, true));
+    tcrm_api_bad_request('missing parameter');
+  }
+  
+  $tparams = 'key=' . $settings['t']['key'] . '&token=' . $params['token'];
+  
+  $card = api_call('GET', 'https://api.trello.com/1/cards/' . $params['idCard'] . '?actions=commentCard&' . $tparams, true);
+
+  if (!is_array($card)) {
+    $e = array(
+      'msg' => 'could not get card data',
+      'result' => $card
+    );
+    tcrm_api_server_error($e);
+  }
+
+  if (!is_array($card['actions']) || !count($card['actions'])) {
+    $output = array();
+  } else {
+    $now = time();
+    
+    $days = false;
+    
+    foreach ($card['actions'] as $a) {
+      if (preg_match('/\*\*([0-9]+)\sdays\*\*/is', $a['data']['text'], $dayMatch)) {
+        $days += $dayMatch[1];
+      }
+
+      if ($days === false && !preg_match('/^\*\*Email\s(sent|received)\*\*/is', $a['data']['text'])) {
+        continue;
+      }
+
+      $timestamp = strtotime($card['actions'][0]['date']);
+      $days += (int)(floor(($now - $timestamp) / 60 / 60 / 24));
+
+      $output = array(
+        'idAction' => $a['id'],
+        'timestamp' => $timestamp,
+        'days' => $days
+      );
+      
+      break;
+    }
+  }
+  
+  tcrm_api_output_json($output);
+?>

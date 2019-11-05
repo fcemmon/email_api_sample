@@ -1,0 +1,1645 @@
+[26-May-2016 20:47:46 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 20:47:46 UTC] REQUEST METHOD : GET
+[26-May-2016 20:47:46 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[26-May-2016 20:47:46 UTC] Array
+(
+    [code] => 7b70020cf6abf4a853a8e3c6e7c9f497
+)
+
+[26-May-2016 21:37:39 UTC] api access from : 
+[26-May-2016 21:37:39 UTC] unauthorized
+[26-May-2016 21:38:42 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 21:38:42 UTC] REQUEST METHOD : OPTIONS
+[26-May-2016 21:38:42 UTC] PARAMS : Array
+(
+    [code] => c4c4b1d88f045c229d32a834a23d6879
+    [count] => 
+)
+
+[26-May-2016 21:38:42 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[26-May-2016 21:39:41 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 21:39:41 UTC] REQUEST METHOD : OPTIONS
+[26-May-2016 21:39:41 UTC] PARAMS : Array
+(
+    [code] => c4c4b1d88f045c229d32a834a23d6879
+    [count] => 
+)
+
+[26-May-2016 21:39:41 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[26-May-2016 21:39:41 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 21:39:41 UTC] REQUEST METHOD : DELETE
+[26-May-2016 21:39:41 UTC] PARAMS : Array
+(
+    [code] => c4c4b1d88f045c229d32a834a23d6879
+    [count] => 
+)
+
+[26-May-2016 21:39:41 UTC] Array
+(
+    [status] => success
+    [message] => successfully revoked 1 remaining invites for c4c4b1d88f045c229d32a834a23d6879
+    [code] => c4c4b1d88f045c229d32a834a23d6879
+    [count] => 1
+)
+
+[26-May-2016 21:40:07 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 21:40:07 UTC] REQUEST METHOD : POST
+[26-May-2016 21:40:07 UTC] PARAMS : Array
+(
+    [code] => multiusecode
+    [count] => 5
+)
+
+[26-May-2016 21:40:07 UTC] making an api call
+[26-May-2016 21:40:07 UTC] method : PUT
+[26-May-2016 21:40:07 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=multiusecode
+[26-May-2016 21:40:07 UTC] 
+[26-May-2016 21:40:07 UTC] decoding results
+[26-May-2016 21:40:07 UTC] result : Array
+(
+    [status] => created
+    [userid] => 25
+)
+
+[26-May-2016 21:40:07 UTC] making an api call
+[26-May-2016 21:40:07 UTC] method : PUT
+[26-May-2016 21:40:07 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=multiusecode
+[26-May-2016 21:40:07 UTC] 
+[26-May-2016 21:40:07 UTC] decoding results
+[26-May-2016 21:40:07 UTC] result : Array
+(
+    [status] => created
+    [userid] => 26
+)
+
+[26-May-2016 21:40:07 UTC] making an api call
+[26-May-2016 21:40:07 UTC] method : PUT
+[26-May-2016 21:40:07 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=multiusecode
+[26-May-2016 21:40:07 UTC] 
+[26-May-2016 21:40:08 UTC] decoding results
+[26-May-2016 21:40:08 UTC] result : Array
+(
+    [status] => created
+    [userid] => 27
+)
+
+[26-May-2016 21:40:08 UTC] making an api call
+[26-May-2016 21:40:08 UTC] method : PUT
+[26-May-2016 21:40:08 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=multiusecode
+[26-May-2016 21:40:08 UTC] 
+[26-May-2016 21:40:08 UTC] decoding results
+[26-May-2016 21:40:08 UTC] result : Array
+(
+    [status] => created
+    [userid] => 28
+)
+
+[26-May-2016 21:40:08 UTC] making an api call
+[26-May-2016 21:40:08 UTC] method : PUT
+[26-May-2016 21:40:08 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=multiusecode
+[26-May-2016 21:40:08 UTC] 
+[26-May-2016 21:40:08 UTC] decoding results
+[26-May-2016 21:40:08 UTC] result : Array
+(
+    [status] => created
+    [userid] => 29
+)
+
+[26-May-2016 21:40:08 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 25
+                )
+
+            [1] => Array
+                (
+                    [userid] => 26
+                )
+
+            [2] => Array
+                (
+                    [userid] => 27
+                )
+
+            [3] => Array
+                (
+                    [userid] => 28
+                )
+
+            [4] => Array
+                (
+                    [userid] => 29
+                )
+
+        )
+
+)
+
+[26-May-2016 21:41:39 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 21:41:39 UTC] REQUEST METHOD : OPTIONS
+[26-May-2016 21:41:39 UTC] PARAMS : Array
+(
+    [code] => multiusecode
+    [count] => 
+)
+
+[26-May-2016 21:41:39 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[26-May-2016 21:41:40 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 21:41:40 UTC] REQUEST METHOD : DELETE
+[26-May-2016 21:41:40 UTC] PARAMS : Array
+(
+    [code] => multiusecode
+    [count] => 
+)
+
+[26-May-2016 21:41:40 UTC] Array
+(
+    [status] => success
+    [message] => successfully revoked 5 remaining invites for multiusecode
+    [code] => multiusecode
+    [count] => 5
+)
+
+[26-May-2016 22:07:05 UTC] api access from : 
+[26-May-2016 22:07:05 UTC] REQUEST METHOD : GET
+[26-May-2016 22:07:05 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[26-May-2016 22:07:05 UTC] Array
+(
+    [code] => bc8f12d099087127573c0c6b9ae769d4
+)
+
+[26-May-2016 22:18:46 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:18:46 UTC] REQUEST METHOD : GET
+[26-May-2016 22:18:46 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[26-May-2016 22:18:46 UTC] Array
+(
+    [code] => 9288c86425e340030510addc0ebe9bac
+)
+
+[26-May-2016 22:18:48 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:18:48 UTC] REQUEST METHOD : POST
+[26-May-2016 22:18:48 UTC] PARAMS : Array
+(
+    [code] => 9288c86425e340030510addc0ebe9bac
+    [count] => 1
+)
+
+[26-May-2016 22:18:48 UTC] making an api call
+[26-May-2016 22:18:48 UTC] method : PUT
+[26-May-2016 22:18:48 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=9288c86425e340030510addc0ebe9bac
+[26-May-2016 22:18:48 UTC] 
+[26-May-2016 22:18:48 UTC] decoding results
+[26-May-2016 22:18:48 UTC] result : Array
+(
+    [status] => created
+    [userid] => 30
+)
+
+[26-May-2016 22:18:48 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 30
+                )
+
+        )
+
+)
+
+[26-May-2016 22:18:53 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:18:53 UTC] REQUEST METHOD : OPTIONS
+[26-May-2016 22:18:53 UTC] PARAMS : Array
+(
+    [code] => 9288c86425e340030510addc0ebe9bac
+    [count] => 
+)
+
+[26-May-2016 22:18:53 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[26-May-2016 22:18:53 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:18:53 UTC] REQUEST METHOD : DELETE
+[26-May-2016 22:18:53 UTC] PARAMS : Array
+(
+    [code] => 9288c86425e340030510addc0ebe9bac
+    [count] => 
+)
+
+[26-May-2016 22:18:53 UTC] Array
+(
+    [status] => success
+    [message] => successfully revoked 1 remaining invites for 9288c86425e340030510addc0ebe9bac
+    [code] => 9288c86425e340030510addc0ebe9bac
+    [count] => 1
+)
+
+[26-May-2016 22:27:20 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:27:20 UTC] REQUEST METHOD : GET
+[26-May-2016 22:27:21 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[26-May-2016 22:27:21 UTC] Array
+(
+    [code] => b4b87faf257233abec4a68654810e208
+)
+
+[26-May-2016 22:27:22 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:27:22 UTC] REQUEST METHOD : POST
+[26-May-2016 22:27:22 UTC] PARAMS : Array
+(
+    [code] => b4b87faf257233abec4a68654810e208
+    [count] => 1
+)
+
+[26-May-2016 22:27:22 UTC] making an api call
+[26-May-2016 22:27:22 UTC] method : PUT
+[26-May-2016 22:27:22 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=b4b87faf257233abec4a68654810e208
+[26-May-2016 22:27:22 UTC] 
+[26-May-2016 22:27:23 UTC] decoding results
+[26-May-2016 22:27:23 UTC] result : Array
+(
+    [status] => created
+    [userid] => 31
+)
+
+[26-May-2016 22:27:23 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 31
+                )
+
+        )
+
+)
+
+[26-May-2016 22:27:27 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:27:27 UTC] REQUEST METHOD : OPTIONS
+[26-May-2016 22:27:27 UTC] PARAMS : Array
+(
+    [code] => b4b87faf257233abec4a68654810e208
+    [count] => 
+)
+
+[26-May-2016 22:27:27 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[26-May-2016 22:27:28 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:27:28 UTC] REQUEST METHOD : DELETE
+[26-May-2016 22:27:28 UTC] PARAMS : Array
+(
+    [code] => b4b87faf257233abec4a68654810e208
+    [count] => 
+)
+
+[26-May-2016 22:27:28 UTC] Array
+(
+    [status] => success
+    [message] => successfully revoked 1 remaining invites for b4b87faf257233abec4a68654810e208
+    [code] => b4b87faf257233abec4a68654810e208
+    [count] => 1
+)
+
+[26-May-2016 22:30:42 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:30:42 UTC] REQUEST METHOD : GET
+[26-May-2016 22:30:42 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[26-May-2016 22:30:42 UTC] Array
+(
+    [code] => 73376dc0af68993e10a253915225098d
+)
+
+[26-May-2016 22:30:43 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:30:43 UTC] REQUEST METHOD : POST
+[26-May-2016 22:30:43 UTC] PARAMS : Array
+(
+    [code] => 73376dc0af68993e10a253915225098d
+    [count] => 1
+)
+
+[26-May-2016 22:30:43 UTC] making an api call
+[26-May-2016 22:30:43 UTC] method : PUT
+[26-May-2016 22:30:43 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=73376dc0af68993e10a253915225098d
+[26-May-2016 22:30:43 UTC] 
+[26-May-2016 22:30:43 UTC] decoding results
+[26-May-2016 22:30:43 UTC] result : Array
+(
+    [status] => created
+    [userid] => 32
+)
+
+[26-May-2016 22:30:43 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 32
+                )
+
+        )
+
+)
+
+[26-May-2016 22:30:48 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:30:48 UTC] REQUEST METHOD : OPTIONS
+[26-May-2016 22:30:48 UTC] PARAMS : Array
+(
+    [code] => 73376dc0af68993e10a253915225098d
+    [count] => 
+)
+
+[26-May-2016 22:30:48 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[26-May-2016 22:30:48 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:30:48 UTC] REQUEST METHOD : DELETE
+[26-May-2016 22:30:48 UTC] PARAMS : Array
+(
+    [code] => 73376dc0af68993e10a253915225098d
+    [count] => 
+)
+
+[26-May-2016 22:30:48 UTC] Array
+(
+    [status] => success
+    [message] => successfully revoked 1 remaining invites for 73376dc0af68993e10a253915225098d
+    [code] => 73376dc0af68993e10a253915225098d
+    [count] => 1
+)
+
+[26-May-2016 22:31:12 UTC] api access from : https://admin.trellocrm.com
+[26-May-2016 22:31:12 UTC] REQUEST METHOD : POST
+[26-May-2016 22:31:12 UTC] PARAMS : Array
+(
+    [code] => testing
+    [count] => 1
+)
+
+[26-May-2016 22:31:12 UTC] making an api call
+[26-May-2016 22:31:12 UTC] method : PUT
+[26-May-2016 22:31:12 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=testing
+[26-May-2016 22:31:12 UTC] 
+[26-May-2016 22:31:12 UTC] decoding results
+[26-May-2016 22:31:12 UTC] result : Array
+(
+    [status] => created
+    [userid] => 33
+)
+
+[26-May-2016 22:31:12 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 33
+                )
+
+        )
+
+)
+
+[26-May-2016 22:37:48 UTC] api access from : 
+[26-May-2016 22:37:48 UTC] REQUEST METHOD : GET
+[26-May-2016 22:37:48 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[26-May-2016 22:37:48 UTC] Array
+(
+    [code] => 3576ac57204e6407b913b9819a1040ce
+)
+
+[27-May-2016 01:27:25 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 01:27:25 UTC] REQUEST METHOD : POST
+[27-May-2016 01:27:25 UTC] PARAMS : Array
+(
+    [code] => another
+    [count] => 1
+)
+
+[27-May-2016 01:27:25 UTC] making an api call
+[27-May-2016 01:27:25 UTC] method : PUT
+[27-May-2016 01:27:25 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=another
+[27-May-2016 01:27:25 UTC] 
+[27-May-2016 01:27:26 UTC] decoding results
+[27-May-2016 01:27:26 UTC] result : Array
+(
+    [status] => created
+    [userid] => 34
+)
+
+[27-May-2016 01:27:26 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 34
+                )
+
+        )
+
+)
+
+[27-May-2016 01:27:49 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 01:27:49 UTC] REQUEST METHOD : POST
+[27-May-2016 01:27:49 UTC] PARAMS : Array
+(
+    [code] => beta
+    [count] => 25
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 35
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 36
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 37
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 38
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 39
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 40
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:49 UTC] decoding results
+[27-May-2016 01:27:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 41
+)
+
+[27-May-2016 01:27:49 UTC] making an api call
+[27-May-2016 01:27:49 UTC] method : PUT
+[27-May-2016 01:27:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:49 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 42
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 43
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 44
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 45
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 46
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 47
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:50 UTC] decoding results
+[27-May-2016 01:27:50 UTC] result : Array
+(
+    [status] => created
+    [userid] => 48
+)
+
+[27-May-2016 01:27:50 UTC] making an api call
+[27-May-2016 01:27:50 UTC] method : PUT
+[27-May-2016 01:27:50 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:50 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 49
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 50
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 51
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 52
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 53
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 54
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:51 UTC] decoding results
+[27-May-2016 01:27:51 UTC] result : Array
+(
+    [status] => created
+    [userid] => 55
+)
+
+[27-May-2016 01:27:51 UTC] making an api call
+[27-May-2016 01:27:51 UTC] method : PUT
+[27-May-2016 01:27:51 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:51 UTC] 
+[27-May-2016 01:27:52 UTC] decoding results
+[27-May-2016 01:27:52 UTC] result : Array
+(
+    [status] => created
+    [userid] => 56
+)
+
+[27-May-2016 01:27:52 UTC] making an api call
+[27-May-2016 01:27:52 UTC] method : PUT
+[27-May-2016 01:27:52 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:52 UTC] 
+[27-May-2016 01:27:52 UTC] decoding results
+[27-May-2016 01:27:52 UTC] result : Array
+(
+    [status] => created
+    [userid] => 57
+)
+
+[27-May-2016 01:27:52 UTC] making an api call
+[27-May-2016 01:27:52 UTC] method : PUT
+[27-May-2016 01:27:52 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:52 UTC] 
+[27-May-2016 01:27:52 UTC] decoding results
+[27-May-2016 01:27:52 UTC] result : Array
+(
+    [status] => created
+    [userid] => 58
+)
+
+[27-May-2016 01:27:52 UTC] making an api call
+[27-May-2016 01:27:52 UTC] method : PUT
+[27-May-2016 01:27:52 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 01:27:52 UTC] 
+[27-May-2016 01:27:52 UTC] decoding results
+[27-May-2016 01:27:52 UTC] result : Array
+(
+    [status] => created
+    [userid] => 59
+)
+
+[27-May-2016 01:27:52 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 35
+                )
+
+            [1] => Array
+                (
+                    [userid] => 36
+                )
+
+            [2] => Array
+                (
+                    [userid] => 37
+                )
+
+            [3] => Array
+                (
+                    [userid] => 38
+                )
+
+            [4] => Array
+                (
+                    [userid] => 39
+                )
+
+            [5] => Array
+                (
+                    [userid] => 40
+                )
+
+            [6] => Array
+                (
+                    [userid] => 41
+                )
+
+            [7] => Array
+                (
+                    [userid] => 42
+                )
+
+            [8] => Array
+                (
+                    [userid] => 43
+                )
+
+            [9] => Array
+                (
+                    [userid] => 44
+                )
+
+            [10] => Array
+                (
+                    [userid] => 45
+                )
+
+            [11] => Array
+                (
+                    [userid] => 46
+                )
+
+            [12] => Array
+                (
+                    [userid] => 47
+                )
+
+            [13] => Array
+                (
+                    [userid] => 48
+                )
+
+            [14] => Array
+                (
+                    [userid] => 49
+                )
+
+            [15] => Array
+                (
+                    [userid] => 50
+                )
+
+            [16] => Array
+                (
+                    [userid] => 51
+                )
+
+            [17] => Array
+                (
+                    [userid] => 52
+                )
+
+            [18] => Array
+                (
+                    [userid] => 53
+                )
+
+            [19] => Array
+                (
+                    [userid] => 54
+                )
+
+            [20] => Array
+                (
+                    [userid] => 55
+                )
+
+            [21] => Array
+                (
+                    [userid] => 56
+                )
+
+            [22] => Array
+                (
+                    [userid] => 57
+                )
+
+            [23] => Array
+                (
+                    [userid] => 58
+                )
+
+            [24] => Array
+                (
+                    [userid] => 59
+                )
+
+        )
+
+)
+
+[27-May-2016 02:06:06 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 02:06:06 UTC] REQUEST METHOD : POST
+[27-May-2016 02:06:06 UTC] PARAMS : Array
+(
+    [code] => bta
+    [count] => 3
+)
+
+[27-May-2016 02:06:06 UTC] making an api call
+[27-May-2016 02:06:06 UTC] method : PUT
+[27-May-2016 02:06:06 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=bta
+[27-May-2016 02:06:06 UTC] 
+[27-May-2016 02:06:06 UTC] decoding results
+[27-May-2016 02:06:06 UTC] result : Array
+(
+    [status] => created
+    [userid] => 60
+)
+
+[27-May-2016 02:06:06 UTC] making an api call
+[27-May-2016 02:06:06 UTC] method : PUT
+[27-May-2016 02:06:06 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=bta
+[27-May-2016 02:06:06 UTC] 
+[27-May-2016 02:06:06 UTC] decoding results
+[27-May-2016 02:06:06 UTC] result : Array
+(
+    [status] => created
+    [userid] => 61
+)
+
+[27-May-2016 02:06:06 UTC] making an api call
+[27-May-2016 02:06:06 UTC] method : PUT
+[27-May-2016 02:06:06 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=bta
+[27-May-2016 02:06:06 UTC] 
+[27-May-2016 02:06:06 UTC] decoding results
+[27-May-2016 02:06:06 UTC] result : Array
+(
+    [status] => created
+    [userid] => 62
+)
+
+[27-May-2016 02:06:06 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 60
+                )
+
+            [1] => Array
+                (
+                    [userid] => 61
+                )
+
+            [2] => Array
+                (
+                    [userid] => 62
+                )
+
+        )
+
+)
+
+[27-May-2016 02:06:11 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 02:06:11 UTC] REQUEST METHOD : OPTIONS
+[27-May-2016 02:06:11 UTC] PARAMS : Array
+(
+    [code] => bta
+    [count] => 
+)
+
+[27-May-2016 02:06:11 UTC] PHP Notice:  Undefined variable: r in /home/tcrm/public_html/my/api/invites/index.php on line 101
+[27-May-2016 02:06:12 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 02:06:12 UTC] REQUEST METHOD : DELETE
+[27-May-2016 02:06:12 UTC] PARAMS : Array
+(
+    [code] => bta
+    [count] => 
+)
+
+[27-May-2016 02:06:12 UTC] Array
+(
+    [status] => success
+    [message] => successfully revoked 3 remaining invites for bta
+    [code] => bta
+    [count] => 3
+)
+
+[27-May-2016 02:06:19 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 02:06:19 UTC] REQUEST METHOD : POST
+[27-May-2016 02:06:19 UTC] PARAMS : Array
+(
+    [code] => beta
+    [count] => 3
+)
+
+[27-May-2016 02:06:19 UTC] making an api call
+[27-May-2016 02:06:19 UTC] method : PUT
+[27-May-2016 02:06:19 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:06:19 UTC] 
+[27-May-2016 02:06:20 UTC] decoding results
+[27-May-2016 02:06:20 UTC] result : Array
+(
+    [status] => created
+    [userid] => 63
+)
+
+[27-May-2016 02:06:20 UTC] making an api call
+[27-May-2016 02:06:20 UTC] method : PUT
+[27-May-2016 02:06:20 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:06:20 UTC] 
+[27-May-2016 02:06:20 UTC] decoding results
+[27-May-2016 02:06:20 UTC] result : Array
+(
+    [status] => created
+    [userid] => 64
+)
+
+[27-May-2016 02:06:20 UTC] making an api call
+[27-May-2016 02:06:20 UTC] method : PUT
+[27-May-2016 02:06:20 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:06:20 UTC] 
+[27-May-2016 02:06:20 UTC] decoding results
+[27-May-2016 02:06:20 UTC] result : Array
+(
+    [status] => created
+    [userid] => 65
+)
+
+[27-May-2016 02:06:20 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 63
+                )
+
+            [1] => Array
+                (
+                    [userid] => 64
+                )
+
+            [2] => Array
+                (
+                    [userid] => 65
+                )
+
+        )
+
+)
+
+[27-May-2016 02:07:30 UTC] api access from : 
+[27-May-2016 02:07:30 UTC] REQUEST METHOD : GET
+[27-May-2016 02:07:30 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[27-May-2016 02:07:30 UTC] Array
+(
+    [code] => c1079ec1a04ea7d1d2ae24da88976cd0
+)
+
+[27-May-2016 02:08:16 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 02:08:16 UTC] REQUEST METHOD : POST
+[27-May-2016 02:08:16 UTC] PARAMS : Array
+(
+    [code] => beta
+    [count] => 3
+)
+
+[27-May-2016 02:08:16 UTC] making an api call
+[27-May-2016 02:08:16 UTC] method : PUT
+[27-May-2016 02:08:16 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:08:16 UTC] 
+[27-May-2016 02:08:17 UTC] decoding results
+[27-May-2016 02:08:17 UTC] result : Array
+(
+    [status] => created
+    [userid] => 66
+)
+
+[27-May-2016 02:08:17 UTC] making an api call
+[27-May-2016 02:08:17 UTC] method : PUT
+[27-May-2016 02:08:17 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:08:17 UTC] 
+[27-May-2016 02:08:17 UTC] decoding results
+[27-May-2016 02:08:17 UTC] result : Array
+(
+    [status] => created
+    [userid] => 67
+)
+
+[27-May-2016 02:08:17 UTC] making an api call
+[27-May-2016 02:08:17 UTC] method : PUT
+[27-May-2016 02:08:17 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:08:17 UTC] 
+[27-May-2016 02:08:17 UTC] decoding results
+[27-May-2016 02:08:17 UTC] result : Array
+(
+    [status] => created
+    [userid] => 68
+)
+
+[27-May-2016 02:08:17 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 66
+                )
+
+            [1] => Array
+                (
+                    [userid] => 67
+                )
+
+            [2] => Array
+                (
+                    [userid] => 68
+                )
+
+        )
+
+)
+
+[27-May-2016 02:09:30 UTC] api access from : https://admin.trellocrm.com
+[27-May-2016 02:09:30 UTC] REQUEST METHOD : POST
+[27-May-2016 02:09:30 UTC] PARAMS : Array
+(
+    [code] => beta
+    [count] => 4
+)
+
+[27-May-2016 02:09:30 UTC] making an api call
+[27-May-2016 02:09:30 UTC] method : PUT
+[27-May-2016 02:09:30 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:09:30 UTC] 
+[27-May-2016 02:09:30 UTC] decoding results
+[27-May-2016 02:09:30 UTC] result : Array
+(
+    [status] => created
+    [userid] => 69
+)
+
+[27-May-2016 02:09:30 UTC] making an api call
+[27-May-2016 02:09:30 UTC] method : PUT
+[27-May-2016 02:09:30 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:09:30 UTC] 
+[27-May-2016 02:09:30 UTC] decoding results
+[27-May-2016 02:09:30 UTC] result : Array
+(
+    [status] => created
+    [userid] => 70
+)
+
+[27-May-2016 02:09:30 UTC] making an api call
+[27-May-2016 02:09:30 UTC] method : PUT
+[27-May-2016 02:09:30 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:09:30 UTC] 
+[27-May-2016 02:09:30 UTC] decoding results
+[27-May-2016 02:09:30 UTC] result : Array
+(
+    [status] => created
+    [userid] => 71
+)
+
+[27-May-2016 02:09:30 UTC] making an api call
+[27-May-2016 02:09:30 UTC] method : PUT
+[27-May-2016 02:09:30 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=beta
+[27-May-2016 02:09:30 UTC] 
+[27-May-2016 02:09:30 UTC] decoding results
+[27-May-2016 02:09:30 UTC] result : Array
+(
+    [status] => created
+    [userid] => 72
+)
+
+[27-May-2016 02:09:30 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 69
+                )
+
+            [1] => Array
+                (
+                    [userid] => 70
+                )
+
+            [2] => Array
+                (
+                    [userid] => 71
+                )
+
+            [3] => Array
+                (
+                    [userid] => 72
+                )
+
+        )
+
+)
+
+[14-Nov-2016 18:34:42 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 18:34:42 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:34:42 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[14-Nov-2016 18:34:42 UTC] Array
+(
+    [code] => 96c2bb5949b1ff2866c318aadb58b33d
+)
+
+[14-Nov-2016 18:34:55 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 18:34:55 UTC] REQUEST METHOD : POST
+[14-Nov-2016 18:34:55 UTC] PARAMS : Array
+(
+    [code] => 96c2bb5949b1ff2866c318aadb58b33d
+    [count] => 1
+)
+
+[14-Nov-2016 18:34:55 UTC] making an api call
+[14-Nov-2016 18:34:55 UTC] method : PUT
+[14-Nov-2016 18:34:55 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=96c2bb5949b1ff2866c318aadb58b33d
+[14-Nov-2016 18:34:55 UTC] 
+[14-Nov-2016 18:34:56 UTC] decoding results
+[14-Nov-2016 18:34:56 UTC] result : Array
+(
+    [status] => created
+    [userid] => 73
+)
+
+[14-Nov-2016 18:34:56 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 73
+                )
+
+        )
+
+)
+
+[14-Nov-2016 18:35:46 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 18:35:46 UTC] REQUEST METHOD : GET
+[14-Nov-2016 18:35:46 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[14-Nov-2016 18:35:46 UTC] Array
+(
+    [code] => 52b0a18e18717056bd713f4b9966ed67
+)
+
+[14-Nov-2016 18:35:49 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 18:35:49 UTC] REQUEST METHOD : POST
+[14-Nov-2016 18:35:49 UTC] PARAMS : Array
+(
+    [code] => 52b0a18e18717056bd713f4b9966ed67
+    [count] => 1
+)
+
+[14-Nov-2016 18:35:49 UTC] making an api call
+[14-Nov-2016 18:35:49 UTC] method : PUT
+[14-Nov-2016 18:35:49 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=52b0a18e18717056bd713f4b9966ed67
+[14-Nov-2016 18:35:49 UTC] 
+[14-Nov-2016 18:35:49 UTC] decoding results
+[14-Nov-2016 18:35:49 UTC] result : Array
+(
+    [status] => created
+    [userid] => 74
+)
+
+[14-Nov-2016 18:35:49 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 74
+                )
+
+        )
+
+)
+
+[14-Nov-2016 19:03:21 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 19:03:21 UTC] REQUEST METHOD : GET
+[14-Nov-2016 19:03:21 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[14-Nov-2016 19:03:21 UTC] Array
+(
+    [code] => 7bbe781c62eacbb5a10a5e697d85c731
+)
+
+[14-Nov-2016 19:03:27 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 19:03:27 UTC] REQUEST METHOD : POST
+[14-Nov-2016 19:03:27 UTC] PARAMS : Array
+(
+    [code] => 7bbe781c62eacbb5a10a5e697d85c731
+    [count] => 5
+)
+
+[14-Nov-2016 19:03:27 UTC] making an api call
+[14-Nov-2016 19:03:27 UTC] method : PUT
+[14-Nov-2016 19:03:27 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=7bbe781c62eacbb5a10a5e697d85c731
+[14-Nov-2016 19:03:27 UTC] 
+[14-Nov-2016 19:03:27 UTC] decoding results
+[14-Nov-2016 19:03:27 UTC] result : Array
+(
+    [status] => created
+    [userid] => 75
+)
+
+[14-Nov-2016 19:03:27 UTC] making an api call
+[14-Nov-2016 19:03:27 UTC] method : PUT
+[14-Nov-2016 19:03:27 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=7bbe781c62eacbb5a10a5e697d85c731
+[14-Nov-2016 19:03:27 UTC] 
+[14-Nov-2016 19:03:27 UTC] decoding results
+[14-Nov-2016 19:03:27 UTC] result : Array
+(
+    [status] => created
+    [userid] => 76
+)
+
+[14-Nov-2016 19:03:27 UTC] making an api call
+[14-Nov-2016 19:03:27 UTC] method : PUT
+[14-Nov-2016 19:03:27 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=7bbe781c62eacbb5a10a5e697d85c731
+[14-Nov-2016 19:03:27 UTC] 
+[14-Nov-2016 19:03:28 UTC] decoding results
+[14-Nov-2016 19:03:28 UTC] result : Array
+(
+    [status] => created
+    [userid] => 77
+)
+
+[14-Nov-2016 19:03:28 UTC] making an api call
+[14-Nov-2016 19:03:28 UTC] method : PUT
+[14-Nov-2016 19:03:28 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=7bbe781c62eacbb5a10a5e697d85c731
+[14-Nov-2016 19:03:28 UTC] 
+[14-Nov-2016 19:03:28 UTC] decoding results
+[14-Nov-2016 19:03:28 UTC] result : Array
+(
+    [status] => created
+    [userid] => 78
+)
+
+[14-Nov-2016 19:03:28 UTC] making an api call
+[14-Nov-2016 19:03:28 UTC] method : PUT
+[14-Nov-2016 19:03:28 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=7bbe781c62eacbb5a10a5e697d85c731
+[14-Nov-2016 19:03:28 UTC] 
+[14-Nov-2016 19:03:28 UTC] decoding results
+[14-Nov-2016 19:03:28 UTC] result : Array
+(
+    [status] => created
+    [userid] => 79
+)
+
+[14-Nov-2016 19:03:28 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 75
+                )
+
+            [1] => Array
+                (
+                    [userid] => 76
+                )
+
+            [2] => Array
+                (
+                    [userid] => 77
+                )
+
+            [3] => Array
+                (
+                    [userid] => 78
+                )
+
+            [4] => Array
+                (
+                    [userid] => 79
+                )
+
+        )
+
+)
+
+[14-Nov-2016 19:13:23 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 19:13:23 UTC] REQUEST METHOD : GET
+[14-Nov-2016 19:13:23 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[14-Nov-2016 19:13:23 UTC] Array
+(
+    [code] => 691ecd82d955bc5c16436f0db02e0e7b
+)
+
+[14-Nov-2016 19:13:30 UTC] api access from : https://admin.trellocrm.com
+[14-Nov-2016 19:13:30 UTC] REQUEST METHOD : POST
+[14-Nov-2016 19:13:30 UTC] PARAMS : Array
+(
+    [code] => alaninvite
+    [count] => 1
+)
+
+[14-Nov-2016 19:13:30 UTC] making an api call
+[14-Nov-2016 19:13:30 UTC] method : PUT
+[14-Nov-2016 19:13:30 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=alaninvite
+[14-Nov-2016 19:13:30 UTC] 
+[14-Nov-2016 19:13:30 UTC] decoding results
+[14-Nov-2016 19:13:30 UTC] result : Array
+(
+    [status] => created
+    [userid] => 80
+)
+
+[14-Nov-2016 19:13:30 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 80
+                )
+
+        )
+
+)
+
+[18-Nov-2016 22:04:34 UTC] api access from : https://admin.trellocrm.com
+[18-Nov-2016 22:04:34 UTC] REQUEST METHOD : POST
+[18-Nov-2016 22:04:34 UTC] PARAMS : Array
+(
+    [code] => jonas123
+    [count] => 1
+)
+
+[18-Nov-2016 22:04:34 UTC] making an api call
+[18-Nov-2016 22:04:34 UTC] method : PUT
+[18-Nov-2016 22:04:34 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=jonas123
+[18-Nov-2016 22:04:34 UTC] 
+[18-Nov-2016 22:04:36 UTC] decoding results
+[18-Nov-2016 22:04:36 UTC] result : Array
+(
+    [status] => created
+    [userid] => 81
+)
+
+[18-Nov-2016 22:04:36 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 81
+                )
+
+        )
+
+)
+
+[18-Nov-2016 22:09:39 UTC] api access from : https://admin.trellocrm.com
+[18-Nov-2016 22:09:39 UTC] REQUEST METHOD : POST
+[18-Nov-2016 22:09:39 UTC] PARAMS : Array
+(
+    [code] => pete123
+    [count] => 1
+)
+
+[18-Nov-2016 22:09:39 UTC] making an api call
+[18-Nov-2016 22:09:39 UTC] method : PUT
+[18-Nov-2016 22:09:39 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=pete123
+[18-Nov-2016 22:09:39 UTC] 
+[18-Nov-2016 22:09:39 UTC] decoding results
+[18-Nov-2016 22:09:39 UTC] result : Array
+(
+    [status] => created
+    [userid] => 82
+)
+
+[18-Nov-2016 22:09:39 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 82
+                )
+
+        )
+
+)
+
+[18-Nov-2016 22:57:52 UTC] api access from : https://admin.trellocrm.com
+[18-Nov-2016 22:57:52 UTC] REQUEST METHOD : POST
+[18-Nov-2016 22:57:52 UTC] PARAMS : Array
+(
+    [code] => Jonas12
+    [count] => 1
+)
+
+[18-Nov-2016 22:57:52 UTC] making an api call
+[18-Nov-2016 22:57:52 UTC] method : PUT
+[18-Nov-2016 22:57:52 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=Jonas12
+[18-Nov-2016 22:57:52 UTC] 
+[18-Nov-2016 22:57:52 UTC] decoding results
+[18-Nov-2016 22:57:52 UTC] result : Array
+(
+    [status] => created
+    [userid] => 83
+)
+
+[18-Nov-2016 22:57:52 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 83
+                )
+
+        )
+
+)
+
+[19-Nov-2016 01:08:52 UTC] api access from : https://admin.trellocrm.com
+[19-Nov-2016 01:08:52 UTC] REQUEST METHOD : GET
+[19-Nov-2016 01:08:52 UTC] PARAMS : Array
+(
+    [code] => 
+    [count] => 
+)
+
+[19-Nov-2016 01:08:52 UTC] Array
+(
+    [code] => a02289132eb86b81c4ae1a322f2d3fb8
+)
+
+[19-Nov-2016 01:08:55 UTC] api access from : https://admin.trellocrm.com
+[19-Nov-2016 01:08:55 UTC] REQUEST METHOD : POST
+[19-Nov-2016 01:08:55 UTC] PARAMS : Array
+(
+    [code] => a02289132eb86b81c4ae1a322f2d3fb8
+    [count] => 1
+)
+
+[19-Nov-2016 01:08:55 UTC] making an api call
+[19-Nov-2016 01:08:55 UTC] method : PUT
+[19-Nov-2016 01:08:55 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=a02289132eb86b81c4ae1a322f2d3fb8
+[19-Nov-2016 01:08:55 UTC] 
+[19-Nov-2016 01:08:56 UTC] decoding results
+[19-Nov-2016 01:08:56 UTC] result : Array
+(
+    [status] => created
+    [userid] => 84
+)
+
+[19-Nov-2016 01:08:56 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 84
+                )
+
+        )
+
+)
+
+[19-Nov-2016 01:09:05 UTC] api access from : https://admin.trellocrm.com
+[19-Nov-2016 01:09:05 UTC] REQUEST METHOD : POST
+[19-Nov-2016 01:09:05 UTC] PARAMS : Array
+(
+    [code] => jacob123
+    [count] => 1
+)
+
+[19-Nov-2016 01:09:05 UTC] making an api call
+[19-Nov-2016 01:09:05 UTC] method : PUT
+[19-Nov-2016 01:09:05 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=jacob123
+[19-Nov-2016 01:09:05 UTC] 
+[19-Nov-2016 01:09:06 UTC] decoding results
+[19-Nov-2016 01:09:06 UTC] result : Array
+(
+    [status] => created
+    [userid] => 85
+)
+
+[19-Nov-2016 01:09:06 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 85
+                )
+
+        )
+
+)
+
+[19-Nov-2016 04:14:39 UTC] api access from : https://admin.trellocrm.com
+[19-Nov-2016 04:14:39 UTC] REQUEST METHOD : POST
+[19-Nov-2016 04:14:39 UTC] PARAMS : Array
+(
+    [code] => greg123
+    [count] => 1
+)
+
+[19-Nov-2016 04:14:39 UTC] making an api call
+[19-Nov-2016 04:14:39 UTC] method : PUT
+[19-Nov-2016 04:14:39 UTC] url : https://my.trellocrm.com/api/users?tcrmkey=russellisagod&invite_code=greg123
+[19-Nov-2016 04:14:39 UTC] 
+[19-Nov-2016 04:14:39 UTC] decoding results
+[19-Nov-2016 04:14:39 UTC] result : Array
+(
+    [status] => created
+    [userid] => 86
+)
+
+[19-Nov-2016 04:14:39 UTC] Array
+(
+    [created] => Array
+        (
+            [0] => Array
+                (
+                    [userid] => 86
+                )
+
+        )
+
+)
+

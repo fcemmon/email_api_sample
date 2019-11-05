@@ -1,0 +1,1180 @@
+[22-Nov-2016 16:13:28 UTC] Push notification received from Google
+[22-Nov-2016 16:13:28 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyMzM2fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 20101123782942
+            [messageId] => 20101123782942
+            [publish_time] => 2016-11-22T16:13:27.707Z
+            [publishTime] => 2016-11-22T16:13:27.707Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:13:28 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:13:28 UTC] historyId : 2212336
+[22-Nov-2016 16:13:28 UTC] looking for matching instance
+[22-Nov-2016 16:13:28 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:13:28 UTC] lastpush : 2212324
+[22-Nov-2016 16:13:28 UTC] historyId has increased
+[22-Nov-2016 16:13:28 UTC] updating historyId
+[22-Nov-2016 16:13:28 UTC] loading google api client
+[22-Nov-2016 16:13:28 UTC] checking access token
+[22-Nov-2016 16:13:28 UTC] renewing watch request
+[22-Nov-2016 16:13:29 UTC] querying historyId
+[22-Nov-2016 16:13:29 UTC] Array
+(
+    [id] => 1588ccb202a863cf
+    [threadId] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:13:29 UTC] Array
+(
+    [id] => 1588cb244671015d
+    [threadId] => 1588cb244671015d
+)
+
+[22-Nov-2016 16:13:29 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:13:29 UTC] MESSAGES : Array
+(
+    [0] => 1588ccb202a863cf
+    [1] => 1588cb244671015d
+)
+
+[22-Nov-2016 16:13:29 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:13:29 UTC] OUTPUT : Array
+(
+    [0] => Array
+        (
+            [id] => 1588cb244671015d
+            [from] => microsoftrewards@e.microsoft.com
+            [to] => greg@burnswebservices.com
+            [subject] => Gregory, shop like a pro—without leaving your couch
+        )
+
+)
+
+[22-Nov-2016 16:13:29 UTC] parsing 1 messages
+[22-Nov-2016 16:13:29 UTC] 
+[22-Nov-2016 16:13:36 UTC] Push notification received from Google
+[22-Nov-2016 16:13:36 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyMzQ2fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034221600480
+            [messageId] => 49034221600480
+            [publish_time] => 2016-11-22T16:13:37.126Z
+            [publishTime] => 2016-11-22T16:13:37.126Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:13:36 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:13:36 UTC] historyId : 2212346
+[22-Nov-2016 16:13:36 UTC] looking for matching instance
+[22-Nov-2016 16:13:36 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:13:36 UTC] lastpush : 2212336
+[22-Nov-2016 16:13:36 UTC] historyId has increased
+[22-Nov-2016 16:13:36 UTC] updating historyId
+[22-Nov-2016 16:13:36 UTC] loading google api client
+[22-Nov-2016 16:13:36 UTC] checking access token
+[22-Nov-2016 16:13:36 UTC] renewing watch request
+[22-Nov-2016 16:13:37 UTC] querying historyId
+[22-Nov-2016 16:13:37 UTC] Array
+(
+    [id] => 1588cd063e49b014
+    [threadId] => 1588cd063e49b014
+)
+
+[22-Nov-2016 16:13:37 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:13:37 UTC] MESSAGES : Array
+(
+    [0] => 1588cd063e49b014
+)
+
+[22-Nov-2016 16:13:37 UTC] OUTPUT : Array
+(
+)
+
+[22-Nov-2016 16:13:37 UTC] parsing 0 messages
+[22-Nov-2016 16:13:44 UTC] Push notification received from Google
+[22-Nov-2016 16:13:44 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyMzU4fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033146511684
+            [messageId] => 49033146511684
+            [publish_time] => 2016-11-22T16:13:45.172Z
+            [publishTime] => 2016-11-22T16:13:45.172Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:13:44 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:13:44 UTC] historyId : 2212358
+[22-Nov-2016 16:13:44 UTC] looking for matching instance
+[22-Nov-2016 16:13:44 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:13:44 UTC] lastpush : 2212346
+[22-Nov-2016 16:13:44 UTC] historyId has increased
+[22-Nov-2016 16:13:44 UTC] updating historyId
+[22-Nov-2016 16:13:44 UTC] loading google api client
+[22-Nov-2016 16:13:44 UTC] checking access token
+[22-Nov-2016 16:13:44 UTC] renewing watch request
+[22-Nov-2016 16:13:45 UTC] querying historyId
+[22-Nov-2016 16:13:45 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/gmail/v1/users/me/history?startHistoryId=2212346&key=-----BEGIN+PRIVATE+KEY-----%0AMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDaEEgUquxbex7r%0AjyUfmbxY5JUNyO89l1tPqTSKyrplgNQyTovYYZAd47FzRq%2FO2Eeryegl%2BqnjpOzj%0Aa%2Fx7rr%2FS6k6GJrtPNAat4jssOAaE8SYnNYPRsiAKCQztR8DRaoLxZ17JF3Qgmgn1%0AVsRfoBMSBOcEugSv%2B6jUFrDX%2BK6FG2utEiiGY1dhkVHPYwTwOTdn4kJcca4DIbml%0A0HnqZ96SCwQMurI6COIAuQz%2BmAV5W%2BxaMMYElIsTUBgTpsWi8m3fnO1qj5k4uv3k%0ANF%2BamZwZ0ZQ7efQ4wNPAWF%2FfvGkaRfwDQjljDA%2F0iY2DAB%2B3HmnWmVERqvc8P0TE%0AbL%2BocAunAgMBAAECggEBANhu5owU5ckal6LnjcoilY2JOuPWtpXkH04evDaxZnYO%0Aew5%2FZU%2Fb7eWss9idpSthASnhmZfwhiSa8j%2F7UzsTQ%2FM8ebmuwaSoF6UIcQC%2FjsDu%0AdJbgB7je2ev79aeg2yE%2FXT3rAmoG7EzbdtzaRMhAogz1brIDS1m8J2JyLw39FoKm%0A0hMf7y3idysSQxYU6LYH4ATFt7LbGPFyu6OlFYkaHO0A4ZaBzf75Zq96xyWMNHxm%0AoAT1AVDv3jBpL17uyTSDcUGUXJ7V8vYGRhXiQDlQx1oCKTOuDmmiPVVgiR69fxXh%0AcK%2B2CpQQ2cRnl3F8SRg2JC5PC75D6xWMv6CdphEFfXECgYEA%2BAuxEKZoO in /home/tcrm/public_html/my/lib/google/php/Http/REST.php on line 110
+[22-Nov-2016 16:13:45 UTC] Push notification received from Google
+[22-Nov-2016 16:13:45 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyMzU4fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033146511684
+            [messageId] => 49033146511684
+            [publish_time] => 2016-11-22T16:13:45.172Z
+            [publishTime] => 2016-11-22T16:13:45.172Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:13:45 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:13:45 UTC] historyId : 2212358
+[22-Nov-2016 16:13:45 UTC] looking for matching instance
+[22-Nov-2016 16:13:45 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:13:45 UTC] lastpush : 2212358
+[22-Nov-2016 16:13:45 UTC] nothing to do
+[22-Nov-2016 16:13:46 UTC] Push notification received from Google
+[22-Nov-2016 16:13:46 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyMzc0fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034119004406
+            [messageId] => 49034119004406
+            [publish_time] => 2016-11-22T16:13:46.690Z
+            [publishTime] => 2016-11-22T16:13:46.690Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:13:46 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:13:46 UTC] historyId : 2212374
+[22-Nov-2016 16:13:46 UTC] looking for matching instance
+[22-Nov-2016 16:13:46 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:13:46 UTC] lastpush : 2212358
+[22-Nov-2016 16:13:46 UTC] historyId has increased
+[22-Nov-2016 16:13:46 UTC] updating historyId
+[22-Nov-2016 16:13:46 UTC] loading google api client
+[22-Nov-2016 16:13:46 UTC] checking access token
+[22-Nov-2016 16:13:46 UTC] renewing watch request
+[22-Nov-2016 16:13:47 UTC] querying historyId
+[22-Nov-2016 16:13:47 UTC] Array
+(
+    [id] => 1588cd0885dc53a5
+    [threadId] => 1588cd0885dc53a5
+)
+
+[22-Nov-2016 16:13:47 UTC] Array
+(
+    [id] => 1588cd08345e32f8
+    [threadId] => 1588cd08345e32f8
+)
+
+[22-Nov-2016 16:13:47 UTC] Array
+(
+    [id] => 1588cd0885dc53a5
+    [threadId] => 1588cd0885dc53a5
+)
+
+[22-Nov-2016 16:13:47 UTC] Array
+(
+    [id] => 1588cd0885dc53a5
+    [threadId] => 1588cd0885dc53a5
+)
+
+[22-Nov-2016 16:13:47 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:13:47 UTC] MESSAGES : Array
+(
+    [0] => 1588cd0885dc53a5
+    [1] => 1588cd08345e32f8
+)
+
+[22-Nov-2016 16:13:47 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:13:47 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:13:47 UTC] OUTPUT : Array
+(
+)
+
+[22-Nov-2016 16:13:47 UTC] parsing 0 messages
+[22-Nov-2016 16:16:40 UTC] Push notification received from Google
+[22-Nov-2016 16:16:40 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNDE0fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033806235100
+            [messageId] => 49033806235100
+            [publish_time] => 2016-11-22T16:16:40.498Z
+            [publishTime] => 2016-11-22T16:16:40.498Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:16:40 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:16:40 UTC] historyId : 2212414
+[22-Nov-2016 16:16:40 UTC] looking for matching instance
+[22-Nov-2016 16:16:40 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:16:40 UTC] lastpush : 2212374
+[22-Nov-2016 16:16:40 UTC] historyId has increased
+[22-Nov-2016 16:16:40 UTC] updating historyId
+[22-Nov-2016 16:16:40 UTC] loading google api client
+[22-Nov-2016 16:16:40 UTC] Push notification received from Google
+[22-Nov-2016 16:16:40 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNDcxfQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034135220519
+            [messageId] => 49034135220519
+            [publish_time] => 2016-11-22T16:16:41.326Z
+            [publishTime] => 2016-11-22T16:16:41.326Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:16:40 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:16:40 UTC] historyId : 2212471
+[22-Nov-2016 16:16:40 UTC] looking for matching instance
+[22-Nov-2016 16:16:40 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:16:40 UTC] lastpush : 2212414
+[22-Nov-2016 16:16:40 UTC] historyId has increased
+[22-Nov-2016 16:16:40 UTC] updating historyId
+[22-Nov-2016 16:16:40 UTC] loading google api client
+[22-Nov-2016 16:16:40 UTC] checking access token
+[22-Nov-2016 16:16:40 UTC] renewing watch request
+[22-Nov-2016 16:16:41 UTC] checking access token
+[22-Nov-2016 16:16:41 UTC] renewing watch request
+[22-Nov-2016 16:16:41 UTC] querying historyId
+[22-Nov-2016 16:16:41 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/gmail/v1/users/me/history?startHistoryId=2212374&key=-----BEGIN+PRIVATE+KEY-----%0AMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDaEEgUquxbex7r%0AjyUfmbxY5JUNyO89l1tPqTSKyrplgNQyTovYYZAd47FzRq%2FO2Eeryegl%2BqnjpOzj%0Aa%2Fx7rr%2FS6k6GJrtPNAat4jssOAaE8SYnNYPRsiAKCQztR8DRaoLxZ17JF3Qgmgn1%0AVsRfoBMSBOcEugSv%2B6jUFrDX%2BK6FG2utEiiGY1dhkVHPYwTwOTdn4kJcca4DIbml%0A0HnqZ96SCwQMurI6COIAuQz%2BmAV5W%2BxaMMYElIsTUBgTpsWi8m3fnO1qj5k4uv3k%0ANF%2BamZwZ0ZQ7efQ4wNPAWF%2FfvGkaRfwDQjljDA%2F0iY2DAB%2B3HmnWmVERqvc8P0TE%0AbL%2BocAunAgMBAAECggEBANhu5owU5ckal6LnjcoilY2JOuPWtpXkH04evDaxZnYO%0Aew5%2FZU%2Fb7eWss9idpSthASnhmZfwhiSa8j%2F7UzsTQ%2FM8ebmuwaSoF6UIcQC%2FjsDu%0AdJbgB7je2ev79aeg2yE%2FXT3rAmoG7EzbdtzaRMhAogz1brIDS1m8J2JyLw39FoKm%0A0hMf7y3idysSQxYU6LYH4ATFt7LbGPFyu6OlFYkaHO0A4ZaBzf75Zq96xyWMNHxm%0AoAT1AVDv3jBpL17uyTSDcUGUXJ7V8vYGRhXiQDlQx1oCKTOuDmmiPVVgiR69fxXh%0AcK%2B2CpQQ2cRnl3F8SRg2JC5PC75D6xWMv6CdphEFfXECgYEA%2BAuxEKZoO in /home/tcrm/public_html/my/lib/google/php/Http/REST.php on line 110
+[22-Nov-2016 16:16:41 UTC] querying historyId
+[22-Nov-2016 16:16:41 UTC] Array
+(
+    [id] => 1588ccb202a863cf
+    [threadId] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:16:41 UTC] Array
+(
+    [id] => 1588ccb202a863cf
+    [threadId] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:16:41 UTC] Array
+(
+    [id] => 1588ccb202a863cf
+    [threadId] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:16:41 UTC] Array
+(
+    [id] => 1588ccb202a863cf
+    [threadId] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:16:41 UTC] Array
+(
+    [id] => 1588ccb202a863cf
+    [threadId] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:16:41 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:16:41 UTC] MESSAGES : Array
+(
+    [0] => 1588ccb202a863cf
+)
+
+[22-Nov-2016 16:16:41 UTC] Push notification received from Google
+[22-Nov-2016 16:16:41 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNDE0fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033806235100
+            [messageId] => 49033806235100
+            [publish_time] => 2016-11-22T16:16:40.498Z
+            [publishTime] => 2016-11-22T16:16:40.498Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:16:41 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:16:41 UTC] historyId : 2212414
+[22-Nov-2016 16:16:41 UTC] looking for matching instance
+[22-Nov-2016 16:16:41 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:16:41 UTC] lastpush : 2212471
+[22-Nov-2016 16:16:41 UTC] nothing to do
+[22-Nov-2016 16:16:41 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:16:41 UTC] OUTPUT : Array
+(
+)
+
+[22-Nov-2016 16:16:41 UTC] parsing 0 messages
+[22-Nov-2016 16:16:56 UTC] callback from Trello
+[22-Nov-2016 16:16:56 UTC] payload saved as debug.out
+[22-Nov-2016 16:16:56 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:16:56 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:16:56 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:16:56 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212471
+)
+
+[22-Nov-2016 16:16:56 UTC] action : deleteComment
+[22-Nov-2016 16:16:56 UTC] ignored
+[22-Nov-2016 16:16:58 UTC] callback from Trello
+[22-Nov-2016 16:16:58 UTC] payload saved as debug.out
+[22-Nov-2016 16:16:58 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:16:58 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:16:58 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:16:58 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212471
+)
+
+[22-Nov-2016 16:16:58 UTC] action : deleteComment
+[22-Nov-2016 16:16:58 UTC] ignored
+[22-Nov-2016 16:17:02 UTC] callback from Trello
+[22-Nov-2016 16:17:02 UTC] payload saved as debug.out
+[22-Nov-2016 16:17:02 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:17:02 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:17:02 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:17:02 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212471
+)
+
+[22-Nov-2016 16:17:02 UTC] action : deleteComment
+[22-Nov-2016 16:17:02 UTC] ignored
+[22-Nov-2016 16:18:18 UTC] Push notification received from Google
+[22-Nov-2016 16:18:18 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJzY3V6emVsbEBnbWFpbC5jb20iLCJoaXN0b3J5SWQiOjI0OTEzMzR9
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 98263820401970
+            [messageId] => 98263820401970
+            [publish_time] => 2016-11-22T16:18:15.663Z
+            [publishTime] => 2016-11-22T16:18:15.663Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:18:18 UTC] payload for scuzzell@gmail.com
+[22-Nov-2016 16:18:18 UTC] historyId : 2491334
+[22-Nov-2016 16:18:18 UTC] looking for matching instance
+[22-Nov-2016 16:18:18 UTC] no matching user
+[22-Nov-2016 16:19:42 UTC] Push notification received from Google
+[22-Nov-2016 16:19:42 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTEwfQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034310482876
+            [messageId] => 49034310482876
+            [publish_time] => 2016-11-22T16:19:41.806Z
+            [publishTime] => 2016-11-22T16:19:41.806Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:19:42 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:19:42 UTC] historyId : 2212510
+[22-Nov-2016 16:19:42 UTC] looking for matching instance
+[22-Nov-2016 16:19:42 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:19:42 UTC] lastpush : 2212471
+[22-Nov-2016 16:19:42 UTC] historyId has increased
+[22-Nov-2016 16:19:42 UTC] updating historyId
+[22-Nov-2016 16:19:42 UTC] loading google api client
+[22-Nov-2016 16:19:42 UTC] checking access token
+[22-Nov-2016 16:19:42 UTC] renewing watch request
+[22-Nov-2016 16:19:42 UTC] querying historyId
+[22-Nov-2016 16:19:42 UTC] Array
+(
+    [id] => 1588cd5f2b3ffabf
+    [threadId] => 1588cd5f2b3ffabf
+)
+
+[22-Nov-2016 16:19:42 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:19:42 UTC] MESSAGES : Array
+(
+    [0] => 1588cd5f2b3ffabf
+)
+
+[22-Nov-2016 16:19:42 UTC] OUTPUT : Array
+(
+)
+
+[22-Nov-2016 16:19:42 UTC] parsing 0 messages
+[22-Nov-2016 16:19:58 UTC] Push notification received from Google
+[22-Nov-2016 16:19:58 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTIyfQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033346962688
+            [messageId] => 49033346962688
+            [publish_time] => 2016-11-22T16:19:59.065Z
+            [publishTime] => 2016-11-22T16:19:59.065Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:19:58 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:19:58 UTC] historyId : 2212522
+[22-Nov-2016 16:19:58 UTC] looking for matching instance
+[22-Nov-2016 16:19:58 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:19:58 UTC] lastpush : 2212510
+[22-Nov-2016 16:19:58 UTC] historyId has increased
+[22-Nov-2016 16:19:58 UTC] updating historyId
+[22-Nov-2016 16:19:58 UTC] loading google api client
+[22-Nov-2016 16:19:58 UTC] checking access token
+[22-Nov-2016 16:19:58 UTC] renewing watch request
+[22-Nov-2016 16:19:59 UTC] querying historyId
+[22-Nov-2016 16:19:59 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/gmail/v1/users/me/history?startHistoryId=2212510&key=-----BEGIN+PRIVATE+KEY-----%0AMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDaEEgUquxbex7r%0AjyUfmbxY5JUNyO89l1tPqTSKyrplgNQyTovYYZAd47FzRq%2FO2Eeryegl%2BqnjpOzj%0Aa%2Fx7rr%2FS6k6GJrtPNAat4jssOAaE8SYnNYPRsiAKCQztR8DRaoLxZ17JF3Qgmgn1%0AVsRfoBMSBOcEugSv%2B6jUFrDX%2BK6FG2utEiiGY1dhkVHPYwTwOTdn4kJcca4DIbml%0A0HnqZ96SCwQMurI6COIAuQz%2BmAV5W%2BxaMMYElIsTUBgTpsWi8m3fnO1qj5k4uv3k%0ANF%2BamZwZ0ZQ7efQ4wNPAWF%2FfvGkaRfwDQjljDA%2F0iY2DAB%2B3HmnWmVERqvc8P0TE%0AbL%2BocAunAgMBAAECggEBANhu5owU5ckal6LnjcoilY2JOuPWtpXkH04evDaxZnYO%0Aew5%2FZU%2Fb7eWss9idpSthASnhmZfwhiSa8j%2F7UzsTQ%2FM8ebmuwaSoF6UIcQC%2FjsDu%0AdJbgB7je2ev79aeg2yE%2FXT3rAmoG7EzbdtzaRMhAogz1brIDS1m8J2JyLw39FoKm%0A0hMf7y3idysSQxYU6LYH4ATFt7LbGPFyu6OlFYkaHO0A4ZaBzf75Zq96xyWMNHxm%0AoAT1AVDv3jBpL17uyTSDcUGUXJ7V8vYGRhXiQDlQx1oCKTOuDmmiPVVgiR69fxXh%0AcK%2B2CpQQ2cRnl3F8SRg2JC5PC75D6xWMv6CdphEFfXECgYEA%2BAuxEKZoO in /home/tcrm/public_html/my/lib/google/php/Http/REST.php on line 110
+[22-Nov-2016 16:19:59 UTC] Push notification received from Google
+[22-Nov-2016 16:19:59 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTIyfQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033346962688
+            [messageId] => 49033346962688
+            [publish_time] => 2016-11-22T16:19:59.065Z
+            [publishTime] => 2016-11-22T16:19:59.065Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:19:59 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:19:59 UTC] historyId : 2212522
+[22-Nov-2016 16:19:59 UTC] looking for matching instance
+[22-Nov-2016 16:19:59 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:19:59 UTC] lastpush : 2212522
+[22-Nov-2016 16:19:59 UTC] nothing to do
+[22-Nov-2016 16:20:00 UTC] Push notification received from Google
+[22-Nov-2016 16:20:00 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTM0fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49033625882712
+            [messageId] => 49033625882712
+            [publish_time] => 2016-11-22T16:20:01.589Z
+            [publishTime] => 2016-11-22T16:20:01.589Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:20:00 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:20:00 UTC] historyId : 2212534
+[22-Nov-2016 16:20:00 UTC] looking for matching instance
+[22-Nov-2016 16:20:00 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:20:00 UTC] lastpush : 2212522
+[22-Nov-2016 16:20:00 UTC] historyId has increased
+[22-Nov-2016 16:20:00 UTC] updating historyId
+[22-Nov-2016 16:20:00 UTC] loading google api client
+[22-Nov-2016 16:20:01 UTC] checking access token
+[22-Nov-2016 16:20:01 UTC] renewing watch request
+[22-Nov-2016 16:20:01 UTC] querying historyId
+[22-Nov-2016 16:20:01 UTC] Array
+(
+    [id] => 1588cd6404877183
+    [threadId] => 1588cd6404877183
+)
+
+[22-Nov-2016 16:20:01 UTC] Array
+(
+    [id] => 1588cd6363800565
+    [threadId] => 1588cd6363800565
+)
+
+[22-Nov-2016 16:20:01 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:20:01 UTC] MESSAGES : Array
+(
+    [0] => 1588cd6404877183
+    [1] => 1588cd6363800565
+)
+
+[22-Nov-2016 16:20:02 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:20:02 UTC] OUTPUT : Array
+(
+)
+
+[22-Nov-2016 16:20:02 UTC] parsing 0 messages
+[22-Nov-2016 16:20:05 UTC] Push notification received from Google
+[22-Nov-2016 16:20:05 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTUwfQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034348216760
+            [messageId] => 49034348216760
+            [publish_time] => 2016-11-22T16:20:05.828Z
+            [publishTime] => 2016-11-22T16:20:05.828Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:20:05 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:20:05 UTC] historyId : 2212550
+[22-Nov-2016 16:20:05 UTC] looking for matching instance
+[22-Nov-2016 16:20:05 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:20:05 UTC] lastpush : 2212534
+[22-Nov-2016 16:20:05 UTC] historyId has increased
+[22-Nov-2016 16:20:05 UTC] updating historyId
+[22-Nov-2016 16:20:05 UTC] loading google api client
+[22-Nov-2016 16:20:05 UTC] checking access token
+[22-Nov-2016 16:20:05 UTC] renewing watch request
+[22-Nov-2016 16:20:05 UTC] querying historyId
+[22-Nov-2016 16:20:05 UTC] Array
+(
+    [id] => 1588cd6404877183
+    [threadId] => 1588cd6404877183
+)
+
+[22-Nov-2016 16:20:05 UTC] Array
+(
+    [id] => 1588cd650f29f5c1
+    [threadId] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:20:05 UTC] Array
+(
+    [id] => 1588cd650f29f5c1
+    [threadId] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:20:05 UTC] Array
+(
+    [id] => 1588cd650f29f5c1
+    [threadId] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:20:05 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:20:05 UTC] MESSAGES : Array
+(
+    [0] => 1588cd6404877183
+    [1] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:20:05 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:20:06 UTC] OUTPUT : Array
+(
+    [0] => Array
+        (
+            [id] => 1588cd650f29f5c1
+            [from] => greg@burnswebservices.com
+            [to] => gregburns74@gmail.com
+            [subject] => 819 Test Msg
+        )
+
+)
+
+[22-Nov-2016 16:20:06 UTC] parsing 1 messages
+[22-Nov-2016 16:20:06 UTC] Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idList] => 582fd2e6b7717701907422e9
+    [idBoard] => 582fd2e6b7717701907422e7
+    [email] => gregburns74@gmail.com
+    [timestamp] => 1479821912
+)
+
+[22-Nov-2016 16:20:06 UTC] 
+[22-Nov-2016 16:20:06 UTC] PHP Notice:  Array to string conversion in /home/tcrm/public_html/my/api/subscriptions/google.php on line 258
+[22-Nov-2016 16:20:06 UTC] {"id":"58347037be3c9c5c3778ec07","idMemberCreator":"582fd20cffa6dec40e697e34","data":{"text":"**Email sent**\n\nSubject: 819 Test Msg","textData":{"emoji":{}},"card":{"id":"582fd2e6b7717701907422fe","name":"Kelsey Berkow 773 456 4580 52.5cm TT Miyata","idShort":2,"shortLink":"vxHRHavc"},"board":{"id":"582fd2e6b7717701907422e7","name":"Test","shortLink":"y1MT0EqN"},"list":{"id":"582fd2e6b7717701907422e9","name":"At Paint"}},"type":"commentCard","date":"2016-11-22T16:20:07.232Z","memberCreator":{"id":"582fd20cffa6dec40e697e34","avatarHash":"54ffce2ae532a06aee128c6194b885a7","fullName":"Gregory Burns","initials":"GB","username":"gregoryburns1"},"entities":[{"type":"member","id":"582fd20cffa6dec40e697e34","username":"gregoryburns1","text":"Gregory Burns"},{"type":"text","text":"on","hideIfContext":true,"idContext":"582fd2e6b7717701907422fe"},{"type":"card","hideIfContext":true,"shortLink":"vxHRHavc","id":"582fd2e6b7717701907422fe","text":"Kelsey Berkow 773 456 4580 52.5cm TT Miyata"},{"type":"comment","text":"**Email sent**\n\nSubject: 819 Test Msg"}],"display":{"translationKey":"action_comment_on_card","entities":{"contextOn":{"type":"translatable","translationKey":"action_on","hideIfContext":true,"idContext":"582fd2e6b7717701907422fe"},"card":{"type":"card","hideIfContext":true,"shortLink":"vxHRHavc","id":"582fd2e6b7717701907422fe","text":"Kelsey Berkow 773 456 4580 52.5cm TT Miyata"},"comment":{"type":"comment","text":"**Email sent**\n\nSubject: 819 Test Msg"},"memberCreator":{"type":"member","id":"582fd20cffa6dec40e697e34","username":"gregoryburns1","text":"Gregory Burns"}}}}
+[22-Nov-2016 16:20:07 UTC] callback from Trello
+[22-Nov-2016 16:20:07 UTC] payload saved as debug.out
+[22-Nov-2016 16:20:07 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:20:07 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:20:07 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:20:07 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212550
+)
+
+[22-Nov-2016 16:20:07 UTC] action : commentCard
+[22-Nov-2016 16:20:07 UTC] formatted comment detected
+[22-Nov-2016 16:20:07 UTC] resolving label for 0 days
+[22-Nov-2016 16:20:09 UTC] callback from Trello
+[22-Nov-2016 16:20:09 UTC] payload saved as debug.out
+[22-Nov-2016 16:20:09 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:20:09 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:20:09 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:20:09 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212550
+)
+
+[22-Nov-2016 16:20:09 UTC] action : removeLabelFromCard
+[22-Nov-2016 16:20:09 UTC] ignored
+[22-Nov-2016 16:20:09 UTC] {
+    "idCard": "582fd2e6b7717701907422fe",
+    "newLabel": "green"
+}
+[22-Nov-2016 16:20:09 UTC] updating record
+[22-Nov-2016 16:20:09 UTC] callback from Trello
+[22-Nov-2016 16:20:09 UTC] payload saved as debug.out
+[22-Nov-2016 16:20:09 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:20:09 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:20:09 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:20:09 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212550
+)
+
+[22-Nov-2016 16:20:09 UTC] action : addLabelToCard
+[22-Nov-2016 16:20:09 UTC] ignored
+[22-Nov-2016 16:30:40 UTC] Push notification received from Google
+[22-Nov-2016 16:30:40 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTczfQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034639392435
+            [messageId] => 49034639392435
+            [publish_time] => 2016-11-22T16:30:39.524Z
+            [publishTime] => 2016-11-22T16:30:39.524Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:30:40 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:30:40 UTC] historyId : 2212573
+[22-Nov-2016 16:30:40 UTC] looking for matching instance
+[22-Nov-2016 16:30:40 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:30:40 UTC] lastpush : 2212550
+[22-Nov-2016 16:30:40 UTC] historyId has increased
+[22-Nov-2016 16:30:40 UTC] updating historyId
+[22-Nov-2016 16:30:40 UTC] loading google api client
+[22-Nov-2016 16:30:40 UTC] checking access token
+[22-Nov-2016 16:30:40 UTC] renewing watch request
+[22-Nov-2016 16:30:40 UTC] querying historyId
+[22-Nov-2016 16:30:40 UTC] Array
+(
+    [id] => 1588cd650f29f5c1
+    [threadId] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:30:40 UTC] Array
+(
+    [id] => 1588cd650f29f5c1
+    [threadId] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:30:40 UTC] Array
+(
+    [id] => 1588cdffcf85ae14
+    [threadId] => 1588cdffcf85ae14
+)
+
+[22-Nov-2016 16:30:40 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:30:40 UTC] MESSAGES : Array
+(
+    [0] => 1588cd650f29f5c1
+    [2] => 1588cdffcf85ae14
+)
+
+[22-Nov-2016 16:30:41 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:30:41 UTC] OUTPUT : Array
+(
+    [0] => Array
+        (
+            [id] => 1588cd650f29f5c1
+            [from] => greg@burnswebservices.com
+            [to] => gregburns74@gmail.com
+            [subject] => 819 Test Msg
+        )
+
+)
+
+[22-Nov-2016 16:30:41 UTC] parsing 1 messages
+[22-Nov-2016 16:30:41 UTC] Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idList] => 582fd2e6b7717701907422e9
+    [idBoard] => 582fd2e6b7717701907422e7
+    [email] => gregburns74@gmail.com
+    [timestamp] => 1479831609
+)
+
+[22-Nov-2016 16:30:41 UTC] Check Card Message:Array
+(
+    [:idCard] => 582fd2e6b7717701907422fe
+    [:idEmail] => 1588cd650f29f5c1
+)
+
+[22-Nov-2016 16:30:41 UTC] Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idEmail] => 1588cd650f29f5c1
+    [email] => Array
+    [message] => **Email sent**
+
+Subject: 819 Test Msg
+    [createdAt] => 2016-11-22 16:20:06
+)
+
+[22-Nov-2016 16:30:47 UTC] Push notification received from Google
+[22-Nov-2016 16:30:47 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJncmVnQGJ1cm5zd2Vic2VydmljZXMuY29tIiwiaGlzdG9yeUlkIjoyMjEyNTg5fQ==
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034205233000
+            [messageId] => 49034205233000
+            [publish_time] => 2016-11-22T16:30:47.691Z
+            [publishTime] => 2016-11-22T16:30:47.691Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:30:47 UTC] payload for greg@burnswebservices.com
+[22-Nov-2016 16:30:47 UTC] historyId : 2212589
+[22-Nov-2016 16:30:47 UTC] looking for matching instance
+[22-Nov-2016 16:30:47 UTC] matched user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:30:47 UTC] lastpush : 2212573
+[22-Nov-2016 16:30:47 UTC] historyId has increased
+[22-Nov-2016 16:30:47 UTC] updating historyId
+[22-Nov-2016 16:30:47 UTC] loading google api client
+[22-Nov-2016 16:30:47 UTC] checking access token
+[22-Nov-2016 16:30:47 UTC] renewing watch request
+[22-Nov-2016 16:30:47 UTC] querying historyId
+[22-Nov-2016 16:30:47 UTC] Array
+(
+    [id] => 1588cdffcf85ae14
+    [threadId] => 1588cdffcf85ae14
+)
+
+[22-Nov-2016 16:30:47 UTC] Array
+(
+    [id] => 1588ce01d8de3088
+    [threadId] => 1588ce01d8de3088
+)
+
+[22-Nov-2016 16:30:47 UTC] Array
+(
+    [id] => 1588ce01d8de3088
+    [threadId] => 1588ce01d8de3088
+)
+
+[22-Nov-2016 16:30:47 UTC] Array
+(
+    [id] => 1588ce01d8de3088
+    [threadId] => 1588ce01d8de3088
+)
+
+[22-Nov-2016 16:30:47 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:30:47 UTC] MESSAGES : Array
+(
+    [0] => 1588cdffcf85ae14
+    [1] => 1588ce01d8de3088
+)
+
+[22-Nov-2016 16:30:48 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:30:48 UTC] OUTPUT : Array
+(
+    [0] => Array
+        (
+            [id] => 1588ce01d8de3088
+            [from] => greg@burnswebservices.com
+            [to] => gregburns74@gmail.com
+            [subject] => 830 Test
+        )
+
+)
+
+[22-Nov-2016 16:30:48 UTC] parsing 1 messages
+[22-Nov-2016 16:30:48 UTC] Array
+(
+    [idCard] => 582fd2e6b7717701907422fe
+    [idList] => 582fd2e6b7717701907422e9
+    [idBoard] => 582fd2e6b7717701907422e7
+    [email] => gregburns74@gmail.com
+    [timestamp] => 1479831609
+)
+
+[22-Nov-2016 16:30:48 UTC] Check Card Message:Array
+(
+    [:idCard] => 582fd2e6b7717701907422fe
+    [:idEmail] => 1588ce01d8de3088
+)
+
+[22-Nov-2016 16:30:48 UTC] 
+[22-Nov-2016 16:30:48 UTC] Post Comment: **Email sent**
+
+Subject: 830 Test
+[22-Nov-2016 16:30:48 UTC] PHP Notice:  Array to string conversion in /home/tcrm/public_html/my/api/subscriptions/google.php on line 260
+[22-Nov-2016 16:30:48 UTC] {"id":"583472b905daa69b2fc7fcb5","idMemberCreator":"582fd20cffa6dec40e697e34","data":{"text":"**Email sent**\n\nSubject: 830 Test","textData":{"emoji":{}},"card":{"id":"582fd2e6b7717701907422fe","name":"Kelsey Berkow 773 456 4580 52.5cm TT Miyata","idShort":2,"shortLink":"vxHRHavc"},"board":{"id":"582fd2e6b7717701907422e7","name":"Test","shortLink":"y1MT0EqN"},"list":{"id":"582fd2e6b7717701907422e9","name":"At Paint"}},"type":"commentCard","date":"2016-11-22T16:30:49.279Z","memberCreator":{"id":"582fd20cffa6dec40e697e34","avatarHash":"54ffce2ae532a06aee128c6194b885a7","fullName":"Gregory Burns","initials":"GB","username":"gregoryburns1"},"display":{"translationKey":"action_comment_on_card","entities":{"contextOn":{"type":"translatable","translationKey":"action_on","hideIfContext":true,"idContext":"582fd2e6b7717701907422fe"},"card":{"type":"card","hideIfContext":true,"shortLink":"vxHRHavc","id":"582fd2e6b7717701907422fe","text":"Kelsey Berkow 773 456 4580 52.5cm TT Miyata"},"comment":{"type":"comment","text":"**Email sent**\n\nSubject: 830 Test"},"memberCreator":{"type":"member","id":"582fd20cffa6dec40e697e34","username":"gregoryburns1","text":"Gregory Burns"}}},"entities":[{"type":"member","id":"582fd20cffa6dec40e697e34","username":"gregoryburns1","text":"Gregory Burns"},{"type":"text","text":"on","hideIfContext":true,"idContext":"582fd2e6b7717701907422fe"},{"type":"card","hideIfContext":true,"shortLink":"vxHRHavc","id":"582fd2e6b7717701907422fe","text":"Kelsey Berkow 773 456 4580 52.5cm TT Miyata"},{"type":"comment","text":"**Email sent**\n\nSubject: 830 Test"}]}
+[22-Nov-2016 16:30:49 UTC] callback from Trello
+[22-Nov-2016 16:30:49 UTC] payload saved as debug.out
+[22-Nov-2016 16:30:49 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:30:49 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:30:49 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:30:49 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212589
+)
+
+[22-Nov-2016 16:30:49 UTC] action : commentCard
+[22-Nov-2016 16:30:49 UTC] formatted comment detected
+[22-Nov-2016 16:30:49 UTC] resolving label for 0 days
+[22-Nov-2016 16:30:50 UTC] callback from Trello
+[22-Nov-2016 16:30:50 UTC] payload saved as debug.out
+[22-Nov-2016 16:30:50 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:30:50 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:30:50 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:30:50 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212589
+)
+
+[22-Nov-2016 16:30:50 UTC] action : removeLabelFromCard
+[22-Nov-2016 16:30:50 UTC] ignored
+[22-Nov-2016 16:30:50 UTC] {
+    "idCard": "582fd2e6b7717701907422fe",
+    "newLabel": "green"
+}
+[22-Nov-2016 16:30:50 UTC] updating record
+[22-Nov-2016 16:30:51 UTC] callback from Trello
+[22-Nov-2016 16:30:51 UTC] payload saved as debug.out
+[22-Nov-2016 16:30:51 UTC] payload from : 582fd2e6b7717701907422e7
+[22-Nov-2016 16:30:51 UTC] got instance : Array
+(
+    [idBoard] => 582fd2e6b7717701907422e7
+    [idMember] => 582fd20cffa6dec40e697e34
+    [idHook] => 582fd3780b4ce7889b99046e
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"582fd2e6b7717701907422e8":{"name":"Needs Parts ordered","rules":[]},"582fd2e6b7717701907422e9":{"name":"At Paint","rules":[]},"582fd2e6b7717701907422ea":{"name":"Ready to Build","rules":[]},"582fd2e6b7717701907422eb":{"name":"Wheel Builds","rules":[]},"582fd2e6b7717701907422ec":{"name":"Services/Repairs","rules":[]}}
+)
+
+[22-Nov-2016 16:30:51 UTC] getting user 582fd20cffa6dec40e697e34
+[22-Nov-2016 16:30:51 UTC] got user : Array
+(
+    [userid] => 86
+    [active] => 1
+    [idMember] => 582fd20cffa6dec40e697e34
+    [invite_code] => greg123
+    [email] => greg@burnswebservices.com
+    [google_refresh_token] => 1/spDF1Qf85EEj70q2Qb9VMRXRYWGrI2NNmJsinSR53L8
+    [trello_token] => 7b07941e8551d23c0bce35219b5d85fda18a9d028e04545a7876202ed12cd708
+    [historyId] => 2212589
+)
+
+[22-Nov-2016 16:30:51 UTC] action : addLabelToCard
+[22-Nov-2016 16:30:51 UTC] ignored
+[22-Nov-2016 16:35:12 UTC] callback from Trello
+[22-Nov-2016 16:35:12 UTC] payload saved as debug.out
+[22-Nov-2016 16:35:12 UTC] payload from : 5807b4ff381a84f7a7161e69
+[22-Nov-2016 16:35:12 UTC] got instance : Array
+(
+    [idBoard] => 5807b4ff381a84f7a7161e69
+    [idMember] => 5807b33d5e6b76fa14f8cf0e
+    [idHook] => 582a273377dcb77a81d639ee
+    [rules] => {"default":{"name":"Default Ruleset","rules":[{"age":"0","label":"green"},{"age":"7","label":"lime"},{"age":"14","label":"yellow"},{"age":"21","label":"orange"},{"age":"30","label":"blue"}]},"5808f609a062514401285d5a":{"name":"Leads","rules":[]},"5818cd4cd458a3c336d6d047":{"name":"Retail / Non-Food","rules":[]},"5818eeb7de35220a0641da51":{"name":"Tier 1","rules":[]},"5818eebab2819c872bb07642":{"name":"Tier 2","rules":[]},"5810dff0f85bb6218dd1dd3a":{"name":"First Contact Email/Call","rules":[]},"5808f6fc9ce5b4dd8f4c60ec":{"name":"Interested","rules":[]},"5808f7013b8c5270e1e0fe45":{"name":"Not Interested","rules":[]},"5808f705fd2352fb31789e95":{"name":"Acquired","rules":[]},"5818c9db0d64e10dc9471299":{"name":"Not a good fit","rules":[]},"5818eebc662730986ae20d35":{"name":"Tier 3","rules":[]}}
+)
+
+[22-Nov-2016 16:35:12 UTC] getting user 5807b33d5e6b76fa14f8cf0e
+[22-Nov-2016 16:35:12 UTC] got user : Array
+(
+    [userid] => 80
+    [active] => 1
+    [idMember] => 5807b33d5e6b76fa14f8cf0e
+    [invite_code] => alaninvite
+    [email] => alan@keyo.co
+    [google_refresh_token] => 1/d_RiqAfe_9SL8MwgtO1uuwn9VsMac7P7qvCpttxmkew
+    [trello_token] => 114540107fc0d8558edaf6736d5baef92439b543b3f25fa87c563de1e4e63ebd
+    [historyId] => 35395
+)
+
+[22-Nov-2016 16:35:12 UTC] action : createCard
+[22-Nov-2016 16:35:12 UTC] ignored
+[22-Nov-2016 16:36:10 UTC] Push notification received from Google
+[22-Nov-2016 16:36:10 UTC] Data : Array
+(
+    [message] => Array
+        (
+            [data] => eyJlbWFpbEFkZHJlc3MiOiJqYXhvbkBrZXlvLmNvIiwiaGlzdG9yeUlkIjo5ODMxNzl9
+            [attributes] => Array
+                (
+                )
+
+            [message_id] => 49034248168880
+            [messageId] => 49034248168880
+            [publish_time] => 2016-11-22T16:36:01.170Z
+            [publishTime] => 2016-11-22T16:36:01.170Z
+        )
+
+    [subscription] => projects/gmail-api-test-1265/subscriptions/messages
+)
+
+[22-Nov-2016 16:36:10 UTC] payload for jaxon@keyo.co
+[22-Nov-2016 16:36:10 UTC] historyId : 983179
+[22-Nov-2016 16:36:10 UTC] looking for matching instance
+[22-Nov-2016 16:36:10 UTC] matched user 538e243167c6c1bcd036ed60
+[22-Nov-2016 16:36:10 UTC] lastpush : 983168
+[22-Nov-2016 16:36:10 UTC] historyId has increased
+[22-Nov-2016 16:36:10 UTC] updating historyId
+[22-Nov-2016 16:36:10 UTC] loading google api client
+[22-Nov-2016 16:36:11 UTC] checking access token
+[22-Nov-2016 16:36:11 UTC] renewing watch request
+[22-Nov-2016 16:36:11 UTC] querying historyId
+[22-Nov-2016 16:36:11 UTC] Array
+(
+    [id] => 1588cbda8ba73fd7
+    [threadId] => 1586b80210d21d4f
+)
+
+[22-Nov-2016 16:36:11 UTC] Array
+(
+    [id] => 1588ce4e3ad88e91
+    [threadId] => 1586b80210d21d4f
+)
+
+[22-Nov-2016 16:36:11 UTC] DELETED MESSAGES : Array
+(
+)
+
+[22-Nov-2016 16:36:11 UTC] MESSAGES : Array
+(
+    [0] => 1588cbda8ba73fd7
+    [1] => 1588ce4e3ad88e91
+)
+
+[22-Nov-2016 16:36:11 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:36:11 UTC] error getting message details, it has probably been deleted, skipping
+[22-Nov-2016 16:36:11 UTC] OUTPUT : Array
+(
+)
+
+[22-Nov-2016 16:36:11 UTC] parsing 0 messages
